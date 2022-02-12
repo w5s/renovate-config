@@ -9,13 +9,13 @@
   ],
   "packageRules": [
     {
-      "packageNames": [
-        "renovate"
-      ],
       "labels": [
         "AUTOMERGE"
       ],
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": [
+        "renovate"
+      ]
     }
   ]
 }

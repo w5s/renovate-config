@@ -17,7 +17,6 @@
     "github>w5s/renovate-config:automergeTools",
     "github>w5s/renovate-config:automergeTypescript"
   ],
-  "gitLabAutomerge": true,
   "ignoreUnstable": true,
   "lockFileMaintenance": {
     "enabled": true,
@@ -78,5 +77,6 @@
   "semanticCommits": "auto",
   "separateMajorMinor": true,
   "separateMinorPatch": true,
-  "updateNotScheduled": true
+  "updateNotScheduled": true,
+  "platformAutomerge": true
 }
