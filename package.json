@@ -26,7 +26,7 @@
     "build:empty": ":",
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
     "test": "npm-run-all -p 'test:*'",
-    "test:renovate-config": "RENOVATE_CONFIG_FILE=default.json renovate-config-validator",
+    "test:renovate-config": "test/test.sh",
     "test:renovate-config-schema": "ajv test -s test/schema.json -d base.json --valid",
     "validate": "npm run lint && npm run test"
   },
