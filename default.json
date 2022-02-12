@@ -1,0 +1,6 @@
+{
+  "description": "Alias for :base",
+  "extends": [
+    "github>w5s/renovate-config:base"
+  ]
+}

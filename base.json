@@ -1,0 +1,82 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default base configuration for all W5s projects.",
+  "automerge": false,
+  "dependencyDashboard": false,
+  "extends": [
+    ":semanticPrefixFixDepsChoreOthers",
+    ":ignoreModulesAndTests",
+    "group:monorepos",
+    "group:recommended",
+    "helpers:disableTypesNodeMajor",
+    "github>w5s/renovate-config:groupAll",
+    "github>w5s/renovate-config:automergeBabel",
+    "github>w5s/renovate-config:automergeLinters",
+    "github>w5s/renovate-config:automergePresets",
+    "github>w5s/renovate-config:automergeJest",
+    "github>w5s/renovate-config:automergeTools",
+    "github>w5s/renovate-config:automergeTypescript"
+  ],
+  "gitLabAutomerge": true,
+  "ignoreUnstable": true,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "after 2am and before 7am on Monday"
+    ],
+    "prPriority": 1,
+    "labels": [
+      "AUTOMERGE"
+    ],
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "@types/"
+      ],
+      "enabled": false
+    },
+    {
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "stabilityDays": 7
+    },
+    {
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "stabilityDays": 2
+    },
+    {
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "stabilityDays": 2
+    }
+  ],
+  "prConcurrentLimit": 20,
+  "prCreation": "not-pending",
+  "prHourlyLimit": 0,
+  "rangeStrategy": "auto",
+  "rebaseWhen": "behind-base-branch",
+  "schedule": [
+    "after 9pm every weekday",
+    "before 6am every weekday",
+    "every weekend"
+  ],
+  "semanticCommits": "auto",
+  "separateMajorMinor": true,
+  "separateMinorPatch": true,
+  "updateNotScheduled": true
+}
