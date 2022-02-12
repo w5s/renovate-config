@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchSourceUrlPrefixes": [
+        "https://github.com/w5s/core"
+      ],
+      "groupName": "W5s core packages"
+    }
+  ]
+}

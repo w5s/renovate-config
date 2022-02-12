@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "Algolia packages",
+      "matchSourceUrlPrefixes": [
+        "https://github.com/algolia/algoliasearch-client-javascript"
+      ]
+    }
+  ]
+}
