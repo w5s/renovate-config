@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "additionalProperties": true,
+  "type": "object",
+  "properties": {
+    "extends": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          ":semanticPrefixFixDepsChoreOthers",
+          ":ignoreModulesAndTests",
+          "group:monorepos",
+          "group:recommended",
+          "helpers:disableTypesNodeMajor",
+          "github>w5s/renovate-config:groupAll",
+          "github>w5s/renovate-config:automergeBabel",
+          "github>w5s/renovate-config:automergeLinters",
+          "github>w5s/renovate-config:automergePresets",
+          "github>w5s/renovate-config:automergeJest",
+          "github>w5s/renovate-config:automergeTools",
+          "github>w5s/renovate-config:automergeTypescript"
+        ]
+      }
+    }
+  }
+}
