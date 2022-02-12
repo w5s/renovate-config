@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge Typescript patch",
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchPackageNames": [
+        "typescript",
+        "typedoc"
+      ],
+      "groupName": "Typescript packages",
+      "groupSlug": "typescript",
+      "labels": [
+        "AUTOMERGE"
+      ],
+      "automerge": true
+    }
+  ]
+}

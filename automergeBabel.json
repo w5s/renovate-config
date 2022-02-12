@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge babel packages",
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "labels": [
+        "AUTOMERGE"
+      ],
+      "automerge": true,
+      "matchPackageNames": [
+        "@babel/core"
+      ]
+    }
+  ]
+}

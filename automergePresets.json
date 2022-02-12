@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge minor updates of presets",
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "labels": [
+        "AUTOMERGE"
+      ],
+      "automerge": true,
+      "matchPackagePatterns": [
+        "commitlint-config$",
+        "eslint-config$",
+        "mrm-preset$",
+        "ts-config$"
+      ]
+    }
+  ]
+}
