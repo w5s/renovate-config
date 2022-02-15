@@ -19,16 +19,24 @@
   "license": "MIT",
   "author": "Julien Polo <julien.polo@gmail.com>",
   "scripts": {
-    "prepare": "is-ci || husky install",
-    "lint": "eslint . --ext .json,.js",
-    "format": "eslint . --ext .json --fix",
-    "build": "npm-run-all -p 'build:*'",
+    "build": "npm-run-all -p \"build:*\"",
     "build:empty": ":",
+    "clean": ":",
+    "code-analysis": ":",
+    "cspell": "cspell",
+    "develop": ":",
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
+    "format": "eslint . --quiet --cache --fix --ext .js,.jsx,.ts,.tsx,.json",
+    "lint": "eslint . --cache --ext .js,.jsx,.ts,.tsx,.json",
+    "prepare": "npm-run-all -p \"prepare:*\"",
+    "prepare:empty": ":",
+    "prepare:husky": "is-ci || husky install",
+    "release": ":",
+    "rescue": "git clean -fdx;yarn install",
     "test": "npm-run-all -p 'test:*'",
-    "test:renovate-config": "test/test.sh",
     "test:renovate-config-schema": "ajv test -s test/schema.json -d base.json --valid",
-    "validate": "npm run lint && npm run test"
+    "test:renovate-config": "test/test.sh",
+    "validate": "npm run build && npm run lint && npm test"
   },
   "commitlint": {
     "extends": [
@@ -37,6 +45,12 @@
   },
   "lint-staged": {
     "*.json": [
+      "eslint"
+    ],
+    "*.*": [
+      "cspell --no-must-find-files"
+    ],
+    "*.js?(x)": [
       "eslint"
     ]
   },
@@ -47,13 +61,24 @@
     ],
     "root": true
   },
+  "eslintIgnore": [
+    "lib/",
+    "node_modules/",
+    "coverage/",
+    "build/",
+    ".cache/",
+    "**/tsconfig.json",
+    ".vscode/**",
+    "public/"
+  ],
   "devDependencies": {
     "@babel/core": "7.17.2",
     "@babel/eslint-parser": "7.17.0",
     "@commitlint/cli": "16.1.0",
-    "@w5s/commitlint-config": "1.0.0-alpha.1",
-    "@w5s/eslint-config": "1.0.0-alpha.1",
+    "@w5s/commitlint-config": "1.0.0-alpha.2",
+    "@w5s/eslint-config": "1.0.0-alpha.3",
     "ajv-cli": "5.0.0",
+    "cspell": "^5.18.5",
     "eslint": "8.8.0",
     "husky": "7.0.4",
     "is-ci": "3.0.1",
@@ -64,6 +89,11 @@
     "npm-run-all": "4.1.5",
     "prettier": "2.5.1",
     "renovate": "31.80.1"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0",
+    "yarn": ">=1.0.0"
   },
   "publishConfig": {
     "access": "public"
