@@ -22,5 +22,5 @@ jobs:
         node-version: 16
         cache: 'yarn'
     - run: yarn install
-    - run: yarn run build --if-present
+    - run: yarn run build
     - run: yarn validate
