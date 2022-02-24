@@ -27,7 +27,7 @@
 ```json
 {
   "extends": [
-    "@w5s/renovate-config:application"
+    "github>w5s/renovate-config:application"
   ]
 }
 ```
@@ -37,7 +37,7 @@
 ```json
 {
   "extends": [
-    "@w5s/renovate-config:library"
+    "github>w5s/renovate-config:library"
   ]
 }
 ```
@@ -47,7 +47,7 @@
 ```json
 {
   "extends": [
-    ..., "@w5s/renovate-config:teamAssignees"
+    ..., "github>w5s/renovate-config:teamAssignees"
   ]
 }
 ```
