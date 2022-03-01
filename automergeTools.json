@@ -30,7 +30,8 @@
         "semantic-release",
         "ts-node",
         "ts-node-dev",
-        "tsconfig-paths"
+        "tsconfig-paths",
+        "turbo"
       ]
     }
   ]
