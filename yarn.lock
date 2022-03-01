@@ -2521,9 +2521,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:1.0.0-alpha.3":
-  version: 1.0.0-alpha.3
-  resolution: "@w5s/eslint-config@npm:1.0.0-alpha.3"
+"@w5s/eslint-config@npm:1.0.0-alpha.10":
+  version: 1.0.0-alpha.10
+  resolution: "@w5s/eslint-config@npm:1.0.0-alpha.10"
   dependencies:
     "@babel/eslint-parser": ^7.0.0
     "@babel/plugin-syntax-class-properties": ^7.0.0
@@ -2540,11 +2540,15 @@ __metadata:
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.28.0
     eslint-plugin-total-functions: ^5.0.0
-    eslint-plugin-unicorn: ^40.0.0
+    eslint-plugin-unicorn: ^41.0.0
   peerDependencies:
     eslint: 5.x || 6.x || 7.x || 8.x
     prettier: 2.x
-  checksum: 0cb4f508c0983294dcf23ac72d7146093c7e1b0f8fd23961abf43937d6a45e6bca4c6e22e21ade4c55411a59961e21e7e568aa54d5ddfb2f79541db38604ee35
+    typescript: 4.x
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: b13b2491d3060324e52feca957e797b97edad4d4539706593f334eee57bf1a699f89bf9831d58098a5243398ba6c22d6a1bef58902719a81d1b05d957b9d2685
   languageName: node
   linkType: hard
 
@@ -2556,7 +2560,7 @@ __metadata:
     "@babel/eslint-parser": 7.17.0
     "@commitlint/cli": 16.2.1
     "@w5s/commitlint-config": 1.0.0-alpha.2
-    "@w5s/eslint-config": 1.0.0-alpha.3
+    "@w5s/eslint-config": 1.0.0-alpha.10
     ajv-cli: 5.0.0
     cspell: 5.18.5
     eslint: 8.10.0
@@ -4542,9 +4546,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^40.0.0":
-  version: 40.1.0
-  resolution: "eslint-plugin-unicorn@npm:40.1.0"
+"eslint-plugin-unicorn@npm:^41.0.0":
+  version: 41.0.0
+  resolution: "eslint-plugin-unicorn@npm:41.0.0"
   dependencies:
     "@babel/helper-validator-identifier": ^7.15.7
     ci-info: ^3.3.0
@@ -4561,8 +4565,8 @@ __metadata:
     semver: ^7.3.5
     strip-indent: ^3.0.0
   peerDependencies:
-    eslint: ">=7.32.0"
-  checksum: b15ffd075080e018da3e5fd2eee059f96fa9575d0218e0db28cc0c5584bc68600e20863f09991fe0a0cc35bf0fe96553cc8bcb844105f212c882808927cf1cb4
+    eslint: ">=8.8.0"
+  checksum: 661d572b244f9f61121806cb0b9b4914f37e978089633e8b401d95b736f5acb9ed70f398de9cebcdbb1456961e7360c2b196483a793f6f1613c2a4989a298488
   languageName: node
   linkType: hard
 
