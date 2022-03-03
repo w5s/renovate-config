@@ -1837,15 +1837,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@node-redis/client@npm:1.0.3":
-  version: 1.0.3
-  resolution: "@node-redis/client@npm:1.0.3"
+"@node-redis/client@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@node-redis/client@npm:1.0.4"
   dependencies:
     cluster-key-slot: 1.1.0
     generic-pool: 3.8.2
     redis-parser: 3.0.0
     yallist: 4.0.0
-  checksum: b3d7ff4ec8b39a25865dcbd38cb9c1db93fa0b7c483cb04e2764fee8958fbf144e64401c458ca6a1fd99daeaa8feacf117726defefccaf00da0b8790bd8b79f2
+  checksum: 80c2665e86b24c704c502b673884551ad7e5f4a94d2337d1b2c24a3194841be12b4c493ae3d447eb4a0bc3fc7ec1449a591c7b792f053b185338b2000b20a84d
   languageName: node
   linkType: hard
 
@@ -1867,21 +1867,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@node-redis/search@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@node-redis/search@npm:1.0.2"
+"@node-redis/search@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@node-redis/search@npm:1.0.3"
   peerDependencies:
     "@node-redis/client": ^1.0.0
-  checksum: fee626f62b90abcb6b8376ab1a94d3ed6c0aa9cd181aa30107ed32528d0bbf011302ad8c46b3fff7723887c18686b06ec1d1c1c76b49ad526900b5f695914eea
+  checksum: 5ad7ff7849728aec4bda2af51a3f5fc263420c812b4af4f2ac6e47cbe18f245e4c440de7aacf18db40bd209e088f448f2801ccfb3b0e3475b77c9aea507686a0
   languageName: node
   linkType: hard
 
-"@node-redis/time-series@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@node-redis/time-series@npm:1.0.1"
+"@node-redis/time-series@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@node-redis/time-series@npm:1.0.2"
   peerDependencies:
     "@node-redis/client": ^1.0.0
-  checksum: 52e06437c6573b9c1c5c09ea51c6b1095d40e75938dd705b5fa2eacc2839104c8a2eb381e79f0ecb7c75899214e6da89926b29da219dd0202aa0d9f7475972c2
+  checksum: 70787aa22a81d274bc6a97a9e25db150b5c76603597fc00c8980d2c416b157f42c7e47947ea75cadea3a114802b0a93094aedd7d4f5977054d10f10fcbdf946c
   languageName: node
   linkType: hard
 
@@ -1948,14 +1948,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/read-project-manifest@npm:2.0.11":
-  version: 2.0.11
-  resolution: "@pnpm/read-project-manifest@npm:2.0.11"
+"@pnpm/read-project-manifest@npm:2.0.12":
+  version: 2.0.12
+  resolution: "@pnpm/read-project-manifest@npm:2.0.12"
   dependencies:
     "@pnpm/error": 2.0.0
     "@pnpm/graceful-fs": 1.0.0
-    "@pnpm/types": 7.9.0
-    "@pnpm/write-project-manifest": 2.0.10
+    "@pnpm/types": 7.10.0
+    "@pnpm/write-project-manifest": 2.0.11
     detect-indent: ^6.0.0
     fast-deep-equal: ^3.1.3
     is-windows: ^1.0.2
@@ -1964,26 +1964,26 @@ __metadata:
     read-yaml-file: ^2.1.0
     sort-keys: ^4.2.0
     strip-bom: ^4.0.0
-  checksum: e5e55d0aa357d9a9a1003bf78b00794c16669d8a32592091ee2b4a45be4411864e65e5338de5046a531550527614395ca5a98731a99bf7c7139307526ee00041
+  checksum: bc290fcd1d037c9de62e758c6b7c2459d42f8e45d5397bcea0ea82522bb75f783a435515dc10354b22eae6d8e2e32b5308f03af586ad91f5b694723788d94072
   languageName: node
   linkType: hard
 
-"@pnpm/types@npm:7.9.0":
-  version: 7.9.0
-  resolution: "@pnpm/types@npm:7.9.0"
-  checksum: 7556b99d3c21b445b69c8702aef2f0c28a43037204420d77a4879e89a6da83716821c68679e42c6e8083346afe3d787f917f437921855632470ced35ea42e29b
+"@pnpm/types@npm:7.10.0":
+  version: 7.10.0
+  resolution: "@pnpm/types@npm:7.10.0"
+  checksum: 250d4d2849fceed9d481dab5af2768d040ffc74d0f17f70d8e8265d6c9c8bdf07ec8bc2d440caa64a54d2e7d8e99be30b2d1e9be8bc5d19aff2886053d716610
   languageName: node
   linkType: hard
 
-"@pnpm/write-project-manifest@npm:2.0.10":
-  version: 2.0.10
-  resolution: "@pnpm/write-project-manifest@npm:2.0.10"
+"@pnpm/write-project-manifest@npm:2.0.11":
+  version: 2.0.11
+  resolution: "@pnpm/write-project-manifest@npm:2.0.11"
   dependencies:
-    "@pnpm/types": 7.9.0
+    "@pnpm/types": 7.10.0
     json5: ^2.1.3
     write-file-atomic: ^3.0.3
     write-yaml-file: ^4.2.0
-  checksum: 8e07dc8bf333aee154fdb4829be1083a877a5a8e98861aff669a04892242d53604cfc692bed5c95909d7d167ff621a015e14fab85b1d902625cbdbedbc268e68
+  checksum: 74cb8b987330f7b1d12f2081ef69bae7bba2b396cd86682a2d9c065fa5aef2c269f6a5673545c60ab7231888118ae70c880b4ffdf1f0ddd11a9c2a16e381f67e
   languageName: node
   linkType: hard
 
@@ -2572,7 +2572,7 @@ __metadata:
     markdown-magic-subpackage-list: 1.1.1
     npm-run-all: 4.1.5
     prettier: 2.5.1
-    renovate: 31.92.1
+    renovate: 31.97.3
   languageName: unknown
   linkType: soft
 
@@ -2647,7 +2647,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/parsers@npm:2.4.1, @yarnpkg/parsers@npm:^2.4.1":
+"@yarnpkg/parsers@npm:2.5.0":
+  version: 2.5.0
+  resolution: "@yarnpkg/parsers@npm:2.5.0"
+  dependencies:
+    js-yaml: ^3.10.0
+    tslib: ^1.13.0
+  checksum: 02678b7b910eb653c27f0043ac5295c96f2547164959a76e529cad628c2dd48748d1eec2e5d0ee77f79c7d0536549477f203274ca0533e1b478a7f1e0689bb75
+  languageName: node
+  linkType: hard
+
+"@yarnpkg/parsers@npm:^2.4.1":
   version: 2.4.1
   resolution: "@yarnpkg/parsers@npm:2.4.1"
   dependencies:
@@ -3006,13 +3016,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:11.1.0":
-  version: 11.1.0
-  resolution: "azure-devops-node-api@npm:11.1.0"
+"azure-devops-node-api@npm:11.1.1":
+  version: 11.1.1
+  resolution: "azure-devops-node-api@npm:11.1.1"
   dependencies:
     tunnel: 0.0.6
     typed-rest-client: ^1.8.4
-  checksum: 2b465407a5704e4faa4786ef7c4937c70eb608bc967b29a9b0d956b9babbd7ae18d95535f544cd443c855005861a6e71187d9cd21ab16311bdcf29ab5909ecd4
+  checksum: 4a62262c9e1e2153f8cb926103b730edad3a3d252ae5acb681d217018a315baa7b863eadde4db5a042139eafe841e7f4d2defa83e286aed267611c0e8083080a
   languageName: node
   linkType: hard
 
@@ -4893,15 +4903,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-packages@npm:8.0.11":
-  version: 8.0.11
-  resolution: "find-packages@npm:8.0.11"
+"find-packages@npm:8.0.12":
+  version: 8.0.12
+  resolution: "find-packages@npm:8.0.12"
   dependencies:
-    "@pnpm/read-project-manifest": 2.0.11
-    "@pnpm/types": 7.9.0
+    "@pnpm/read-project-manifest": 2.0.12
+    "@pnpm/types": 7.10.0
     fast-glob: ^3.2.4
     p-filter: ^2.1.0
-  checksum: 665c32a92c27fcbed557769c4fe725ee70d39b8d64008454f01ad0bb07ff5c151db9a2dfcbd494ca7d784bc4fa971ac6a0230157eb1d728853920dc3488dcfa5
+  checksum: a91cf0d7e23aedeff21141916fdcfd02fb811a81f423605548e972428d02820c3f86785057bac8bdc3fc77217b22e1b7dd2b3652c1fb7f1dea92dd1675994a4b
   languageName: node
   linkType: hard
 
@@ -4981,7 +4991,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:10.0.0, fs-extra@npm:^10.0.0":
+"fs-extra@npm:10.0.1":
+  version: 10.0.1
+  resolution: "fs-extra@npm:10.0.1"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: c1faaa5eb9e1c5c7c7ff09f966e93922ecb068ae1b04801cfc983ef05fcc1f66bfbb8d8d0b745c910014c7a2e7317fb6cf3bfe7390450c1157e3cc1a218f221d
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:^10.0.0":
   version: 10.0.0
   resolution: "fs-extra@npm:10.0.0"
   dependencies:
@@ -6419,10 +6440,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:2.3.0":
-  version: 2.3.0
-  resolution: "luxon@npm:2.3.0"
-  checksum: 3d00e1b812a31082cf0d97e844d7354c93891fbd14795756f396ee5656387e21d2c862edb841516114eb391f8314a6cf3848799acc6d59cf9560c88c909b91f0
+"luxon@npm:2.3.1":
+  version: 2.3.1
+  resolution: "luxon@npm:2.3.1"
+  checksum: ce5eec873a0172a0956618531e28010e8d8319a8b3a836b893d0f92239413a1fc5f77841ca24988e27bd61e8b2748e160e9dfcb13e92d7f031c1e31ad1c8ae91
   languageName: node
   linkType: hard
 
@@ -7924,14 +7945,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.17.3":
-  version: 1.17.3
-  resolution: "re2@npm:1.17.3"
+"re2@npm:1.17.4":
+  version: 1.17.4
+  resolution: "re2@npm:1.17.4"
   dependencies:
     install-artifact-from-github: ^1.3.0
     nan: ^2.15.0
     node-gyp: ^8.4.1
-  checksum: 038e06860677aeff0b1a2ad5d43f59f62113871a29c997ee7a7519f89444edfbc533a528cb7181e37a63e94fe32eae6e59d4d5cc80db844c4171a7f1b006d01a
+  checksum: dec55c66efbf3e815e88fc8d584bdba8436229ae9299a8611f013e61182714ee8348e7cc1860df8895351b6a741dc18bd68285682b0a2024d76d07bbdf70abc1
   languageName: node
   linkType: hard
 
@@ -8038,17 +8059,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redis@npm:4.0.3":
-  version: 4.0.3
-  resolution: "redis@npm:4.0.3"
+"redis@npm:4.0.4":
+  version: 4.0.4
+  resolution: "redis@npm:4.0.4"
   dependencies:
     "@node-redis/bloom": 1.0.1
-    "@node-redis/client": 1.0.3
+    "@node-redis/client": 1.0.4
     "@node-redis/graph": 1.0.0
     "@node-redis/json": 1.0.2
-    "@node-redis/search": 1.0.2
-    "@node-redis/time-series": 1.0.1
-  checksum: d5aa500d387f454feb6e70d8591eb6f8acfaec4814c7167865903069b640c253054592ab38eddfaf78f6df28f594412f8af67efaaf7c8d7fd2dd2222b3cfbc6a
+    "@node-redis/search": 1.0.3
+    "@node-redis/time-series": 1.0.2
+  checksum: bed4ded396646d128843a97ff01202d802729c83234ba755701ef693e526e2d858b30c566e8830c7c70793ffbf3f91f6e316bfe61ddff3d1c11120ba292ce98a
   languageName: node
   linkType: hard
 
@@ -8169,9 +8190,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:31.92.1":
-  version: 31.92.1
-  resolution: "renovate@npm:31.92.1"
+"renovate@npm:31.97.3":
+  version: 31.97.3
+  resolution: "renovate@npm:31.97.3"
   dependencies:
     "@aws-sdk/client-ec2": 3.50.0
     "@aws-sdk/client-ecr": 3.50.0
@@ -8182,9 +8203,9 @@ __metadata:
     "@renovatebot/ruby-semver": 1.1.2
     "@sindresorhus/is": 4.4.0
     "@yarnpkg/core": 3.1.0
-    "@yarnpkg/parsers": 2.4.1
+    "@yarnpkg/parsers": 2.5.0
     auth-header: 1.0.0
-    azure-devops-node-api: 11.1.0
+    azure-devops-node-api: 11.1.1
     bunyan: 1.8.15
     cacache: 15.3.0
     chalk: 4.1.2
@@ -8204,9 +8225,9 @@ __metadata:
     emojibase-regex: 6.0.1
     extract-zip: 2.0.1
     fast-safe-stringify: 2.1.1
-    find-packages: 8.0.11
+    find-packages: 8.0.12
     find-up: 5.0.0
-    fs-extra: 10.0.0
+    fs-extra: 10.0.1
     git-url-parse: 11.6.0
     github-url-from-git: 1.5.0
     global-agent: 3.0.0
@@ -8220,7 +8241,7 @@ __metadata:
     json-dup-key-validator: 1.0.3
     json-stringify-pretty-compact: 3.0.0
     json5: 2.2.0
-    luxon: 2.3.0
+    luxon: 2.3.1
     markdown-it: 12.3.2
     markdown-table: 2.0.0
     marshal: 0.5.3
@@ -8233,8 +8254,8 @@ __metadata:
     p-map: 4.0.0
     p-queue: 6.6.2
     parse-link-header: 2.0.0
-    re2: 1.17.3
-    redis: 4.0.3
+    re2: 1.17.4
+    redis: 4.0.4
     remark: 13.0.0
     remark-github: 10.1.0
     semver: 7.3.5
@@ -8255,7 +8276,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 315820528c3ff8ce9fa7c025343caedf523cdd295446a11d7c1093ae395336a6e09b542b62243cc3d422266f9a552480d6f90fd20c67e028d1a91ed53231e109
+  checksum: c31f512dbbe7fbeab737f8002cf4873064e20d125ad23216cd7497f439f3b176878b2c8aea33cc9d997e635486431a5d9f3cb1f2fbf4198f3dbfea41c6d595da
   languageName: node
   linkType: hard
 
