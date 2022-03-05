@@ -2003,7 +2003,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sindresorhus/is@npm:4.4.0, @sindresorhus/is@npm:^4.0.0":
+"@sindresorhus/is@npm:4.5.0":
+  version: 4.5.0
+  resolution: "@sindresorhus/is@npm:4.5.0"
+  checksum: 1fd3cfa8850357bd5fe2d33410d561dc684555688c0fbbf6614bccfd555bf7d1e1005f3abc51b9fe6c28f0820ca9cb863db4fb0db8a653434b4743df920ef665
+  languageName: node
+  linkType: hard
+
+"@sindresorhus/is@npm:^4.0.0":
   version: 4.4.0
   resolution: "@sindresorhus/is@npm:4.4.0"
   checksum: 1d2471a75e03ce2182c3a3d014d027addeaeae1a7a2adfdb03c91cce17900b207e493db012e35ffa21808c563ce3b8e2e7c24646b3d5c27467e08bef8b0e16f0
@@ -2572,7 +2579,7 @@ __metadata:
     markdown-magic-subpackage-list: 1.1.1
     npm-run-all: 4.1.5
     prettier: 2.5.1
-    renovate: 31.97.3
+    renovate: 32.0.1
   languageName: unknown
   linkType: soft
 
@@ -8190,9 +8197,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:31.97.3":
-  version: 31.97.3
-  resolution: "renovate@npm:31.97.3"
+"renovate@npm:32.0.1":
+  version: 32.0.1
+  resolution: "renovate@npm:32.0.1"
   dependencies:
     "@aws-sdk/client-ec2": 3.50.0
     "@aws-sdk/client-ecr": 3.50.0
@@ -8201,7 +8208,7 @@ __metadata:
     "@iarna/toml": 2.2.5
     "@renovatebot/pep440": 2.1.0
     "@renovatebot/ruby-semver": 1.1.2
-    "@sindresorhus/is": 4.4.0
+    "@sindresorhus/is": 4.5.0
     "@yarnpkg/core": 3.1.0
     "@yarnpkg/parsers": 2.5.0
     auth-header: 1.0.0
@@ -8276,7 +8283,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: c31f512dbbe7fbeab737f8002cf4873064e20d125ad23216cd7497f439f3b176878b2c8aea33cc9d997e635486431a5d9f3cb1f2fbf4198f3dbfea41c6d595da
+  checksum: 2ea31e2ea1a014a66a3283f204406de9a618ae4e1de8662e92d853573db6381fc1eceb06821300fa5185622a5d8b8f5ee226aeb00c418dacd3dcf0854c31f89c
   languageName: node
   linkType: hard
 
