@@ -18,6 +18,7 @@
         "concurrently",
         "glob",
         "husky",
+        "is-cli",
         "lerna",
         "lint-staged",
         "mrm",
