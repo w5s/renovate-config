@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>w5s/renovate-config:automergeBabel",
+    "github>w5s/renovate-config:automergeLinters",
+    "github>w5s/renovate-config:automergePresets",
+    "github>w5s/renovate-config:automergeJest",
+    "github>w5s/renovate-config:automergeTools",
+    "github>w5s/renovate-config:automergeTypescript"
+  ]
+}

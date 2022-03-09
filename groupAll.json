@@ -1,6 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
+    "group:monorepos",
+    "group:recommended",
     "github>w5s/renovate-config:groupAlgoliaClientJavascript",
     "github>w5s/renovate-config:groupCSpell",
     "github>w5s/renovate-config:groupW5sCore",
