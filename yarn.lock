@@ -1932,10 +1932,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/error@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@pnpm/error@npm:2.0.0"
-  checksum: a3673fb29bd7b639833c6892ce0a7ebcc08d16a019fe1b93b86140f1e7aa0d6b06d149367af0ad06cf43c20b536d56336401c2819157cab606521c1e10ad578a
+"@pnpm/constants@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@pnpm/constants@npm:5.0.0"
+  checksum: 315c0a7cefbb3ec73cf86a71856d35b3f87b390a36fd744c7638f1ca3a67be6e76fd3cb3a614811edb6d38d5a92bdff84df5c3d8b75facc88d2119ad10f77c53
+  languageName: node
+  linkType: hard
+
+"@pnpm/error@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@pnpm/error@npm:2.1.0"
+  dependencies:
+    "@pnpm/constants": 5.0.0
+  checksum: b66a8755d9b679102283799e65cf439e3d680c1964e8b4da8412e2fa5262a45df8d14fc08ef9ce3d5444fbbdfa9d23d7e67e99bc37dc72283ea6992a363ece74
   languageName: node
   linkType: hard
 
@@ -1948,11 +1957,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/read-project-manifest@npm:2.0.12":
-  version: 2.0.12
-  resolution: "@pnpm/read-project-manifest@npm:2.0.12"
+"@pnpm/read-project-manifest@npm:2.0.13":
+  version: 2.0.13
+  resolution: "@pnpm/read-project-manifest@npm:2.0.13"
   dependencies:
-    "@pnpm/error": 2.0.0
+    "@pnpm/error": 2.1.0
     "@pnpm/graceful-fs": 1.0.0
     "@pnpm/types": 7.10.0
     "@pnpm/write-project-manifest": 2.0.11
@@ -1964,7 +1973,7 @@ __metadata:
     read-yaml-file: ^2.1.0
     sort-keys: ^4.2.0
     strip-bom: ^4.0.0
-  checksum: bc290fcd1d037c9de62e758c6b7c2459d42f8e45d5397bcea0ea82522bb75f783a435515dc10354b22eae6d8e2e32b5308f03af586ad91f5b694723788d94072
+  checksum: 7fe102f130f63abc7576b8f9fdd67255b8ead25c79b7de9cb875f6da56a3974c2765512eba0dd8153af3a57217c6447768b3ffe52f82ef7abe96a8f659dbe73c
   languageName: node
   linkType: hard
 
@@ -1987,10 +1996,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pep440@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@renovatebot/pep440@npm:2.1.0"
-  checksum: 172b011664c8eb1f9a18a275c06a431f786a5db08294b4fdd6532813f415e29ade8037019e524fccf888b8bbef68957bed894a1120d98e06fe2c076cac7a3073
+"@renovatebot/pep440@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@renovatebot/pep440@npm:2.1.1"
+  checksum: d478d296662977ea920b04ff74d43a31a07ffb3c8cde6bf6c2e58a302c51f8cc2269c9c076ffe5d6bf47a264c21ba6a310de9743f32c9dc6d083a7ccb673617d
   languageName: node
   linkType: hard
 
@@ -2003,10 +2012,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sindresorhus/is@npm:4.5.0":
-  version: 4.5.0
-  resolution: "@sindresorhus/is@npm:4.5.0"
-  checksum: 1fd3cfa8850357bd5fe2d33410d561dc684555688c0fbbf6614bccfd555bf7d1e1005f3abc51b9fe6c28f0820ca9cb863db4fb0db8a653434b4743df920ef665
+"@sindresorhus/is@npm:4.6.0":
+  version: 4.6.0
+  resolution: "@sindresorhus/is@npm:4.6.0"
+  checksum: 83839f13da2c29d55c97abc3bc2c55b250d33a0447554997a85c539e058e57b8da092da396e252b11ec24a0279a0bed1f537fa26302209327060643e327f81d2
   languageName: node
   linkType: hard
 
@@ -2579,7 +2588,7 @@ __metadata:
     markdown-magic-subpackage-list: 1.1.1
     npm-run-all: 4.1.5
     prettier: 2.5.1
-    renovate: 32.0.1
+    renovate: 32.0.6
   languageName: unknown
   linkType: soft
 
@@ -4910,15 +4919,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-packages@npm:8.0.12":
-  version: 8.0.12
-  resolution: "find-packages@npm:8.0.12"
+"find-packages@npm:8.0.13":
+  version: 8.0.13
+  resolution: "find-packages@npm:8.0.13"
   dependencies:
-    "@pnpm/read-project-manifest": 2.0.12
+    "@pnpm/read-project-manifest": 2.0.13
     "@pnpm/types": 7.10.0
     fast-glob: ^3.2.4
     p-filter: ^2.1.0
-  checksum: a91cf0d7e23aedeff21141916fdcfd02fb811a81f423605548e972428d02820c3f86785057bac8bdc3fc77217b22e1b7dd2b3652c1fb7f1dea92dd1675994a4b
+  checksum: 3a7e266d3bfc96c8733b4ef4d362c20f05cc59cc4d618d32064e28c4cb7dd2596c63f87bac337e1ff96fda3d1812a358b977a5b8cfa45d0700323aac4e879ee2
   languageName: node
   linkType: hard
 
@@ -8197,18 +8206,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:32.0.1":
-  version: 32.0.1
-  resolution: "renovate@npm:32.0.1"
+"renovate@npm:32.0.6":
+  version: 32.0.6
+  resolution: "renovate@npm:32.0.6"
   dependencies:
     "@aws-sdk/client-ec2": 3.50.0
     "@aws-sdk/client-ecr": 3.50.0
     "@breejs/later": 4.1.0
     "@cheap-glitch/mi-cron": 1.0.1
     "@iarna/toml": 2.2.5
-    "@renovatebot/pep440": 2.1.0
+    "@renovatebot/pep440": 2.1.1
     "@renovatebot/ruby-semver": 1.1.2
-    "@sindresorhus/is": 4.5.0
+    "@sindresorhus/is": 4.6.0
     "@yarnpkg/core": 3.1.0
     "@yarnpkg/parsers": 2.5.0
     auth-header: 1.0.0
@@ -8232,7 +8241,7 @@ __metadata:
     emojibase-regex: 6.0.1
     extract-zip: 2.0.1
     fast-safe-stringify: 2.1.1
-    find-packages: 8.0.12
+    find-packages: 8.0.13
     find-up: 5.0.0
     fs-extra: 10.0.1
     git-url-parse: 11.6.0
@@ -8283,7 +8292,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 2ea31e2ea1a014a66a3283f204406de9a618ae4e1de8662e92d853573db6381fc1eceb06821300fa5185622a5d8b8f5ee226aeb00c418dacd3dcf0854c31f89c
+  checksum: e08990a123bb8409a78c7da68120f1115343fd68b5ec8738f69acee748f3d74a639d2a3605f23fc893df0ca78f7dd25699e2a1bc83a83e288e1a7300fba1928e
   languageName: node
   linkType: hard
 
