@@ -2579,7 +2579,7 @@ __metadata:
     markdown-magic-subpackage-list: 1.1.1
     npm-run-all: 4.1.5
     prettier: 2.6.1
-    renovate: 32.0.6
+    renovate: 32.7.5
   languageName: unknown
   linkType: soft
 
@@ -3519,10 +3519,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:9.0.0":
-  version: 9.0.0
-  resolution: "commander@npm:9.0.0"
-  checksum: 15066e433d528315ded8261d16bc600d1f3c5671c75021e685ae67e4d62f7551243ff28411b28dc0a6f8b23c2a0f033550ec6f3e66bdf9d11a4fdc2d33dd9802
+"commander@npm:9.1.0, commander@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "commander@npm:9.1.0"
+  checksum: 1428319b6b90600a813c28fe1e413996d1be99bf01afe9ebc4a9fc6f8077ff3e75f11809b2d2f85bd9b13d7cb592154278e9bbfdb16dc5843cef97bcba6a9cfd
   languageName: node
   linkType: hard
 
@@ -3544,13 +3544,6 @@ __metadata:
   version: 8.3.0
   resolution: "commander@npm:8.3.0"
   checksum: 0f82321821fc27b83bd409510bb9deeebcfa799ff0bf5d102128b500b7af22872c0c92cb6a0ebc5a4cf19c6b550fba9cedfa7329d18c6442a625f851377bacf0
-  languageName: node
-  linkType: hard
-
-"commander@npm:^9.1.0":
-  version: 9.1.0
-  resolution: "commander@npm:9.1.0"
-  checksum: 1428319b6b90600a813c28fe1e413996d1be99bf01afe9ebc4a9fc6f8077ff3e75f11809b2d2f85bd9b13d7cb592154278e9bbfdb16dc5843cef97bcba6a9cfd
   languageName: node
   linkType: hard
 
@@ -3878,7 +3871,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-select@npm:^4.1.3":
+"css-select@npm:^4.2.1":
   version: 4.2.1
   resolution: "css-select@npm:4.2.1"
   dependencies:
@@ -4196,7 +4189,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoji-regex@npm:10.0.0, emoji-regex@npm:^10.0.0":
+"emoji-regex@npm:10.0.1":
+  version: 10.0.1
+  resolution: "emoji-regex@npm:10.0.1"
+  checksum: 8ab4b452e58ccd3e051f4ac2b3e1d5158e85bc233d8c8f0db5ce058e9bafb2dfb69a17339e90db12e9817a24ef9e0547d7b4d9eb7818733cac9fd93b74d46b19
+  languageName: node
+  linkType: hard
+
+"emoji-regex@npm:^10.0.0":
   version: 10.0.0
   resolution: "emoji-regex@npm:10.0.0"
   checksum: 9a2e0ad35b84d8ce92777126d122196ff319f64de596e0ca8560298f94eec64b9be26f5b799bb47e2ad3e8791691817f3aec4e3c507e58d5b94a6adeea271921
@@ -7171,13 +7171,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-html-parser@npm:5.2.0":
-  version: 5.2.0
-  resolution: "node-html-parser@npm:5.2.0"
+"node-html-parser@npm:5.3.3":
+  version: 5.3.3
+  resolution: "node-html-parser@npm:5.3.3"
   dependencies:
-    css-select: ^4.1.3
+    css-select: ^4.2.1
     he: 1.2.0
-  checksum: 999b3f3f461ac3ea810cb333d34049dc708c39599732d26a1c3dde3dfc0ecaa9f47cddd71f4507746c0bdac02692225a337c2b2b5adab6192a10285d01117a5e
+  checksum: 57c61d5c34fd8c6139ef497cd8d7a4b1b8f4c127986d7a8624f83ba31d3e4a5fdea2684b021989f6bf920d517f8075068f05f031e8813e84fc42569906704cad
   languageName: node
   linkType: hard
 
@@ -7401,12 +7401,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openpgp@npm:5.1.0":
-  version: 5.1.0
-  resolution: "openpgp@npm:5.1.0"
+"openpgp@npm:5.2.1":
+  version: 5.2.1
+  resolution: "openpgp@npm:5.2.1"
   dependencies:
     asn1.js: ^5.0.0
-  checksum: 0268fb53bb81712a1b90a17be3249b51e844a7b19616ced31450f428833087271069a6dde569eb7d604f13965d316da65cb1a99bd2ae82e4514b9e67988d2193
+  checksum: 931fd2d0f0b68b619762250adb6607cbdb412ca0c30add98743755de77474a8d69b5e4c4f9c64bdbbd5f66374473a41600fc76c9050cf09d8e028a78aeb24722
   languageName: node
   linkType: hard
 
@@ -8209,9 +8209,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:32.0.6":
-  version: 32.0.6
-  resolution: "renovate@npm:32.0.6"
+"renovate@npm:32.7.5":
+  version: 32.7.5
+  resolution: "renovate@npm:32.7.5"
   dependencies:
     "@aws-sdk/client-ec2": 3.50.0
     "@aws-sdk/client-ecr": 3.50.0
@@ -8230,7 +8230,7 @@ __metadata:
     chalk: 4.1.2
     changelog-filename-regex: 2.0.1
     clean-git-ref: 2.0.1
-    commander: 9.0.0
+    commander: 9.1.0
     conventional-commits-detector: 1.0.3
     crypto-random-string: 3.3.1
     deepmerge: 4.2.2
@@ -8239,7 +8239,7 @@ __metadata:
     detect-indent: 6.1.0
     editorconfig: 0.15.3
     email-addresses: 5.0.0
-    emoji-regex: 10.0.0
+    emoji-regex: 10.0.1
     emojibase: 6.1.0
     emojibase-regex: 6.0.1
     extract-zip: 2.0.1
@@ -8267,8 +8267,8 @@ __metadata:
     minimatch: 3.1.2
     moo: 0.5.1
     nanoid: 3.3.1
-    node-html-parser: 5.2.0
-    openpgp: 5.1.0
+    node-html-parser: 5.3.3
+    openpgp: 5.2.1
     p-all: 3.0.0
     p-map: 4.0.0
     p-queue: 6.6.2
@@ -8281,7 +8281,7 @@ __metadata:
     semver-stable: 3.0.0
     semver-utils: 1.1.4
     shlex: 2.1.0
-    simple-git: 3.2.6
+    simple-git: 3.4.0
     slugify: 1.6.5
     traverse: 0.6.6
     tslib: 2.3.1
@@ -8295,7 +8295,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: e08990a123bb8409a78c7da68120f1115343fd68b5ec8738f69acee748f3d74a639d2a3605f23fc893df0ca78f7dd25699e2a1bc83a83e288e1a7300fba1928e
+  checksum: dc213b3ae2246844c0c0fb36b318e4bd3ba50a815817d8f2ace7ce2bcceea2f2813d15608332c74f5877ea7f25d91a0638ed26f90a8e59b7576b6b8789d61a48
   languageName: node
   linkType: hard
 
@@ -8680,14 +8680,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.2.6":
-  version: 3.2.6
-  resolution: "simple-git@npm:3.2.6"
+"simple-git@npm:3.4.0":
+  version: 3.4.0
+  resolution: "simple-git@npm:3.4.0"
   dependencies:
     "@kwsites/file-exists": ^1.1.1
     "@kwsites/promise-deferred": ^1.1.1
     debug: ^4.3.3
-  checksum: 2b64645db3dc31c8de73cfe1d2efa05bec5a6cd23603f2f0320ce6af3e672d1ea716b3424b9aaefb08141f2cc10189f29c17314951c855fa11d5cdd1ad049b4b
+  checksum: 9b05f05dcca69631317fdfa30288d342ac08b9822daea3a939c24fbbe24048ef768cae22e3e72b7a78c268635a63f72536e4530927c12d815a21be6e1e7a294e
   languageName: node
   linkType: hard
 
