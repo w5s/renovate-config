@@ -4,6 +4,7 @@
   "automerge": false,
   "dependencyDashboard": true,
   "extends": [
+    ":semanticCommits",
     ":semanticPrefixFixDepsChoreOthers",
     ":ignoreModulesAndTests",
     "helpers:disableTypesNodeMajor",
