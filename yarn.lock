@@ -2142,17 +2142,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jamiemagee/osv-offline@npm:1.2.5":
-  version: 1.2.5
-  resolution: "@jamiemagee/osv-offline@npm:1.2.5"
+"@jamiemagee/osv-offline@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@jamiemagee/osv-offline@npm:1.2.6"
   dependencies:
     "@jamiemagee/osv-offline-db": 1.1.4
     "@octokit/rest": 18.12.0
     adm-zip: ^0.5.9
     fs-extra: 10.0.0
     got: 11.8.3
-    luxon: 2.3.2
-  checksum: 0e5d8c3e4b3f527f7e05eb2499631fcc585cb7321bb4e9d18201368e3918ded8c5d95be549af4cf35e7e6f6cf48c2326be89bd75c19260f004be5ace79c28535
+    luxon: 2.4.0
+  checksum: 71c052cd7b20ca8677c2f2a6cd719a240a4fc67cf169e7129e53f6a319301a349f61ba88fb3f0921856043fa365702fa0e191e2ef6b4155728d3ae915f2d4550
   languageName: node
   linkType: hard
 
@@ -3152,7 +3152,7 @@ __metadata:
     markdown-magic-subpackage-list: 1.1.2
     npm-run-all: 4.1.5
     prettier: 2.6.2
-    renovate: 32.50.3
+    renovate: 32.64.3
   languageName: unknown
   linkType: soft
 
@@ -3227,13 +3227,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/parsers@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@yarnpkg/parsers@npm:2.5.0"
+"@yarnpkg/parsers@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@yarnpkg/parsers@npm:2.5.1"
   dependencies:
     js-yaml: ^3.10.0
     tslib: ^1.13.0
-  checksum: 02678b7b910eb653c27f0043ac5295c96f2547164959a76e529cad628c2dd48748d1eec2e5d0ee77f79c7d0536549477f203274ca0533e1b478a7f1e0689bb75
+  checksum: 42f98b8bd635add304ce392c6f600b46e40c2c4429d7b6c38b70f50b5fd6a854dd2369e0987b70546a3c8f690d280f040a885b35acfde891f5e173fc3f974277
   languageName: node
   linkType: hard
 
@@ -7306,10 +7306,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:2.3.2":
-  version: 2.3.2
-  resolution: "luxon@npm:2.3.2"
-  checksum: ba4f9daa56d03771c2ddf00e3bf996ec7937badfdc2f85f5b58d63c75bb511369b3316f54ab9ce5ab42bfc9118513971f6599128529b68620b876a4b7c16570b
+"luxon@npm:2.4.0":
+  version: 2.4.0
+  resolution: "luxon@npm:2.4.0"
+  checksum: 6071028d65cc3d3bdab5e6a3995dd97411c92bb3b3163a02deb7b7014318ad3a6fd750ae77131c42141b717c14aef8880d3130f265281d500ef2365f7265b3f3
   languageName: node
   linkType: hard
 
@@ -9088,9 +9088,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:32.50.3":
-  version: 32.50.3
-  resolution: "renovate@npm:32.50.3"
+"renovate@npm:32.64.3":
+  version: 32.64.3
+  resolution: "renovate@npm:32.64.3"
   dependencies:
     "@aws-sdk/client-ec2": 3.72.0
     "@aws-sdk/client-ecr": 3.72.0
@@ -9098,12 +9098,12 @@ __metadata:
     "@breejs/later": 4.1.0
     "@cheap-glitch/mi-cron": 1.0.1
     "@iarna/toml": 2.2.5
-    "@jamiemagee/osv-offline": 1.2.5
+    "@jamiemagee/osv-offline": 1.2.6
     "@renovatebot/pep440": 2.1.1
     "@renovatebot/ruby-semver": 1.1.3
     "@sindresorhus/is": 4.6.0
     "@yarnpkg/core": 3.1.0
-    "@yarnpkg/parsers": 2.5.0
+    "@yarnpkg/parsers": 2.5.1
     auth-header: 1.0.0
     azure-devops-node-api: 11.1.1
     bunyan: 1.8.15
@@ -9142,7 +9142,7 @@ __metadata:
     json-dup-key-validator: 1.0.3
     json-stringify-pretty-compact: 3.0.0
     json5: 2.2.1
-    luxon: 2.3.2
+    luxon: 2.4.0
     markdown-it: 13.0.1
     markdown-table: 2.0.0
     marshal: 0.5.4
@@ -9177,7 +9177,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 38918e376420e9525da361b8db2efb6bce453d6adaa7df11b6fb5cb75033ed2de5b87855bf5cf89ed398c406ed18bf0b712076b2fc168a8d6a7bf9d84304b5f8
+  checksum: b266c88d8502d41a99e2bf54a836701d63f647a9d1f4e1c10418ae48a1ebd01112a92911b668dfc5e3be311fd4e4248267ff538d05a24d256816e0c68e550842
   languageName: node
   linkType: hard
 
