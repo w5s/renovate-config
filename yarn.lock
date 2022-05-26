@@ -3152,7 +3152,7 @@ __metadata:
     markdown-magic-subpackage-list: 1.1.2
     npm-run-all: 4.1.5
     prettier: 2.6.2
-    renovate: 32.64.3
+    renovate: 32.64.9
   languageName: unknown
   linkType: soft
 
@@ -7801,12 +7801,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:5.0.1, minimatch@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "minimatch@npm:5.0.1"
+"minimatch@npm:5.1.0":
+  version: 5.1.0
+  resolution: "minimatch@npm:5.1.0"
   dependencies:
     brace-expansion: ^2.0.1
-  checksum: b34b98463da4754bc526b244d680c69d4d6089451ebe512edaf6dd9eeed0279399cfa3edb19233513b8f830bf4bfcad911dddcdf125e75074100d52f724774f0
+  checksum: 15ce53d31a06361e8b7a629501b5c75491bc2b59712d53e802b1987121d91b433d73fcc5be92974fde66b2b51d8fb28d75a9ae900d249feb792bb1ba2a4f0a90
   languageName: node
   linkType: hard
 
@@ -7816,6 +7816,15 @@ __metadata:
   dependencies:
     brace-expansion: ^1.1.7
   checksum: c154e566406683e7bcb746e000b84d74465b3a832c45d59912b9b55cd50dee66e5c4b1e5566dba26154040e51672f9aa450a9aef0c97cfc7336b78b7afb9540a
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "minimatch@npm:5.0.1"
+  dependencies:
+    brace-expansion: ^2.0.1
+  checksum: b34b98463da4754bc526b244d680c69d4d6089451ebe512edaf6dd9eeed0279399cfa3edb19233513b8f830bf4bfcad911dddcdf125e75074100d52f724774f0
   languageName: node
   linkType: hard
 
@@ -9088,9 +9097,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:32.64.3":
-  version: 32.64.3
-  resolution: "renovate@npm:32.64.3"
+"renovate@npm:32.64.9":
+  version: 32.64.9
+  resolution: "renovate@npm:32.64.9"
   dependencies:
     "@aws-sdk/client-ec2": 3.72.0
     "@aws-sdk/client-ecr": 3.72.0
@@ -9146,7 +9155,7 @@ __metadata:
     markdown-it: 13.0.1
     markdown-table: 2.0.0
     marshal: 0.5.4
-    minimatch: 5.0.1
+    minimatch: 5.1.0
     moo: 0.5.1
     nanoid: 3.3.4
     node-html-parser: 5.3.3
@@ -9177,7 +9186,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: b266c88d8502d41a99e2bf54a836701d63f647a9d1f4e1c10418ae48a1ebd01112a92911b668dfc5e3be311fd4e4248267ff538d05a24d256816e0c68e550842
+  checksum: b0a5157a5c08824657bd18aea844ebb5d2e24fcc7076a3835e657ea2138654e80146b75753f563a400b6a4e8de23a5f3c637b37bea0f7f8ee140cc7e5a91c2a1
   languageName: node
   linkType: hard
 
