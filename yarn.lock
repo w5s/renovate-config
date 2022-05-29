@@ -3213,7 +3213,7 @@ __metadata:
     markdown-magic-subpackage-list: 1.1.2
     npm-run-all: 4.1.5
     prettier: 2.6.2
-    renovate: 32.64.9
+    renovate: 32.68.1
   languageName: unknown
   linkType: soft
 
@@ -3842,9 +3842,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cacache@npm:16.0.7":
-  version: 16.0.7
-  resolution: "cacache@npm:16.0.7"
+"cacache@npm:16.1.0":
+  version: 16.1.0
+  resolution: "cacache@npm:16.1.0"
   dependencies:
     "@npmcli/fs": ^2.1.0
     "@npmcli/move-file": ^2.0.0
@@ -3864,7 +3864,7 @@ __metadata:
     ssri: ^9.0.0
     tar: ^6.1.11
     unique-filename: ^1.1.1
-  checksum: 2155b099b7e0f0369fb1155ca4673532ca7efe2ebdbec63acca8743580b8446b5d4fd7184626b1cb059001af77b981cdc67035c7855544d365d4f048eafca2ca
+  checksum: ddfcf92f079f24ccecef4e2ca1e4428443787b61429b921803b020fd0f33d9ac829ac47837b74b40868d8ae4f1b2ed82e164cdaa5508fbd790eee005a9d88469
   languageName: node
   linkType: hard
 
@@ -9158,9 +9158,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:32.64.9":
-  version: 32.64.9
-  resolution: "renovate@npm:32.64.9"
+"renovate@npm:32.68.1":
+  version: 32.68.1
+  resolution: "renovate@npm:32.68.1"
   dependencies:
     "@aws-sdk/client-ec2": 3.72.0
     "@aws-sdk/client-ecr": 3.72.0
@@ -9177,7 +9177,7 @@ __metadata:
     auth-header: 1.0.0
     azure-devops-node-api: 11.1.1
     bunyan: 1.8.15
-    cacache: 16.0.7
+    cacache: 16.1.0
     chalk: 4.1.2
     changelog-filename-regex: 2.0.1
     clean-git-ref: 2.0.1
@@ -9247,7 +9247,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: b0a5157a5c08824657bd18aea844ebb5d2e24fcc7076a3835e657ea2138654e80146b75753f563a400b6a4e8de23a5f3c637b37bea0f7f8ee140cc7e5a91c2a1
+  checksum: ea1506efe253c86cc4040a97595f243fb48b52857b5db302d97bb23fdf0b1cfa8ba4671898e39ccf061c774fce4726b819d33e4a9e4c9d24fbb8f743f5109ee6
   languageName: node
   linkType: hard
 
