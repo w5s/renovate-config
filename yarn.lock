@@ -2211,17 +2211,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jamiemagee/osv-offline@npm:1.2.6":
-  version: 1.2.6
-  resolution: "@jamiemagee/osv-offline@npm:1.2.6"
+"@jamiemagee/osv-offline@npm:1.2.7":
+  version: 1.2.7
+  resolution: "@jamiemagee/osv-offline@npm:1.2.7"
   dependencies:
     "@jamiemagee/osv-offline-db": 1.1.4
     "@octokit/rest": 18.12.0
     adm-zip: ^0.5.9
     fs-extra: 10.0.0
-    got: 11.8.3
+    got: 11.8.5
     luxon: 2.4.0
-  checksum: 71c052cd7b20ca8677c2f2a6cd719a240a4fc67cf169e7129e53f6a319301a349f61ba88fb3f0921856043fa365702fa0e191e2ef6b4155728d3ae915f2d4550
+  checksum: e4c21c5a92d82fc741cff6388294ff9f99a6041d2ade6c4019fa5d07fb6388592f8bcb59fad28e5fac5f2eba915c5bb2ecbe8e6abe9e200465065c52ab175c42
   languageName: node
   linkType: hard
 
@@ -3221,7 +3221,7 @@ __metadata:
     markdown-magic-subpackage-list: 1.1.2
     npm-run-all: 4.1.5
     prettier: 2.6.2
-    renovate: 32.68.3
+    renovate: 32.74.3
   languageName: unknown
   linkType: soft
 
@@ -4228,10 +4228,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:9.2.0":
-  version: 9.2.0
-  resolution: "commander@npm:9.2.0"
-  checksum: 7c82e4cd969712aa6d7c055b8351807a7230f9f31ef7ec7881e11a1147511de85adf5d6ccfd200240a118eecf693b220caf6865b8efbcea558a70d35aa9ed711
+"commander@npm:9.3.0, commander@npm:^9.3.0":
+  version: 9.3.0
+  resolution: "commander@npm:9.3.0"
+  checksum: d421ce66fee25792a1470c69aa8d1b86434bf873a96483aa92c8267f81a6f20c6f7c426f5e82f88ac50a8ec4855d3f2787aebcdef8aa559e1080a2337a95a217
   languageName: node
   linkType: hard
 
@@ -4246,13 +4246,6 @@ __metadata:
   version: 7.2.0
   resolution: "commander@npm:7.2.0"
   checksum: 53501cbeee61d5157546c0bef0fedb6cdfc763a882136284bed9a07225f09a14b82d2a84e7637edfd1a679fb35ed9502fd58ef1d091e6287f60d790147f68ddc
-  languageName: node
-  linkType: hard
-
-"commander@npm:^9.3.0":
-  version: 9.3.0
-  resolution: "commander@npm:9.3.0"
-  checksum: d421ce66fee25792a1470c69aa8d1b86434bf873a96483aa92c8267f81a6f20c6f7c426f5e82f88ac50a8ec4855d3f2787aebcdef8aa559e1080a2337a95a217
   languageName: node
   linkType: hard
 
@@ -6184,7 +6177,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"got@npm:11.8.3, got@npm:^11.7.0":
+"got@npm:11.8.5":
+  version: 11.8.5
+  resolution: "got@npm:11.8.5"
+  dependencies:
+    "@sindresorhus/is": ^4.0.0
+    "@szmarczak/http-timer": ^4.0.5
+    "@types/cacheable-request": ^6.0.1
+    "@types/responselike": ^1.0.0
+    cacheable-lookup: ^5.0.3
+    cacheable-request: ^7.0.2
+    decompress-response: ^6.0.0
+    http2-wrapper: ^1.0.0-beta.5.2
+    lowercase-keys: ^2.0.0
+    p-cancelable: ^2.0.0
+    responselike: ^2.0.0
+  checksum: 2de8a1bbda4e9b6b2b72b2d2100bc055a59adc1740529e631f61feb44a8b9a1f9f8590941ed9da9df0090b6d6d0ed8ffee94cd9ac086ec3409b392b33440f7d2
+  languageName: node
+  linkType: hard
+
+"got@npm:^11.7.0":
   version: 11.8.3
   resolution: "got@npm:11.8.3"
   dependencies:
@@ -9235,9 +9247,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:32.68.3":
-  version: 32.68.3
-  resolution: "renovate@npm:32.68.3"
+"renovate@npm:32.74.3":
+  version: 32.74.3
+  resolution: "renovate@npm:32.74.3"
   dependencies:
     "@aws-sdk/client-ec2": 3.72.0
     "@aws-sdk/client-ecr": 3.72.0
@@ -9245,7 +9257,7 @@ __metadata:
     "@breejs/later": 4.1.0
     "@cheap-glitch/mi-cron": 1.0.1
     "@iarna/toml": 2.2.5
-    "@jamiemagee/osv-offline": 1.2.6
+    "@jamiemagee/osv-offline": 1.2.7
     "@renovatebot/pep440": 2.1.1
     "@renovatebot/ruby-semver": 1.1.3
     "@sindresorhus/is": 4.6.0
@@ -9258,7 +9270,7 @@ __metadata:
     chalk: 4.1.2
     changelog-filename-regex: 2.0.1
     clean-git-ref: 2.0.1
-    commander: 9.2.0
+    commander: 9.3.0
     conventional-commits-detector: 1.0.3
     crypto-random-string: 3.3.1
     deepmerge: 4.2.2
@@ -9279,7 +9291,7 @@ __metadata:
     github-url-from-git: 1.5.0
     global-agent: 3.0.0
     good-enough-parser: 1.1.7
-    got: 11.8.3
+    got: 11.8.5
     graph-data-structure: 2.0.0
     handlebars: 4.7.7
     hasha: 5.2.2
@@ -9324,7 +9336,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 9d20a2ef3eb58230de556976b896dcc03dbcff576eb5644e94d185308413ddc26ed2a933da0b0f5bb3b7f4dbaa9a92bd9850fdca2b7b8b1ad6f38597fc6b099e
+  checksum: 2dcfc36ed68af0312dc1d19520eab9fdb0f2130ac02e1f217b6630ef530f8dfb882e7e9e4700b09a83f5ea393b36fea0eb8516218a70e08be8869405f6f5802a
   languageName: node
   linkType: hard
 
