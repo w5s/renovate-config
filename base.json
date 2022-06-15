@@ -68,7 +68,7 @@
     "before 6am every weekday",
     "every weekend"
   ],
-  "semanticCommits": "auto",
+  "semanticCommits": "enabled",
   "separateMajorMinor": true,
   "separateMinorPatch": true,
   "updateNotScheduled": true,
