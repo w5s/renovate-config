@@ -9,12 +9,11 @@
       "items": {
         "type": "string",
         "enum": [
-          ":semanticCommits",
-          ":semanticPrefixFixDepsChoreOthers",
           ":ignoreModulesAndTests",
           "helpers:disableTypesNodeMajor",
           "github>w5s/renovate-config:groupAll",
-          "github>w5s/renovate-config:automergeAll"
+          "github>w5s/renovate-config:automergeAll",
+          "github>w5s/renovate-config:commit"
         ]
       }
     }

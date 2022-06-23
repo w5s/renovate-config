@@ -4,12 +4,11 @@
   "automerge": false,
   "dependencyDashboard": true,
   "extends": [
-    ":semanticCommits",
-    ":semanticPrefixFixDepsChoreOthers",
     ":ignoreModulesAndTests",
     "helpers:disableTypesNodeMajor",
     "github>w5s/renovate-config:groupAll",
-    "github>w5s/renovate-config:automergeAll"
+    "github>w5s/renovate-config:automergeAll",
+    "github>w5s/renovate-config:commit"
   ],
   "ignoreUnstable": true,
   "lockFileMaintenance": {
@@ -68,7 +67,6 @@
     "before 6am every weekday",
     "every weekend"
   ],
-  "semanticCommits": "enabled",
   "separateMajorMinor": true,
   "separateMinorPatch": true,
   "updateNotScheduled": true,
