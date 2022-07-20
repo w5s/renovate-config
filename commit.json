@@ -4,14 +4,14 @@
   "commitMessageAction": "Upgrade",
   "packageRules": [
     {
-      "updateTypes": [
+      "matchUpdateTypes": [
         "pin"
       ],
       "commitMessagePrefix": "📌",
       "commitMessageAction": "Pin"
     },
     {
-      "updateTypes": [
+      "matchUpdateTypes": [
         "rollback"
       ],
       "commitMessagePrefix": "⬇️",
