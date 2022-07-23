@@ -3132,7 +3132,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.7.1
-    renovate: 32.120.0
+    renovate: 32.125.0
   languageName: unknown
   linkType: soft
 
@@ -4104,10 +4104,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:9.3.0":
-  version: 9.3.0
-  resolution: "commander@npm:9.3.0"
-  checksum: d421ce66fee25792a1470c69aa8d1b86434bf873a96483aa92c8267f81a6f20c6f7c426f5e82f88ac50a8ec4855d3f2787aebcdef8aa559e1080a2337a95a217
+"commander@npm:9.4.0, commander@npm:^9.3.0, commander@npm:^9.4.0":
+  version: 9.4.0
+  resolution: "commander@npm:9.4.0"
+  checksum: a322de584a6ccd1ea83c24f6a660e52d16ffbe2613fcfbb8d2cc68bc9dec637492456d754fe8bb5b039ad843ed8e04fb0b107e581a75f62cde9e1a0ab1546e09
   languageName: node
   linkType: hard
 
@@ -4122,13 +4122,6 @@ __metadata:
   version: 7.2.0
   resolution: "commander@npm:7.2.0"
   checksum: 53501cbeee61d5157546c0bef0fedb6cdfc763a882136284bed9a07225f09a14b82d2a84e7637edfd1a679fb35ed9502fd58ef1d091e6287f60d790147f68ddc
-  languageName: node
-  linkType: hard
-
-"commander@npm:^9.3.0, commander@npm:^9.4.0":
-  version: 9.4.0
-  resolution: "commander@npm:9.4.0"
-  checksum: a322de584a6ccd1ea83c24f6a660e52d16ffbe2613fcfbb8d2cc68bc9dec637492456d754fe8bb5b039ad843ed8e04fb0b107e581a75f62cde9e1a0ab1546e09
   languageName: node
   linkType: hard
 
@@ -8988,9 +8981,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:32.120.0":
-  version: 32.120.0
-  resolution: "renovate@npm:32.120.0"
+"renovate@npm:32.125.0":
+  version: 32.125.0
+  resolution: "renovate@npm:32.125.0"
   dependencies:
     "@aws-sdk/client-ec2": 3.112.0
     "@aws-sdk/client-ecr": 3.112.0
@@ -9012,7 +9005,7 @@ __metadata:
     chalk: 4.1.2
     changelog-filename-regex: 2.0.1
     clean-git-ref: 2.0.1
-    commander: 9.3.0
+    commander: 9.4.0
     conventional-commits-detector: 1.0.3
     crypto-random-string: 3.3.1
     deepmerge: 4.2.2
@@ -9072,14 +9065,14 @@ __metadata:
     upath: 2.0.1
     url-join: 4.0.1
     validate-npm-package-name: 4.0.0
-    xmldoc: 1.1.4
+    xmldoc: 1.2.0
   dependenciesMeta:
     re2:
       optional: true
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: e5a348c90e85041b5bb6668ab28a9bbb2274096be4b77704c59081ccc3fca05ec64aaa7c9eaedeec924abd9813dedfe30f4a2b1734550ba782878555c342b781
+  checksum: 04ffe2870859529dea3d05bcbf947774244d1451b59ebb89e7ae5216f95e3e44f6c3767fa82a91dc1491b69437ec2edeb92b4c707d7e101846c3c9b16f1f83b5
   languageName: node
   linkType: hard
 
@@ -10616,12 +10609,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xmldoc@npm:1.1.4":
-  version: 1.1.4
-  resolution: "xmldoc@npm:1.1.4"
+"xmldoc@npm:1.2.0":
+  version: 1.2.0
+  resolution: "xmldoc@npm:1.2.0"
   dependencies:
     sax: ^1.2.4
-  checksum: 794c4afabd1c9c718dee9e2859439aa0c6c4e701ce689c5194255ce9447a631e6206af01fbd65864c1986d60663b990c33d60cab4c8c3989f31c3ff0c0fe2b21
+  checksum: df42d06cf42bad47189f0d11d402de8da42652f1d96ee20586f906a3db72c6a0efbabc04d1a97cec7fe235fde55ff7e601c9dc4fdf31b9ef3ce30bd7836b4b08
   languageName: node
   linkType: hard
 
