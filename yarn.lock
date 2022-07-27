@@ -1726,7 +1726,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/cspell-pipe@npm:^6.4.1, @cspell/cspell-pipe@npm:^6.4.2":
+"@cspell/cspell-pipe@npm:^6.4.2":
   version: 6.4.2
   resolution: "@cspell/cspell-pipe@npm:6.4.2"
   checksum: 1f8e30d65595a6deacb783cb5ec2596dd15148888ce53112db770a4ff68c4d319f7c77dfd2cd07e8461a3722aa0972fd13664077cf09dbfa3a56214119df8eec
@@ -3131,7 +3131,7 @@ __metadata:
     "@w5s/eslint-config": 1.0.0-alpha.25
     ajv-cli: 5.0.0
     concurrently: 7.3.0
-    cspell: 6.4.1
+    cspell: 6.4.2
     eslint: 8.20.0
     husky: 8.0.1
     is-ci: 3.0.1
@@ -4382,7 +4382,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cspell-gitignore@npm:^6.4.1":
+"cspell-gitignore@npm:^6.4.2":
   version: 6.4.2
   resolution: "cspell-gitignore@npm:6.4.2"
   dependencies:
@@ -4394,7 +4394,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cspell-glob@npm:^6.4.1, cspell-glob@npm:^6.4.2":
+"cspell-glob@npm:^6.4.2":
   version: 6.4.2
   resolution: "cspell-glob@npm:6.4.2"
   dependencies:
@@ -4425,7 +4425,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cspell-lib@npm:^6.4.1":
+"cspell-lib@npm:^6.4.2":
   version: 6.4.2
   resolution: "cspell-lib@npm:6.4.2"
   dependencies:
@@ -4464,16 +4464,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cspell@npm:6.4.1":
-  version: 6.4.1
-  resolution: "cspell@npm:6.4.1"
+"cspell@npm:6.4.2":
+  version: 6.4.2
+  resolution: "cspell@npm:6.4.2"
   dependencies:
-    "@cspell/cspell-pipe": ^6.4.1
+    "@cspell/cspell-pipe": ^6.4.2
     chalk: ^4.1.2
     commander: ^9.4.0
-    cspell-gitignore: ^6.4.1
-    cspell-glob: ^6.4.1
-    cspell-lib: ^6.4.1
+    cspell-gitignore: ^6.4.2
+    cspell-glob: ^6.4.2
+    cspell-lib: ^6.4.2
     fast-json-stable-stringify: ^2.1.0
     file-entry-cache: ^6.0.1
     fs-extra: ^10.1.0
@@ -4485,7 +4485,7 @@ __metadata:
     vscode-uri: ^3.0.3
   bin:
     cspell: bin.js
-  checksum: 53c3afbf887177f25f4a0fb5ff2329a8aa5ccedee082ec9607204a3be3f6bb4d9f6aa08bec3d4cdffb1a4a2c7b0ada1c1ac6a230dbe5ac04a21241b70c79699f
+  checksum: 51a57b17ba3f6ab772c30b77a4ef0c1038189dfb3b551cebfa67e07bfc6e9f5e4c8a5dc60c8f9c821c33599b664251dab73b8bab95ddcccdfa8f4fb88fe638ff
   languageName: node
   linkType: hard
 
