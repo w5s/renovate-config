@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchSourceUrlPrefixes": [
-        "https://github.com/w5s/core"
+        "https://github.com/w5s/std"
       ],
       "groupName": "W5s core packages"
     }
