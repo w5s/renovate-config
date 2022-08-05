@@ -24,12 +24,6 @@
   },
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "@types/"
-      ],
-      "enabled": false
-    },
-    {
       "matchDepTypes": [
         "dependencies"
       ],
