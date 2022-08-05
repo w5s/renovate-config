@@ -72,7 +72,7 @@
     "public/"
   ],
   "devDependencies": {
-    "@babel/core": "7.18.9",
+    "@babel/core": "7.18.10",
     "@babel/eslint-parser": "7.18.9",
     "@commitlint/cli": "17.0.3",
     "@w5s/commitlint-config": "1.0.0-alpha.7",
@@ -80,7 +80,7 @@
     "ajv-cli": "5.0.0",
     "concurrently": "7.3.0",
     "cspell": "6.5.0",
-    "eslint": "8.20.0",
+    "eslint": "8.21.0",
     "husky": "8.0.1",
     "is-ci": "3.0.1",
     "lint-staged": "13.0.3",
@@ -88,7 +88,7 @@
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "1.1.2",
     "prettier": "2.7.1",
-    "renovate": "32.125.0"
+    "renovate": "32.135.1"
   },
   "packageManager": "yarn@3.2.2",
   "engines": {
