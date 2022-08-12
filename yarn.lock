@@ -1215,7 +1215,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.18.10":
+"@babel/core@npm:*, @babel/core@npm:7.18.10":
   version: 7.18.10
   resolution: "@babel/core@npm:7.18.10"
   dependencies:
@@ -1238,7 +1238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:7.18.9, @babel/eslint-parser@npm:^7.0.0":
+"@babel/eslint-parser@npm:*, @babel/eslint-parser@npm:7.18.9":
   version: 7.18.9
   resolution: "@babel/eslint-parser@npm:7.18.9"
   dependencies:
@@ -1339,13 +1339,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-plugin-utils@npm:^7.12.13, @babel/helper-plugin-utils@npm:^7.18.6":
-  version: 7.18.9
-  resolution: "@babel/helper-plugin-utils@npm:7.18.9"
-  checksum: ebae876cd60f1fe238c7210986093845fa5c4cad5feeda843ea4d780bf068256717650376d3af2a5e760f2ed6a35c065ae144f99c47da3e54aa6cba99d8804e0
-  languageName: node
-  linkType: hard
-
 "@babel/helper-simple-access@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/helper-simple-access@npm:7.18.6"
@@ -1422,28 +1415,6 @@ __metadata:
   bin:
     parser: ./bin/babel-parser.js
   checksum: 81a966b334e3ef397e883c64026265a5ae0ad435a86f52a84f60a5ee1efc0738c1f42c55e0dc5f191cc6a83ba0c61350433eee417bf1dff160ca5f3cfde244c6
-  languageName: node
-  linkType: hard
-
-"@babel/plugin-syntax-class-properties@npm:^7.0.0":
-  version: 7.12.13
-  resolution: "@babel/plugin-syntax-class-properties@npm:7.12.13"
-  dependencies:
-    "@babel/helper-plugin-utils": ^7.12.13
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 24f34b196d6342f28d4bad303612d7ff566ab0a013ce89e775d98d6f832969462e7235f3e7eaf17678a533d4be0ba45d3ae34ab4e5a9dcbda5d98d49e5efa2fc
-  languageName: node
-  linkType: hard
-
-"@babel/plugin-syntax-jsx@npm:^7.0.0":
-  version: 7.18.6
-  resolution: "@babel/plugin-syntax-jsx@npm:7.18.6"
-  dependencies:
-    "@babel/helper-plugin-utils": ^7.18.6
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 6d37ea972970195f1ffe1a54745ce2ae456e0ac6145fae9aa1480f297248b262ea6ebb93010eddb86ebfacb94f57c05a1fc5d232b9a67325b09060299d515c67
   languageName: node
   linkType: hard
 
@@ -2629,6 +2600,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rushstack/eslint-patch@npm:^1.1.0":
+  version: 1.1.4
+  resolution: "@rushstack/eslint-patch@npm:1.1.4"
+  checksum: 597bc84e2f76c7f5f2bcedd4c4b1dd5d02524167a0f67ac588e8fbbd94666297aaf0e6a53ec46afb95554164fc1169ff782841003280e4bc98e80ab6559412c6
+  languageName: node
+  linkType: hard
+
 "@seald-io/binary-search-tree@npm:^1.0.2":
   version: 1.0.2
   resolution: "@seald-io/binary-search-tree@npm:1.0.2"
@@ -3185,13 +3163,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:1.0.0-alpha.26":
-  version: 1.0.0-alpha.26
-  resolution: "@w5s/eslint-config@npm:1.0.0-alpha.26"
+"@w5s/eslint-config@npm:1.0.0-alpha.27":
+  version: 1.0.0-alpha.27
+  resolution: "@w5s/eslint-config@npm:1.0.0-alpha.27"
   dependencies:
-    "@babel/eslint-parser": ^7.0.0
-    "@babel/plugin-syntax-class-properties": ^7.0.0
-    "@babel/plugin-syntax-jsx": ^7.0.0
+    "@babel/core": "*"
+    "@babel/eslint-parser": "*"
+    "@rushstack/eslint-patch": ^1.1.0
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
     eslint-config-airbnb-base: ^15.0.0
@@ -3207,13 +3185,13 @@ __metadata:
     eslint-plugin-total-functions: ^6.0.0
     eslint-plugin-unicorn: ^43.0.0
   peerDependencies:
-    eslint: 5.x || 6.x || 7.x || 8.x
+    eslint: 8.x
     prettier: 2.x
     typescript: 4.x
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: d1dfe0cfbf9a9bed29fb2b53ad7996a21c8028bda7e4f93fd372a80c8efbadd320c236089bbe350bcbd96f0b72b454060edc66139ac25b041d3f460681caa74e
+  checksum: 38234bdaca1ee94dcf62b4ad196a5be23651845666e39fc09387683304ccfc632230902274721756a5e3cf8b83541543f9f23576bc7d8fffdc441e56d1a905a0
   languageName: node
   linkType: hard
 
@@ -3225,7 +3203,7 @@ __metadata:
     "@babel/eslint-parser": 7.18.9
     "@commitlint/cli": 17.0.3
     "@w5s/commitlint-config": 1.0.0-alpha.8
-    "@w5s/eslint-config": 1.0.0-alpha.26
+    "@w5s/eslint-config": 1.0.0-alpha.27
     ajv-cli: 5.0.0
     concurrently: 7.3.0
     cspell: 6.6.1
