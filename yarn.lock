@@ -2489,42 +2489,42 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/read-project-manifest@npm:3.0.6":
-  version: 3.0.6
-  resolution: "@pnpm/read-project-manifest@npm:3.0.6"
+"@pnpm/read-project-manifest@npm:3.0.9":
+  version: 3.0.9
+  resolution: "@pnpm/read-project-manifest@npm:3.0.9"
   dependencies:
     "@pnpm/error": 3.0.1
     "@pnpm/graceful-fs": 2.0.0
-    "@pnpm/types": 8.4.0
-    "@pnpm/write-project-manifest": 3.0.5
-    detect-indent: ^6.0.0
+    "@pnpm/types": 8.5.0
+    "@pnpm/write-project-manifest": 3.0.7
+    detect-indent: ^6.1.0
     fast-deep-equal: ^3.1.3
     is-windows: ^1.0.2
-    json5: ^2.1.3
-    parse-json: ^5.1.0
+    json5: ^2.2.1
+    parse-json: ^5.2.0
     read-yaml-file: ^2.1.0
     sort-keys: ^4.2.0
     strip-bom: ^4.0.0
-  checksum: 56d2f7c1bba0a23e4c745f99f7be368db4bce5bade6b0650cd1ba34429455537d17491950e07ff82150f6487c5d77e4dd744fdb4071e3aafe06106bce2d1d723
+  checksum: eadf56956a48e67b9603a056169437d689d752a1c901096016102721f2ff428bfee60c71b2ad6c0814388807e2e76463a37c4d2831c2b1377a1fcf2b85589955
   languageName: node
   linkType: hard
 
-"@pnpm/types@npm:8.4.0":
-  version: 8.4.0
-  resolution: "@pnpm/types@npm:8.4.0"
-  checksum: f25663279299fef2718e73f2c859488c0e310d67aeebe925edb65642ba53e64d9a65c7980e60b7445e409928bf0544aa3bdcb6540b25f1d045ae11f969fe3977
+"@pnpm/types@npm:8.5.0":
+  version: 8.5.0
+  resolution: "@pnpm/types@npm:8.5.0"
+  checksum: 53048f237711cd24e73dfe6b1d3e450b392c82e276ebfc240cdda42346fc607d11a1939fa60d0b65e3c0e0867a194fd3734b588ebd236424c46b272cbbea4fee
   languageName: node
   linkType: hard
 
-"@pnpm/write-project-manifest@npm:3.0.5":
-  version: 3.0.5
-  resolution: "@pnpm/write-project-manifest@npm:3.0.5"
+"@pnpm/write-project-manifest@npm:3.0.7":
+  version: 3.0.7
+  resolution: "@pnpm/write-project-manifest@npm:3.0.7"
   dependencies:
-    "@pnpm/types": 8.4.0
-    json5: ^2.1.3
+    "@pnpm/types": 8.5.0
+    json5: ^2.2.1
     write-file-atomic: ^3.0.3
     write-yaml-file: ^4.2.0
-  checksum: 74f83b6229567ad3121e75769eaa041ec17eb4eeb8e148c559c1914b619a9b4a1543a7a00358206ddb92996903ac33bb86b16898d1739adef05f162685e5dc37
+  checksum: 2893e1a701735a6bf257fe2617ecc6a0b0915f105a59682464b74b3f1044c909236d79ca5852ede5fb2489cc94f237a8535b0c3097e955497f0fde4208defe93
   languageName: node
   linkType: hard
 
@@ -3215,7 +3215,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.7.1
-    renovate: 32.135.1
+    renovate: 32.159.0
   languageName: unknown
   linkType: soft
 
@@ -4747,7 +4747,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-indent@npm:6.1.0, detect-indent@npm:^6.0.0":
+"detect-indent@npm:6.1.0, detect-indent@npm:^6.0.0, detect-indent@npm:^6.1.0":
   version: 6.1.0
   resolution: "detect-indent@npm:6.1.0"
   checksum: ab953a73c72dbd4e8fc68e4ed4bfd92c97eb6c43734af3900add963fd3a9316f3bc0578b018b24198d4c31a358571eff5f0656e81a1f3b9ad5c547d58b2d093d
@@ -5628,7 +5628,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.0.3, fast-glob@npm:^3.2.2, fast-glob@npm:^3.2.4, fast-glob@npm:^3.2.9":
+"fast-glob@npm:^3.0.3, fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.2, fast-glob@npm:^3.2.9":
   version: 3.2.11
   resolution: "fast-glob@npm:3.2.11"
   dependencies:
@@ -5725,15 +5725,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-packages@npm:9.0.6":
-  version: 9.0.6
-  resolution: "find-packages@npm:9.0.6"
+"find-packages@npm:9.0.9":
+  version: 9.0.9
+  resolution: "find-packages@npm:9.0.9"
   dependencies:
-    "@pnpm/read-project-manifest": 3.0.6
-    "@pnpm/types": 8.4.0
-    fast-glob: ^3.2.4
+    "@pnpm/read-project-manifest": 3.0.9
+    "@pnpm/types": 8.5.0
+    fast-glob: ^3.2.11
     p-filter: ^2.1.0
-  checksum: 242396708da938cd1ff773d562c74584855ac1a69c6e513e5293bf41b563cc11d56ef749977a62fc7343c0f92f30f4b223920e8868cec8fe3fd582a980910983
+  checksum: e392c6d929a3f6b45d0513d5dc8085fa8dd6b3910b11cdcbf275218e820d333ec303d59dd6597d9d53eed079289a88935811bda7226188a0a3616f0dcd1af9e8
   languageName: node
   linkType: hard
 
@@ -6199,15 +6199,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"good-enough-parser@npm:1.1.7":
-  version: 1.1.7
-  resolution: "good-enough-parser@npm:1.1.7"
+"good-enough-parser@npm:1.1.18":
+  version: 1.1.18
+  resolution: "good-enough-parser@npm:1.1.18"
   dependencies:
     "@thi.ng/zipper": 1.0.3
     "@types/moo": 0.5.5
     klona: 2.0.5
     moo: 0.5.1
-  checksum: 9e25852a14c652e16163536cce81935d133dd807019ee7745868dbe39282c46a7ebf11efd79b83516d05568f1562c1b4c60d98aa04d6f3a39421645216aceb91
+  checksum: f08083913824ade622a4e2e3420895beed741a47cb3cbdfdb15ae5719d0e5141fea83b7fe74744b0cdee009487ec6b742e17124d5ecfac2e1c31cd6edb37b1d2
   languageName: node
   linkType: hard
 
@@ -8559,7 +8559,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse-json@npm:^5.0.0, parse-json@npm:^5.1.0":
+"parse-json@npm:^5.0.0, parse-json@npm:^5.2.0":
   version: 5.2.0
   resolution: "parse-json@npm:5.2.0"
   dependencies:
@@ -9087,9 +9087,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:32.135.1":
-  version: 32.135.1
-  resolution: "renovate@npm:32.135.1"
+"renovate@npm:32.159.0":
+  version: 32.159.0
+  resolution: "renovate@npm:32.159.0"
   dependencies:
     "@aws-sdk/client-ec2": 3.112.0
     "@aws-sdk/client-ecr": 3.112.0
@@ -9125,13 +9125,13 @@ __metadata:
     emojibase-regex: 6.0.1
     extract-zip: 2.0.1
     fast-safe-stringify: 2.1.1
-    find-packages: 9.0.6
+    find-packages: 9.0.9
     find-up: 5.0.0
     fs-extra: 10.1.0
     git-url-parse: 12.0.0
     github-url-from-git: 1.5.0
     global-agent: 3.0.0
-    good-enough-parser: 1.1.7
+    good-enough-parser: 1.1.18
     got: 11.8.5
     graph-data-structure: 2.0.0
     handlebars: 4.7.7
@@ -9164,7 +9164,7 @@ __metadata:
     semver-stable: 3.0.0
     semver-utils: 1.1.4
     shlex: 2.1.2
-    simple-git: 3.10.0
+    simple-git: 3.11.0
     slugify: 1.6.5
     traverse: 0.6.6
     tslib: 2.4.0
@@ -9178,7 +9178,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: abeb588c81101987d1222770afd5621e8382b08ef39c6efe7ebf5fe85a7866459ab7b5d8af08cbfa09d2f3008c4307021957d8ad313a8dfca86ec00cee2522e5
+  checksum: c8262ec4484c7b48ae9fd8b1828e236b044137e32940f4b697dd8a2ec9b3cad93e71894813c732ac68510c567af7cbe3d7b9be10efae1ccc9bc7444f54a2dbe2
   languageName: node
   linkType: hard
 
@@ -9546,14 +9546,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.10.0":
-  version: 3.10.0
-  resolution: "simple-git@npm:3.10.0"
+"simple-git@npm:3.11.0":
+  version: 3.11.0
+  resolution: "simple-git@npm:3.11.0"
   dependencies:
     "@kwsites/file-exists": ^1.1.1
     "@kwsites/promise-deferred": ^1.1.1
     debug: ^4.3.4
-  checksum: 167a6c4b2634bfcc4353a87ccbd7f66ecffa9111990341f7208614e70750f7b920c8858202dd8a535e4534f7539e0d94e89704a2d98cff47002f7dc989a4075f
+  checksum: daf36f14b39266a1becc99a18f08e34214e56c3b27c7a70d3614bf3e24fbfd945c5758afdbdc74b063343a5e084fdf377dd0999ce69225f7c2027a294b40c526
   languageName: node
   linkType: hard
 
