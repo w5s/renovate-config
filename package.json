@@ -80,7 +80,7 @@
     "ajv-cli": "5.0.0",
     "concurrently": "7.3.0",
     "cspell": "6.6.1",
-    "eslint": "8.21.0",
+    "eslint": "8.22.0",
     "husky": "8.0.1",
     "is-ci": "3.0.1",
     "lint-staged": "13.0.3",
