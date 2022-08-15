@@ -3215,7 +3215,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.7.1
-    renovate: 32.159.0
+    renovate: 32.159.5
   languageName: unknown
   linkType: soft
 
@@ -8362,12 +8362,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openpgp@npm:5.3.1":
-  version: 5.3.1
-  resolution: "openpgp@npm:5.3.1"
+"openpgp@npm:5.4.0":
+  version: 5.4.0
+  resolution: "openpgp@npm:5.4.0"
   dependencies:
     asn1.js: ^5.0.0
-  checksum: b149af872b8b4f829dec7ae0158e753f9768f3fe5aa5d43ad6206f397671e7d7e0939183cc5a8e4db858bbdc9aa226dc0db85e20b1b2c7d0db770ed31197d575
+  checksum: 7e7d049d0b500163b2e89286a622ae47a4bd54a8f2b34cb4868b29d60dc4f24fdc166cd92d641b383e2477916d12911e1b594bb8716481b20f7d88af53578587
   languageName: node
   linkType: hard
 
@@ -9087,9 +9087,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:32.159.0":
-  version: 32.159.0
-  resolution: "renovate@npm:32.159.0"
+"renovate@npm:32.159.5":
+  version: 32.159.5
+  resolution: "renovate@npm:32.159.5"
   dependencies:
     "@aws-sdk/client-ec2": 3.112.0
     "@aws-sdk/client-ecr": 3.112.0
@@ -9150,7 +9150,7 @@ __metadata:
     moo: 0.5.1
     nanoid: 3.3.4
     node-html-parser: 5.3.3
-    openpgp: 5.3.1
+    openpgp: 5.4.0
     p-all: 3.0.0
     p-map: 4.0.0
     p-queue: 6.6.2
@@ -9164,7 +9164,7 @@ __metadata:
     semver-stable: 3.0.0
     semver-utils: 1.1.4
     shlex: 2.1.2
-    simple-git: 3.11.0
+    simple-git: 3.12.0
     slugify: 1.6.5
     traverse: 0.6.6
     tslib: 2.4.0
@@ -9178,7 +9178,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: c8262ec4484c7b48ae9fd8b1828e236b044137e32940f4b697dd8a2ec9b3cad93e71894813c732ac68510c567af7cbe3d7b9be10efae1ccc9bc7444f54a2dbe2
+  checksum: 5f42c21f5c418b679ec2f839d64463749a50e66869d6da2a32316aa24366f9130e5117425bbca974161699160a182ff4ebc708ef3999d634030f6ee293a719bc
   languageName: node
   linkType: hard
 
@@ -9546,14 +9546,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.11.0":
-  version: 3.11.0
-  resolution: "simple-git@npm:3.11.0"
+"simple-git@npm:3.12.0":
+  version: 3.12.0
+  resolution: "simple-git@npm:3.12.0"
   dependencies:
     "@kwsites/file-exists": ^1.1.1
     "@kwsites/promise-deferred": ^1.1.1
     debug: ^4.3.4
-  checksum: daf36f14b39266a1becc99a18f08e34214e56c3b27c7a70d3614bf3e24fbfd945c5758afdbdc74b063343a5e084fdf377dd0999ce69225f7c2027a294b40c526
+  checksum: a862851030a3f2100f33cafe68de255ba13a8ddef30cbb17a9b8d9a74cc903c7c39ab8b4afde9f6c362a9f4bb65b09989356f6c58171c190611d3916a4802a1e
   languageName: node
   linkType: hard
 
