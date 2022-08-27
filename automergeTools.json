@@ -32,7 +32,8 @@
         "ts-node",
         "ts-node-dev",
         "tsconfig-paths",
-        "turbo"
+        "turbo",
+        "yarn"
       ]
     }
   ]
