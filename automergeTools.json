@@ -3,16 +3,9 @@
   "description": "Automerge minor updates of common dev libraries",
   "packageRules": [
     {
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "matchDepTypes": [
-        "devDependencies"
-      ],
-      "labels": [
-        "AUTOMERGE"
-      ],
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchDepTypes": ["devDependencies"],
+      "labels": ["AUTOMERGE"],
       "automerge": true,
       "matchPackageNames": [
         "concurrently",

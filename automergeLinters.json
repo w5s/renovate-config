@@ -3,27 +3,19 @@
   "description": "Automerge all non-major linter package updates",
   "packageRules": [
     {
-      "extends": [
-        "packages:linters"
-      ],
+      "extends": ["packages:linters"],
       "matchPackageNames": [
         "prettier",
         "@babel/eslint-parser",
         "@commitlint/cli"
       ],
-      "labels": [
-        "AUTOMERGE"
-      ],
+      "labels": ["AUTOMERGE"],
       "automerge": true
     },
     {
-      "extends": [
-        "github>w5s/renovate-config:groupCSpell"
-      ],
+      "extends": ["github>w5s/renovate-config:groupCSpell"],
       "matchPackageNames": [],
-      "labels": [
-        "AUTOMERGE"
-      ],
+      "labels": ["AUTOMERGE"],
       "automerge": true
     }
   ]

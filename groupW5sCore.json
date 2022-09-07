@@ -2,9 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchSourceUrlPrefixes": [
-        "https://github.com/w5s/std"
-      ],
+      "matchSourceUrlPrefixes": ["https://github.com/w5s/std"],
       "groupName": "W5s core packages"
     }
   ]

@@ -4,18 +4,12 @@
     "github>w5s/renovate-config:application",
     "github>w5s/renovate-config:teamAssignees"
   ],
-  "ignorePaths": [
-    "**/node_modules/**"
-  ],
+  "ignorePaths": ["**/node_modules/**"],
   "packageRules": [
     {
-      "labels": [
-        "AUTOMERGE"
-      ],
+      "labels": ["AUTOMERGE"],
       "automerge": true,
-      "matchPackageNames": [
-        "renovate"
-      ]
+      "matchPackageNames": ["renovate"]
     }
   ]
 }

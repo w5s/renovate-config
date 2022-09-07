@@ -3,18 +3,9 @@
   "description": "Automerge Jest",
   "packageRules": [
     {
-      "matchPackageNames": [
-        "@types/jest",
-        "babel-jest",
-        "ts-jest",
-        "expect"
-      ],
-      "matchPackagePrefixes": [
-        "jest"
-      ],
-      "labels": [
-        "AUTOMERGE"
-      ],
+      "matchPackageNames": ["@types/jest", "babel-jest", "ts-jest", "expect"],
+      "matchPackagePrefixes": ["jest"],
+      "labels": ["AUTOMERGE"],
       "automerge": true
     }
   ]

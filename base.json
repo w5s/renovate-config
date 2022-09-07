@@ -13,41 +13,25 @@
   "ignoreUnstable": true,
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": [
-      "after 2am and before 7am on Monday"
-    ],
+    "schedule": ["after 2am and before 7am on Monday"],
     "prPriority": 1,
-    "labels": [
-      "AUTOMERGE"
-    ],
+    "labels": ["AUTOMERGE"],
     "automerge": true
   },
   "packageRules": [
     {
-      "matchDepTypes": [
-        "dependencies"
-      ],
-      "matchUpdateTypes": [
-        "major"
-      ],
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["major"],
       "stabilityDays": 7
     },
     {
-      "matchDepTypes": [
-        "dependencies"
-      ],
-      "matchUpdateTypes": [
-        "minor"
-      ],
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["minor"],
       "stabilityDays": 2
     },
     {
-      "matchDepTypes": [
-        "dependencies"
-      ],
-      "matchUpdateTypes": [
-        "patch"
-      ],
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["patch"],
       "stabilityDays": 2
     }
   ],
