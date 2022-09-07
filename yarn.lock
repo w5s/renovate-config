@@ -2780,7 +2780,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@technote-space/anchor-markdown-header@npm:^1.1.36":
+"@technote-space/anchor-markdown-header@npm:^1.1.21":
   version: 1.1.37
   resolution: "@technote-space/anchor-markdown-header@npm:1.1.37"
   dependencies:
@@ -2789,15 +2789,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@technote-space/doctoc@npm:^2.4.7":
-  version: 2.5.1
-  resolution: "@technote-space/doctoc@npm:2.5.1"
+"@technote-space/doctoc@npm:2.4.7":
+  version: 2.4.7
+  resolution: "@technote-space/doctoc@npm:2.4.7"
   dependencies:
-    "@technote-space/anchor-markdown-header": ^1.1.36
-    "@textlint/markdown-to-ast": ^12.2.1
-    htmlparser2: ^8.0.1
+    "@technote-space/anchor-markdown-header": ^1.1.21
+    "@textlint/markdown-to-ast": ^12.0.0
+    htmlparser2: ^6.1.0
     update-section: ^0.3.3
-  checksum: f80a8483d3a104713a91a99ffce6e668c8ec8b255cbca17f1ef985ac6eb214b1c427d96f0aef08843c3c3eff344426ea4f22bb86f71007ae22d8e6979ca916ab
+  checksum: 603cb9781799f6df6f0f7d1669ac19c8c8876f4b2deffebcd44cf05aca2f295474571a2dc7cbd1114e9ea750bef78382daf10bd6b33d6b509166eaf489786e75
   languageName: node
   linkType: hard
 
@@ -2808,7 +2808,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@textlint/markdown-to-ast@npm:^12.2.1":
+"@textlint/markdown-to-ast@npm:^12.0.0":
   version: 12.2.1
   resolution: "@textlint/markdown-to-ast@npm:12.2.1"
   dependencies:
@@ -3347,7 +3347,7 @@ __metadata:
     husky: 8.0.1
     is-ci: 3.0.1
     lint-staged: 13.0.3
-    markdown-magic: 2.6.0
+    markdown-magic: 2.6.1
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.7.1
@@ -4954,25 +4954,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dom-serializer@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "dom-serializer@npm:2.0.0"
-  dependencies:
-    domelementtype: ^2.3.0
-    domhandler: ^5.0.2
-    entities: ^4.2.0
-  checksum: cd1810544fd8cdfbd51fa2c0c1128ec3a13ba92f14e61b7650b5de421b88205fd2e3f0cc6ace82f13334114addb90ed1c2f23074a51770a8e9c1273acbc7f3e6
-  languageName: node
-  linkType: hard
-
-"domelementtype@npm:^2.0.1, domelementtype@npm:^2.2.0, domelementtype@npm:^2.3.0":
+"domelementtype@npm:^2.0.1, domelementtype@npm:^2.2.0":
   version: 2.3.0
   resolution: "domelementtype@npm:2.3.0"
   checksum: ee837a318ff702622f383409d1f5b25dd1024b692ef64d3096ff702e26339f8e345820f29a68bcdcea8cfee3531776b3382651232fbeae95612d6f0a75efb4f6
   languageName: node
   linkType: hard
 
-"domhandler@npm:^4.2.0, domhandler@npm:^4.3.1":
+"domhandler@npm:^4.0.0, domhandler@npm:^4.2.0, domhandler@npm:^4.3.1":
   version: 4.3.1
   resolution: "domhandler@npm:4.3.1"
   dependencies:
@@ -4981,16 +4970,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domhandler@npm:^5.0.1, domhandler@npm:^5.0.2":
-  version: 5.0.3
-  resolution: "domhandler@npm:5.0.3"
-  dependencies:
-    domelementtype: ^2.3.0
-  checksum: 0f58f4a6af63e6f3a4320aa446d28b5790a009018707bce2859dcb1d21144c7876482b5188395a188dfa974238c019e0a1e610d2fc269a12b2c192ea2b0b131c
-  languageName: node
-  linkType: hard
-
-"domutils@npm:^2.8.0":
+"domutils@npm:^2.5.2, domutils@npm:^2.8.0":
   version: 2.8.0
   resolution: "domutils@npm:2.8.0"
   dependencies:
@@ -4998,17 +4978,6 @@ __metadata:
     domelementtype: ^2.2.0
     domhandler: ^4.2.0
   checksum: abf7434315283e9aadc2a24bac0e00eab07ae4313b40cc239f89d84d7315ebdfd2fb1b5bf750a96bc1b4403d7237c7b2ebf60459be394d625ead4ca89b934391
-  languageName: node
-  linkType: hard
-
-"domutils@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "domutils@npm:3.0.1"
-  dependencies:
-    dom-serializer: ^2.0.0
-    domelementtype: ^2.3.0
-    domhandler: ^5.0.1
-  checksum: 23aa7a840572d395220e173cb6263b0d028596e3950100520870a125af33ff819e6f609e1606d6f7d73bd9e7feb03bb404286e57a39063b5384c62b724d987b3
   languageName: node
   linkType: hard
 
@@ -5157,13 +5126,6 @@ __metadata:
   version: 2.2.0
   resolution: "entities@npm:2.2.0"
   checksum: 19010dacaf0912c895ea262b4f6128574f9ccf8d4b3b65c7e8334ad0079b3706376360e28d8843ff50a78aabcb8f08f0a32dbfacdc77e47ed77ca08b713669b3
-  languageName: node
-  linkType: hard
-
-"entities@npm:^4.2.0, entities@npm:^4.3.0":
-  version: 4.3.1
-  resolution: "entities@npm:4.3.1"
-  checksum: e8f6d2bac238494b2355e90551893882d2675142be7e7bdfcb15248ed0652a630678ba0e3a8dc750693e736cb6011f504c27dabeb4cd3330560092e88b105090
   languageName: node
   linkType: hard
 
@@ -6492,15 +6454,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"htmlparser2@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "htmlparser2@npm:8.0.1"
+"htmlparser2@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "htmlparser2@npm:6.1.0"
   dependencies:
-    domelementtype: ^2.3.0
-    domhandler: ^5.0.2
-    domutils: ^3.0.1
-    entities: ^4.3.0
-  checksum: 06d5c71e8313597722bc429ae2a7a8333d77bd3ab07ccb916628384b37332027b047f8619448d8f4a3312b6609c6ea3302a4e77435d859e9e686999e6699ca39
+    domelementtype: ^2.0.1
+    domhandler: ^4.0.0
+    domutils: ^2.5.2
+    entities: ^2.0.0
+  checksum: 81a7b3d9c3bb9acb568a02fc9b1b81ffbfa55eae7f1c41ae0bf840006d1dbf54cb3aa245b2553e2c94db674840a9f0fdad7027c9a9d01a062065314039058c4e
   languageName: node
   linkType: hard
 
@@ -7611,11 +7573,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-magic@npm:2.6.0":
-  version: 2.6.0
-  resolution: "markdown-magic@npm:2.6.0"
+"markdown-magic@npm:2.6.1":
+  version: 2.6.1
+  resolution: "markdown-magic@npm:2.6.1"
   dependencies:
-    "@technote-space/doctoc": ^2.4.7
+    "@technote-space/doctoc": 2.4.7
     commander: ^7.2.0
     deepmerge: ^4.2.2
     find-up: ^5.0.0
@@ -7627,7 +7589,7 @@ __metadata:
   bin:
     markdown: cli.js
     md-magic: cli.js
-  checksum: 553963862fb5a769767ccfcc34a6f8dcc9dd4c11702229f70bb3cd431fd942e70b2de21d699613f7a34746d25c167ef6bf059d361f53488c36952cf3c196ca36
+  checksum: eb7234cba516a658b1099cb8db458655a5945e2663e97daa1dbb7736d07c0ff5de8cd1ff0eca9b8ce9c7c702cddc6d57a9dc943ded45c935bbe85ca377d4c268
   languageName: node
   linkType: hard
 
