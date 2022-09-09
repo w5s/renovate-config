@@ -1,15 +1,9 @@
 {
   "version": "0.2",
   "language": "en",
-  "words": [
-    "automerge",
-    "commitlint",
-    "typedoc"
-  ],
+  "words": ["automerge", "commitlint", "typedoc"],
   "flagWords": [],
-  "ignoreWords": [
-    "PKGJSON"
-  ],
+  "ignoreWords": ["PKGJSON"],
   "ignorePaths": [
     "**/build/**",
     "**/*.config.*",

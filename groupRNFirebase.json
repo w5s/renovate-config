@@ -3,9 +3,7 @@
   "packageRules": [
     {
       "groupName": "React Native Firebase packages",
-      "matchPackagePatterns": [
-        "^@react-native-firebase/"
-      ]
+      "matchPackagePatterns": ["^@react-native-firebase/"]
     }
   ]
 }

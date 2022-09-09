@@ -3,16 +3,9 @@
   "description": "Automerge minor updates of presets",
   "packageRules": [
     {
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "matchDepTypes": [
-        "devDependencies"
-      ],
-      "labels": [
-        "AUTOMERGE"
-      ],
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchDepTypes": ["devDependencies"],
+      "labels": ["AUTOMERGE"],
       "automerge": true,
       "matchPackagePatterns": [
         "commitlint-config$",
