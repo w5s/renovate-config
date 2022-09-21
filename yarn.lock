@@ -3417,9 +3417,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:1.0.0-alpha.31":
-  version: 1.0.0-alpha.31
-  resolution: "@w5s/eslint-config@npm:1.0.0-alpha.31"
+"@w5s/eslint-config@npm:1.0.0-alpha.32":
+  version: 1.0.0-alpha.32
+  resolution: "@w5s/eslint-config@npm:1.0.0-alpha.32"
   dependencies:
     "@babel/core": "*"
     "@babel/eslint-parser": "*"
@@ -3448,7 +3448,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 28858f7f65f72fa61e0e7d07643904a688be58e19324d275ddddff39c61ce04294ab1122306272c38bd8e0c707a29f6826a3e27396105dfa135ce5ae969ed3c3
+  checksum: 291e0d734809dbb53b614757434111e49a762f8710b19ca7f1c516d525f4d888d8569e26eff1917b33b0a67281169ad324ee626548c5a9f30624df963e1c6352
   languageName: node
   linkType: hard
 
@@ -3460,7 +3460,7 @@ __metadata:
     "@babel/eslint-parser": 7.19.1
     "@commitlint/cli": 17.1.2
     "@w5s/commitlint-config": 1.0.0-alpha.13
-    "@w5s/eslint-config": 1.0.0-alpha.31
+    "@w5s/eslint-config": 1.0.0-alpha.32
     ajv-cli: 5.0.0
     concurrently: 7.4.0
     cspell: 6.9.1
