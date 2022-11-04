@@ -75,7 +75,7 @@
     "@babel/core": "7.19.6",
     "@babel/eslint-parser": "7.19.1",
     "@commitlint/cli": "17.2.0",
-    "@w5s/commitlint-config": "1.0.0-alpha.14",
+    "@w5s/commitlint-config": "1.0.0-alpha.15",
     "@w5s/eslint-config": "1.0.0-alpha.33",
     "ajv-cli": "5.0.0",
     "concurrently": "7.5.0",
