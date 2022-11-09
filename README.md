@@ -2,7 +2,6 @@
 # W5s Renovate configuration _(@w5s/renovate-config)_
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-[![NPM Version][package-version-svg]][package-url]
 [![License][license-image]][license-url]
 
 <!-- AUTO-GENERATED-CONTENT:START (PKGJSON:template=> ${description}&unknownTxt= ) -->
@@ -42,17 +41,7 @@
 }
 ```
 
-**Random core team assignees** :
-
-```json
-{
-  "extends": [
-    ..., "github>w5s/renovate-config:teamAssignees"
-  ]
-}
-```
-
-  > [Read the documentation](https://docs.renovatebot.com/configuration-options/) to improve your configuration.
+> [Read the documentation](https://docs.renovatebot.com/configuration-options/) to improve your configuration.
 
 ## License
 <!-- AUTO-GENERATED-CONTENT:START (PKGJSON:template=[${license}][license-url] © ${author}) -->
