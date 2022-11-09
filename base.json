@@ -1,6 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Default base configuration for all W5s projects.",
+  "assigneesFromCodeOwners": true,
+  "assigneesSampleSize": 1,
   "automerge": false,
   "dependencyDashboard": true,
   "extends": [
@@ -8,12 +10,12 @@
     "helpers:disableTypesNodeMajor",
     "github>w5s/renovate-config:groupAll",
     "github>w5s/renovate-config:automergeAll",
-    "github>w5s/renovate-config:commit"
+    "github>w5s/renovate-config:commit",
+    "github>w5s/renovate-config:schedule"
   ],
   "ignoreUnstable": true,
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["after 2am and before 7am on Monday"],
     "prPriority": 1,
     "labels": ["AUTOMERGE"],
     "automerge": true
@@ -40,11 +42,6 @@
   "prHourlyLimit": 0,
   "rangeStrategy": "auto",
   "rebaseWhen": "behind-base-branch",
-  "schedule": [
-    "after 9pm every weekday",
-    "before 6am every weekday",
-    "every weekend"
-  ],
   "separateMajorMinor": true,
   "separateMinorPatch": true,
   "updateNotScheduled": true,
