@@ -3,7 +3,6 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["^@types/"],
-      "labels": ["AUTOMERGE"],
       "automerge": true,
       "major": {
         "automerge": false

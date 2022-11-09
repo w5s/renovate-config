@@ -5,7 +5,6 @@
     {
       "matchPackageNames": ["@types/jest", "babel-jest", "ts-jest", "expect"],
       "matchPackagePrefixes": ["jest", "@jest"],
-      "labels": ["AUTOMERGE"],
       "automerge": true
     }
   ]

@@ -4,7 +4,6 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
-      "labels": ["AUTOMERGE"],
       "automerge": true,
       "matchPackageNames": ["@babel/core"]
     }

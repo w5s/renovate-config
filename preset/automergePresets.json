@@ -5,7 +5,6 @@
     {
       "matchUpdateTypes": ["minor", "patch"],
       "matchDepTypes": ["devDependencies"],
-      "labels": ["AUTOMERGE"],
       "automerge": true,
       "matchPackagePatterns": [
         "commitlint-config$",

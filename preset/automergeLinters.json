@@ -9,13 +9,11 @@
         "@babel/eslint-parser",
         "@commitlint/cli"
       ],
-      "labels": ["AUTOMERGE"],
       "automerge": true
     },
     {
       "extends": ["github>w5s/renovate-config//preset/groupCSpell"],
       "matchPackageNames": [],
-      "labels": ["AUTOMERGE"],
       "automerge": true
     }
   ]
