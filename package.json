@@ -49,6 +49,9 @@
     ],
     "*.js?(x)": [
       "eslint"
+    ],
+    "*.yml": [
+      "eslint"
     ]
   },
   "eslintConfig": {
