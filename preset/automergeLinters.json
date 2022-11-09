@@ -13,7 +13,7 @@
       "automerge": true
     },
     {
-      "extends": ["github>w5s/renovate-config:groupCSpell"],
+      "extends": ["github>w5s/renovate-config:preset/groupCSpell"],
       "matchPackageNames": [],
       "labels": ["AUTOMERGE"],
       "automerge": true
