@@ -1,12 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>w5s/renovate-config:preset/automergeBabel",
-    "github>w5s/renovate-config:preset/automergeLinters",
-    "github>w5s/renovate-config:preset/automergePresets",
-    "github>w5s/renovate-config:preset/automergeJest",
-    "github>w5s/renovate-config:preset/automergeTools",
-    "github>w5s/renovate-config:preset/automergeTypescript",
-    "github>w5s/renovate-config:preset/automergeTypesMinor"
+    "github>w5s/renovate-config//preset/automergeBabel",
+    "github>w5s/renovate-config//preset/automergeLinters",
+    "github>w5s/renovate-config//preset/automergePresets",
+    "github>w5s/renovate-config//preset/automergeJest",
+    "github>w5s/renovate-config//preset/automergeTools",
+    "github>w5s/renovate-config//preset/automergeTypescript",
+    "github>w5s/renovate-config//preset/automergeTypesMinor"
   ]
 }

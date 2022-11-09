@@ -3,10 +3,10 @@
   "extends": [
     "group:monorepos",
     "group:recommended",
-    "github>w5s/renovate-config:preset/groupAlgoliaClientJavascript",
-    "github>w5s/renovate-config:preset/groupCSpell",
-    "github>w5s/renovate-config:preset/groupW5sCore",
-    "github>w5s/renovate-config:preset/groupRNFirebase",
-    "github>w5s/renovate-config:preset/groupReact"
+    "github>w5s/renovate-config//preset/groupAlgoliaClientJavascript",
+    "github>w5s/renovate-config//preset/groupCSpell",
+    "github>w5s/renovate-config//preset/groupW5sCore",
+    "github>w5s/renovate-config//preset/groupRNFirebase",
+    "github>w5s/renovate-config//preset/groupReact"
   ]
 }
