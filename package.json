@@ -54,7 +54,8 @@
   "eslintConfig": {
     "extends": [
       "@w5s/eslint-config/es",
-      "@w5s/eslint-config/json"
+      "@w5s/eslint-config/json",
+      "@w5s/eslint-config/yml"
     ],
     "root": true
   },
