@@ -3,6 +3,7 @@
   "description": "Automerge minor updates of common dev libraries",
   "packageRules": [
     {
+      "matchSourceUrlPrefixes": ["https://github.com/yarnpkg/berry"],
       "matchUpdateTypes": ["minor", "patch"],
       "matchDepTypes": ["devDependencies"],
       "automerge": true,
