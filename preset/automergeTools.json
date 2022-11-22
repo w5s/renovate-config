@@ -3,10 +3,8 @@
   "description": "Automerge minor updates of common dev libraries",
   "packageRules": [
     {
-      "matchSourceUrlPrefixes": ["https://github.com/yarnpkg/berry"],
       "matchUpdateTypes": ["minor", "patch"],
       "matchDepTypes": ["devDependencies"],
-      "automerge": true,
       "matchPackageNames": [
         "concurrently",
         "glob",
@@ -27,6 +25,11 @@
         "tsconfig-paths",
         "turbo"
       ]
+    },
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/yarnpkg/berry"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
     }
   ]
 }
