@@ -24,7 +24,8 @@
         "ts-node-dev",
         "tsconfig-paths",
         "turbo"
-      ]
+      ],
+      "automerge": true
     },
     {
       "matchSourceUrlPrefixes": ["https://github.com/yarnpkg/berry"],
