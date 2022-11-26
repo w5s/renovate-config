@@ -33,7 +33,7 @@
       "automerge": true
     },
     {
-      "extends": ["group:commitlintMonorepo"],
+      "extends": ["monorepo:commitlint"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
