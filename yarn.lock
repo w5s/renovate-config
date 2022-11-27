@@ -2700,26 +2700,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/api-metrics@npm:0.32.0":
-  version: 0.32.0
-  resolution: "@opentelemetry/api-metrics@npm:0.32.0"
-  dependencies:
-    "@opentelemetry/api": ^1.0.0
-  checksum: 00595d29b0a501d2f35a91205ab9b1985c2d94cc8636201518bab66566e2714d7944daf0a0c69f319f142d8e22b30c7d933b5e7a0ad95cb21192032c938d813a
-  languageName: node
-  linkType: hard
-
 "@opentelemetry/api@npm:1.3.0":
   version: 1.3.0
   resolution: "@opentelemetry/api@npm:1.3.0"
   checksum: 33d284b67b6fab20ff72961d289c6487d3cb27caf7489f0231d7030551f82871e081e744b0390751d8aef3bf1614bd79f854788901a354e15274f552581fb374
-  languageName: node
-  linkType: hard
-
-"@opentelemetry/api@npm:^1.0.0":
-  version: 1.2.0
-  resolution: "@opentelemetry/api@npm:1.2.0"
-  checksum: 764efa81bf939200a8e80520a4735b23038abafc60c80420b007ae2bbb7ad843d806894414e95d974c2ef1b81d4ae8a3106804e1af7b5090240cfeb2467db099
   languageName: node
   linkType: hard
 
@@ -2758,15 +2742,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/instrumentation-bunyan@npm:0.30.1":
-  version: 0.30.1
-  resolution: "@opentelemetry/instrumentation-bunyan@npm:0.30.1"
+"@opentelemetry/instrumentation-bunyan@npm:0.31.0":
+  version: 0.31.0
+  resolution: "@opentelemetry/instrumentation-bunyan@npm:0.31.0"
   dependencies:
-    "@opentelemetry/instrumentation": ^0.32.0
+    "@opentelemetry/instrumentation": ^0.34.0
     "@types/bunyan": 1.8.7
   peerDependencies:
-    "@opentelemetry/api": ^1.0.0
-  checksum: b41a0515b146df39a662eac74f45e15b5e1f5474cb6410d7f3af7c09bfe47d7aac380042ec7ea80d74df86771b57a05006ea3ae626bbd830249d2e92d05fc6a5
+    "@opentelemetry/api": ^1.3.0
+  checksum: 661633ec1491b4d041fa429a89ca9a0b6413e37a345ac032bad4099c630c7cdd6e01c0c441f77753d3222cd154b4fc1f69034969d87d2ae973cfdbd24497c864
   languageName: node
   linkType: hard
 
@@ -2784,7 +2768,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/instrumentation@npm:0.34.0":
+"@opentelemetry/instrumentation@npm:0.34.0, @opentelemetry/instrumentation@npm:^0.34.0":
   version: 0.34.0
   resolution: "@opentelemetry/instrumentation@npm:0.34.0"
   dependencies:
@@ -2794,20 +2778,6 @@ __metadata:
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
   checksum: edea9748a18fa4452fca3f986662544dda97854fabad5b47972495946ced061f60875bd3aa71b53daadabad4ea5dad5abc7b5ba4c5acb88af9ebe9d71ca0ec1f
-  languageName: node
-  linkType: hard
-
-"@opentelemetry/instrumentation@npm:^0.32.0":
-  version: 0.32.0
-  resolution: "@opentelemetry/instrumentation@npm:0.32.0"
-  dependencies:
-    "@opentelemetry/api-metrics": 0.32.0
-    require-in-the-middle: ^5.0.3
-    semver: ^7.3.2
-    shimmer: ^1.2.1
-  peerDependencies:
-    "@opentelemetry/api": ^1.0.0
-  checksum: 0f3b594b35f36f4c229ef4c930a75f7499038017ce15fadc80a27e6f915bc4d290d1dca47bdda6e540490fb7849c148c4601c5d0212479a0fce68a80a2f342c9
   languageName: node
   linkType: hard
 
@@ -3715,23 +3685,23 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.0
-    renovate: 34.30.4
+    renovate: 34.40.0
   languageName: unknown
   linkType: soft
 
-"@yarnpkg/core@npm:3.2.5":
-  version: 3.2.5
-  resolution: "@yarnpkg/core@npm:3.2.5"
+"@yarnpkg/core@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@yarnpkg/core@npm:3.3.0"
   dependencies:
     "@arcanis/slice-ansi": ^1.1.1
     "@types/semver": ^7.1.0
     "@types/treeify": ^1.0.0
-    "@yarnpkg/fslib": ^2.8.0
+    "@yarnpkg/fslib": ^2.9.0
     "@yarnpkg/json-proxy": ^2.1.1
     "@yarnpkg/libzip": ^2.2.4
     "@yarnpkg/parsers": ^2.5.1
-    "@yarnpkg/pnp": ^3.2.4
-    "@yarnpkg/shell": ^3.2.4
+    "@yarnpkg/pnp": ^3.2.5
+    "@yarnpkg/shell": ^3.2.5
     camelcase: ^5.3.1
     chalk: ^3.0.0
     ci-info: ^3.2.0
@@ -3755,17 +3725,27 @@ __metadata:
     treeify: ^1.1.0
     tslib: ^1.13.0
     tunnel: ^0.0.6
-  checksum: 0fa78ff373b4f6f6819f87a75b0687b81357b7c5751b720e412044155a26d32ee0f8f8ee1086d37322ecb2e50d287e2446f9ec7be402abb1b436ec09f10e5882
+  checksum: d43b7aa706fc8e532d1efb89cf5595a15fe22b8c524b42878e2ebaaf5d07f5e9b0f740da35c01056db6a20c769ac3c31092c3b05442c1f34df2198a33e20ba08
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^2.5.0, @yarnpkg/fslib@npm:^2.7.1, @yarnpkg/fslib@npm:^2.8.0":
+"@yarnpkg/fslib@npm:^2.5.0":
   version: 2.8.0
   resolution: "@yarnpkg/fslib@npm:2.8.0"
   dependencies:
     "@yarnpkg/libzip": ^2.2.4
     tslib: ^1.13.0
   checksum: ab7fcdba0224fc3a8b76b717b57179c728462caa7c309fe72387790f8d8627395e30006dc6f8ffe2e863df5cc6a006abc72ec11a3639861f2c2c0e193a3ac213
+  languageName: node
+  linkType: hard
+
+"@yarnpkg/fslib@npm:^2.9.0":
+  version: 2.9.0
+  resolution: "@yarnpkg/fslib@npm:2.9.0"
+  dependencies:
+    "@yarnpkg/libzip": ^2.2.4
+    tslib: ^1.13.0
+  checksum: a121d801c764408e4d290a343b7c811eb33d15f6c6a82c8b00c84aaa0b7bed610ca858047e8fb5e4c8b28cc29493ec19437fe43529dccf518215e5b38723fdc2
   languageName: node
   linkType: hard
 
@@ -3799,21 +3779,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnp@npm:^3.2.4":
-  version: 3.2.4
-  resolution: "@yarnpkg/pnp@npm:3.2.4"
+"@yarnpkg/pnp@npm:^3.2.5":
+  version: 3.2.5
+  resolution: "@yarnpkg/pnp@npm:3.2.5"
   dependencies:
     "@types/node": ^13.7.0
-    "@yarnpkg/fslib": ^2.8.0
-  checksum: ec74532fa03856cc44e56a4cf3c52ed2e467dd478303a2fe8d39708771a8f5af6f167d4b38f7d4a59edfe78c9f823c3bfa0a92aa4bdc665c71943cbbde98b983
+    "@yarnpkg/fslib": ^2.9.0
+  checksum: d2dd7410383ad1d59ddabc4cdb532b1bbb109bb87a1aad0414b13d46c9f66cdbbfa6008f01132345c05f445d5388b829060340bf74c14d3e7f3a212fac8dac33
   languageName: node
   linkType: hard
 
-"@yarnpkg/shell@npm:^3.2.4":
-  version: 3.2.4
-  resolution: "@yarnpkg/shell@npm:3.2.4"
+"@yarnpkg/shell@npm:^3.2.5":
+  version: 3.2.5
+  resolution: "@yarnpkg/shell@npm:3.2.5"
   dependencies:
-    "@yarnpkg/fslib": ^2.7.1
+    "@yarnpkg/fslib": ^2.9.0
     "@yarnpkg/parsers": ^2.5.1
     chalk: ^3.0.0
     clipanion: 3.2.0-rc.4
@@ -3824,7 +3804,7 @@ __metadata:
     tslib: ^1.13.0
   bin:
     shell: ./lib/cli.js
-  checksum: 78eb96d5a5d9af093b50d9727cee33f2edfb5a552b5750f237c3324c89763f965738cc7827dd7d2c1092b54e10b6a16e6390faa2880bfa984f7b29be1de925ba
+  checksum: 89fe80fec6ccd5a1a713ea11285bce17fe1f3cc42507b4e63565818c4afb41e588d368cf7c198fe2b3eeb900cae87233c2d52c27da288a57f82f85a07cf9b221
   languageName: node
   linkType: hard
 
@@ -9490,9 +9470,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:34.30.4":
-  version: 34.30.4
-  resolution: "renovate@npm:34.30.4"
+"renovate@npm:34.40.0":
+  version: 34.40.0
+  resolution: "renovate@npm:34.40.0"
   dependencies:
     "@aws-sdk/client-codecommit": 3.154.0
     "@aws-sdk/client-ec2": 3.155.0
@@ -9507,7 +9487,7 @@ __metadata:
     "@opentelemetry/context-async-hooks": 1.8.0
     "@opentelemetry/exporter-trace-otlp-http": 0.34.0
     "@opentelemetry/instrumentation": 0.34.0
-    "@opentelemetry/instrumentation-bunyan": 0.30.1
+    "@opentelemetry/instrumentation-bunyan": 0.31.0
     "@opentelemetry/instrumentation-http": 0.34.0
     "@opentelemetry/resources": 1.8.0
     "@opentelemetry/sdk-trace-base": 1.8.0
@@ -9518,7 +9498,7 @@ __metadata:
     "@renovatebot/ruby-semver": 1.1.7
     "@sindresorhus/is": 4.6.0
     "@types/tmp": 0.2.3
-    "@yarnpkg/core": 3.2.5
+    "@yarnpkg/core": 3.3.0
     "@yarnpkg/parsers": 2.5.1
     agentkeepalive: 4.2.1
     aggregate-error: 3.1.0
@@ -9601,7 +9581,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: e2a5e19383b005b916374fc19b7c9801f7d83a5188fccb2c9f1697458b98578460401df6aba6f97480a69f80a7bf09a3c03e6a8b8f37b8877ccd5050fae71602
+  checksum: b21aa17df278763ec6382d1680a931d7e9297cc53d82cc24f209aed1acaa14c7533e9c9159f34f8bd7e81f1e76ce754b419a049ae445d43f93d6b29806c6285a
   languageName: node
   linkType: hard
 
