@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>w5s/renovate-config//preset/automergeBabel",
+    "github>w5s/renovate-config//preset/automergeGithubActions",
     "github>w5s/renovate-config//preset/automergeLinters",
     "github>w5s/renovate-config//preset/automergePresets",
     "github>w5s/renovate-config//preset/automergeJest",
