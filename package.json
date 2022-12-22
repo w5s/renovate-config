@@ -18,6 +18,7 @@
   },
   "license": "MIT",
   "author": "Julien Polo <julien.polo@gmail.com>",
+  "type": "module",
   "scripts": {
     "build": "concurrently \"npm:build:*\" \":\"",
     "clean": ":",
@@ -41,24 +42,22 @@
     ]
   },
   "lint-staged": {
-    "*.json": [
-      "eslint"
-    ],
-    "*.*": [
-      "cspell --no-must-find-files"
-    ],
     "*.js?(x)": [
       "eslint"
     ],
     "*.yml": [
       "eslint"
+    ],
+    "*.{json,jsonc,json5}": [
+      "eslint"
+    ],
+    "*.ts?(x)": [
+      "eslint"
     ]
   },
   "eslintConfig": {
     "extends": [
-      "@w5s/eslint-config/es",
-      "@w5s/eslint-config/json",
-      "@w5s/eslint-config/yml"
+      "@w5s/eslint-config"
     ],
     "root": true
   },
@@ -77,6 +76,7 @@
     "@babel/eslint-parser": "7.19.1",
     "@commitlint/cli": "17.3.0",
     "@w5s/commitlint-config": "1.0.3",
+    "@w5s/cspell-config": "1.0.0-alpha.1",
     "@w5s/eslint-config": "1.0.0-alpha.43",
     "ajv-cli": "5.0.0",
     "concurrently": "7.6.0",
