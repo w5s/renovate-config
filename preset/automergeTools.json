@@ -24,7 +24,8 @@
         "ts-node",
         "ts-node-dev",
         "tsconfig-paths",
-        "turbo"
+        "turbo",
+        "vite"
       ],
       "automerge": true
     },
