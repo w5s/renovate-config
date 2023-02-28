@@ -19,6 +19,7 @@
         "release-it",
         "renovate",
         "rimraf",
+        "rollup",
         "semantic-release",
         "ts-node",
         "ts-node-dev",
