@@ -1,5 +1,6 @@
 {
   "version": "0.2",
   "language": "en",
-  "import": ["@w5s/cspell-config"]
+  "import": ["@w5s/cspell-config"],
+  "words": ["gitlabci"]
 }
