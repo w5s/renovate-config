@@ -1937,61 +1937,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/cspell-bundled-dicts@npm:6.28.0":
-  version: 6.28.0
-  resolution: "@cspell/cspell-bundled-dicts@npm:6.28.0"
-  dependencies:
-    "@cspell/dict-ada": ^4.0.1
-    "@cspell/dict-aws": ^3.0.0
-    "@cspell/dict-bash": ^4.1.1
-    "@cspell/dict-companies": ^3.0.8
-    "@cspell/dict-cpp": ^4.0.3
-    "@cspell/dict-cryptocurrencies": ^3.0.1
-    "@cspell/dict-csharp": ^4.0.2
-    "@cspell/dict-css": ^4.0.5
-    "@cspell/dict-dart": ^2.0.2
-    "@cspell/dict-django": ^4.0.2
-    "@cspell/dict-docker": ^1.1.6
-    "@cspell/dict-dotnet": ^4.0.2
-    "@cspell/dict-elixir": ^4.0.2
-    "@cspell/dict-en-common-misspellings": ^1.0.2
-    "@cspell/dict-en-gb": 1.1.33
-    "@cspell/dict-en_us": ^4.3.0
-    "@cspell/dict-filetypes": ^3.0.0
-    "@cspell/dict-fonts": ^3.0.1
-    "@cspell/dict-fullstack": ^3.1.4
-    "@cspell/dict-gaming-terms": ^1.0.4
-    "@cspell/dict-git": ^2.0.0
-    "@cspell/dict-golang": ^5.0.2
-    "@cspell/dict-haskell": ^4.0.1
-    "@cspell/dict-html": ^4.0.3
-    "@cspell/dict-html-symbol-entities": ^4.0.0
-    "@cspell/dict-java": ^5.0.5
-    "@cspell/dict-k8s": ^1.0.1
-    "@cspell/dict-latex": ^3.1.0
-    "@cspell/dict-lorem-ipsum": ^3.0.0
-    "@cspell/dict-lua": ^4.0.1
-    "@cspell/dict-node": ^4.0.2
-    "@cspell/dict-npm": ^5.0.5
-    "@cspell/dict-php": ^3.0.4
-    "@cspell/dict-powershell": ^4.0.2
-    "@cspell/dict-public-licenses": ^2.0.1
-    "@cspell/dict-python": ^4.0.1
-    "@cspell/dict-r": ^2.0.1
-    "@cspell/dict-ruby": ^4.0.2
-    "@cspell/dict-rust": ^4.0.1
-    "@cspell/dict-scala": ^4.0.1
-    "@cspell/dict-software-terms": ^3.1.5
-    "@cspell/dict-sql": ^2.0.2
-    "@cspell/dict-svelte": ^1.0.2
-    "@cspell/dict-swift": ^2.0.1
-    "@cspell/dict-typescript": ^3.1.1
-    "@cspell/dict-vue": ^3.0.0
-  checksum: 5c99743b0869c85b35c0a7ffc91cce89df44cf6b5fdc700a8c7d9ef0415b03b06ad875adf3a334ad3940fe8e65ed0e0123f1cc5eae6cda74f6cfccce63e49eb0
-  languageName: node
-  linkType: hard
-
-"@cspell/cspell-bundled-dicts@npm:^6.0.0":
+"@cspell/cspell-bundled-dicts@npm:6.28.0, @cspell/cspell-bundled-dicts@npm:^6.0.0":
   version: 6.28.0
   resolution: "@cspell/cspell-bundled-dicts@npm:6.28.0"
   dependencies:
@@ -3713,29 +3659,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/commitlint-config@npm:1.0.13":
-  version: 1.0.13
-  resolution: "@w5s/commitlint-config@npm:1.0.13"
+"@w5s/commitlint-config@npm:1.0.14":
+  version: 1.0.14
+  resolution: "@w5s/commitlint-config@npm:1.0.14"
   dependencies:
     "@commitlint/types": ^17.0.0
-    "@w5s/conventional-changelog": ^1.0.0-alpha.6
+    "@w5s/conventional-changelog": ^1.0.0
   peerDependencies:
     "@commitlint/cli": ^16.0.0 || ^17.0.0
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: 73b7a9acc662f8ee0239025a9581b0134025cb6bc3551b4bf4c3b3b2071feeb845ee369661b057d09a3dd3f82b42124907348ab4012dc0571da8a6840a200ba9
+  checksum: 8d257ac0909778322e97ff06cf7fc9ba021b172c6aad10d196ddc119cbf581a0c959913857d10af78ff7df9e524a266054d94c2101e25282481f67f50ef10719
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:^1.0.0-alpha.6":
-  version: 1.0.0-alpha.6
-  resolution: "@w5s/conventional-changelog@npm:1.0.0-alpha.6"
+"@w5s/conventional-changelog@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@w5s/conventional-changelog@npm:1.0.0"
   dependencies:
     "@commitlint/types": ^17.0.0
     emoji-regex: ^10.2.1
     gitmojis: ^3.13.4
-  checksum: bbb55fb4a02836ec8d0fef9728955f574b7fc3dc33f1f20fbf34260254652ef489b3be892dbceba5403136522975ccc88ca55cdf7d5c645df3c7f1cbc197a9a2
+  checksum: 1aa123a8fbc1fc911db142ba80d302b4037659a26f7e978d0a09d6ab8782b42c05e0ef0a99efc2e6941b05c0e9cef8d53ff158089f14f9213eb9576805fc9e0e
   languageName: node
   linkType: hard
 
@@ -3815,7 +3761,7 @@ __metadata:
     "@babel/core": 7.21.0
     "@babel/eslint-parser": 7.19.1
     "@commitlint/cli": 17.4.4
-    "@w5s/commitlint-config": 1.0.13
+    "@w5s/commitlint-config": 1.0.14
     "@w5s/cspell-config": 1.0.0-alpha.12
     "@w5s/eslint-config": 1.0.0-alpha.55
     ajv-cli: 5.0.0
