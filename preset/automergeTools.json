@@ -20,6 +20,7 @@
         "renovate",
         "rimraf",
         "rollup",
+        "sass",
         "semantic-release",
         "ts-node",
         "ts-node-dev",
