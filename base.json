@@ -8,7 +8,7 @@
   "extends": [
     ":ignoreModulesAndTests",
     "helpers:disableTypesNodeMajor",
-    "github>w5s/renovate-config//preset/groupAll",
+    "github>w5s/renovate-config//preset/groupRecommended",
     "github>w5s/renovate-config//preset/automergeAll",
     "github>w5s/renovate-config//preset/commit",
     "github>w5s/renovate-config//preset/schedule",
