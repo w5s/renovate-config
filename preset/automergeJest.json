@@ -3,7 +3,7 @@
   "description": "Automerge Jest",
   "packageRules": [
     {
-      "groupName": "jest monorepo",
+      "extends": ["monorepo:jest"],
       "automerge": true
     },
     {
