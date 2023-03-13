@@ -5,6 +5,10 @@
     {
       "groupName": "jest monorepo",
       "automerge": true
+    },
+    {
+      "matchPackageNames": ["es-jest"],
+      "automerge": true
     }
   ]
 }
