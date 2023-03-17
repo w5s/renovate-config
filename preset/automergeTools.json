@@ -26,7 +26,8 @@
         "ts-node-dev",
         "tsconfig-paths",
         "turbo",
-        "vite"
+        "vite",
+        "zx"
       ],
       "automerge": true
     },
