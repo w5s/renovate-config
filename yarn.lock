@@ -3299,9 +3299,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@w5s/eslint-config@npm:1.0.2"
+"@w5s/eslint-config@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@w5s/eslint-config@npm:1.0.3"
   dependencies:
     "@rushstack/eslint-patch": ^1.1.0
     "@typescript-eslint/eslint-plugin": ^5.0.0
@@ -3329,7 +3329,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: bdcaf1e69339ab059dc3d97a9ce84011e57bf05c71e2c90d8c98df5aaa7ad8c463550ea541e4506b8263c21b94ad251d01d9b38a74938a2b83ea4dd46697d142
+  checksum: 688b0eeee9d67ce7d0a31c700d28c9b623a082302290f4d3c9d753040186bf0fa97fbcceb2c943d345fdd49ddaa1e891deb818f326c57fcc47bc65f48257dfe2
   languageName: node
   linkType: hard
 
@@ -3351,7 +3351,7 @@ __metadata:
   dependencies:
     "@w5s/commitlint-config": 1.0.15
     "@w5s/cspell-config": 1.0.4
-    "@w5s/eslint-config": 1.0.2
+    "@w5s/eslint-config": 1.0.3
     ajv-cli: 5.0.0
     concurrently: 7.6.0
     cspell: 6.30.2
