@@ -42,7 +42,7 @@
   "prCreation": "not-pending",
   "prHourlyLimit": 0,
   "rangeStrategy": "auto",
-  "rebaseWhen": "behind-base-branch",
+  "rebaseWhen": "auto",
   "separateMajorMinor": true,
   "separateMinorPatch": true,
   "updateNotScheduled": true,
