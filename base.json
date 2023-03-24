@@ -39,7 +39,7 @@
     }
   ],
   "prConcurrentLimit": 20,
-  "prCreation": "not-pending",
+  "prCreation": "immediate",
   "prHourlyLimit": 0,
   "rangeStrategy": "auto",
   "rebaseWhen": "auto",
