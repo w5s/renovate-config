@@ -7,7 +7,7 @@
       "automerge": true
     },
     {
-      "matchPackageNames": ["es-jest"],
+      "matchPackageNames": ["es-jest", "@vue/vue3-jest"],
       "automerge": true
     }
   ]
