@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge Vitest",
+  "packageRules": [
+    {
+      "extends": ["monorepo:vitest"],
+      "automerge": true
+    }
+  ]
+}

@@ -9,6 +9,7 @@
     "github>w5s/renovate-config//preset/automergeJest",
     "github>w5s/renovate-config//preset/automergeTools",
     "github>w5s/renovate-config//preset/automergeTypescript",
-    "github>w5s/renovate-config//preset/automergeTypesMinor"
+    "github>w5s/renovate-config//preset/automergeTypesMinor",
+    "github>w5s/renovate-config//preset/automergeVitest"
   ]
 }
