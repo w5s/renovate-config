@@ -76,7 +76,7 @@
     "@w5s/cspell-config": "1.0.5",
     "@w5s/eslint-config": "1.0.4",
     "ajv-cli": "5.0.0",
-    "concurrently": "7.6.0",
+    "concurrently": "8.0.1",
     "cspell": "6.31.1",
     "eslint": "8.37.0",
     "markdown-magic": "2.6.1",
