@@ -7,6 +7,7 @@
       "matchDepTypes": ["devDependencies"],
       "matchPackageNames": [
         "concurrently",
+        "cypress",
         "glob",
         "husky",
         "is-ci",
