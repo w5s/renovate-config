@@ -13,7 +13,7 @@
         "monorepo:vitest",
         "github>w5s/renovate-config//preset/groupCSpell"
       ],
-      "matchPackageNames": ["es-jest", "@vue/vue3-jest"],
+      "matchPackageNames": ["es-jest", "ts-jest", "@vue/vue3-jest"],
       "automerge": true
     },
     {
