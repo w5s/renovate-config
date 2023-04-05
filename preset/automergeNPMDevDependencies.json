@@ -1,0 +1,79 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge for NPM dev dependencies",
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchManagers": ["npm"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "extends": [
+        "packages:linters",
+        "monorepo:commitlint",
+        "monorepo:jest",
+        "monorepo:vitest",
+        "github>w5s/renovate-config//preset/groupCSpell"
+      ],
+      "matchPackageNames": ["es-jest", "@vue/vue3-jest"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchDepTypes": ["devDependencies"],
+      "matchPackageNames": [
+        "@babel/eslint-parser",
+        "@babel/core",
+        "@commitlint/cli",
+        "concurrently",
+        "cypress",
+        "esbuild",
+        "glob",
+        "husky",
+        "is-ci",
+        "lerna",
+        "lint-staged",
+        "mrm",
+        "npm-run-all",
+        "nodemon",
+        "patch-package",
+        "prettier",
+        "release-it",
+        "renovate",
+        "rimraf",
+        "rollup",
+        "sass",
+        "semantic-release",
+        "typescript",
+        "ts-node",
+        "ts-node-dev",
+        "tsconfig-paths",
+        "turbo",
+        "vite",
+        "zx"
+      ],
+      "matchPackagePatterns": [
+        "browserslist-config$",
+        "commitlint-config$",
+        "eslint-config$",
+        "cspell-config$",
+        "prettier-config$",
+        "conventional-changelog$",
+        "mrm-preset$",
+        "stylelint-config$",
+        "ts-config$"
+      ],
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch"],
+      "matchManagers": ["npm"],
+      "automerge": true,
+      "excludePackageNames": []
+    },
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/yarnpkg/berry"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ]
+}
