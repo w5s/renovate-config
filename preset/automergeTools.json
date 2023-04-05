@@ -8,6 +8,7 @@
       "matchPackageNames": [
         "concurrently",
         "cypress",
+        "esbuild",
         "glob",
         "husky",
         "is-ci",
