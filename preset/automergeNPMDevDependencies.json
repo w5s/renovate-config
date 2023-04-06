@@ -3,8 +3,8 @@
   "description": "Automerge for NPM dev dependencies",
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
       "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "extends": [
         "packages:linters",
@@ -17,8 +17,9 @@
       "automerge": true
     },
     {
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor", "patch"],
       "matchPackageNames": [
         "@babel/eslint-parser",
         "@babel/core",
@@ -64,11 +65,10 @@
       "automerge": true
     },
     {
+      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["patch"],
-      "matchManagers": ["npm"],
-      "automerge": true,
-      "excludePackageNames": []
+      "automerge": true
     },
     {
       "matchSourceUrlPrefixes": ["https://github.com/yarnpkg/berry"],
