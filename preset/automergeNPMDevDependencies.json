@@ -51,6 +51,12 @@
         "vite",
         "zx"
       ],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor", "patch"],
       "matchPackagePatterns": [
         "browserslist-config$",
         "commitlint-config$",
