@@ -48,6 +48,7 @@
         "ts-node-dev",
         "tsconfig-paths",
         "turbo",
+        "typedoc",
         "vite",
         "zx"
       ],
