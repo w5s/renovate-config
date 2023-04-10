@@ -6,14 +6,36 @@
       "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["major", "minor", "patch"],
-      "extends": [
-        "packages:linters",
-        "monorepo:commitlint",
-        "monorepo:jest",
-        "monorepo:vitest",
-        "github>w5s/renovate-config//preset/groupCSpell"
-      ],
+      "extends": ["packages:linters"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "extends": ["monorepo:commitlint"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "extends": ["github>w5s/renovate-config//preset/groupCSpell"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "extends": ["monorepo:jest"],
       "matchPackageNames": ["es-jest", "ts-jest", "@vue/vue3-jest"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "extends": ["monorepo:vitest"],
       "automerge": true
     },
     {
