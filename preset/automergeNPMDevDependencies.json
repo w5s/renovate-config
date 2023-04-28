@@ -103,6 +103,11 @@
       "matchSourceUrlPrefixes": ["https://github.com/yarnpkg/berry"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
+    },
+    {
+      "matchManagers": ["nodenv", "nvm", "asdf", "ruby-version"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
     }
   ]
 }
