@@ -12,6 +12,7 @@
     "github>w5s/renovate-config//preset/automergeRecommended",
     "github>w5s/renovate-config//preset/commit",
     "github>w5s/renovate-config//preset/schedule",
+    "github>w5s/renovate-config//preset/ignore",
     "workarounds:all"
   ],
   "forkProcessing": "disabled",
