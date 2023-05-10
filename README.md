@@ -15,6 +15,19 @@
   * go to [Renovate Dashboard](https://app.renovatebot.com/dashboard) to add your project,
   * accept Renovate Bot PR
 
+## Features
+
+* ✅ Automerge only when safe
+  * When dev dependency that is self validated by CI
+  * When project is following semantic-versioning and well maintained
+* 🚄 Focus on productivity
+  * The configuration should not overburden the team by creating a great amount of PR, it should be a safe way to automate and save time
+* ✓ Main Supported Technologies
+  * NodeJS
+  * Docker
+  * React Native & Ionic (no upgrade for native dependencies)
+* 🗓️ Scheduled to run outside working hours (night and weekend)
+
 ## Usage
 
 ### Renovate Configuration
