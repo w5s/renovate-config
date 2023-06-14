@@ -2651,17 +2651,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pep440@npm:2.1.15":
-  version: 2.1.15
-  resolution: "@renovatebot/pep440@npm:2.1.15"
-  checksum: eaeff77ce9f47d0e0423c87c75b6339970f13689042cb6fe6ee4cea28ec709e771cec905ad7244a911e33202432184aafdd0a80e5b7ce52a78e1064de5da3245
+"@renovatebot/pep440@npm:2.1.16":
+  version: 2.1.16
+  resolution: "@renovatebot/pep440@npm:2.1.16"
+  checksum: 72a2271572f0d126cbeddfe3fa29db18513a94582cab2845f6807ec54d6895e70a56c111cac5ae12e141eb51bb40508e56e703397d9e69760bfedfe2ca41e07a
   languageName: node
   linkType: hard
 
-"@renovatebot/ruby-semver@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@renovatebot/ruby-semver@npm:3.0.1"
-  checksum: 3f94112d19cb28dfdf9e30f27a31525598a5f1458206e162de0790b984de52268a75a8841319c11b10dc43deb045ae7b831b708c763637aefa601a042807ff32
+"@renovatebot/ruby-semver@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@renovatebot/ruby-semver@npm:3.0.2"
+  checksum: 70930e1804c6f074adb360f573951df5b283ffe43f2cf66ba825a94bad811ba53aa2cae0fcfdbbcefdf647dfb31c7d4e9c651febdb1d255c01e89e04ee8bb9ac
   languageName: node
   linkType: hard
 
@@ -3318,7 +3318,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.115.2
+    renovate: 35.118.0
   languageName: unknown
   linkType: soft
 
@@ -5823,7 +5823,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:10.2.6, glob@npm:^10.2.2":
+"glob@npm:10.2.7":
+  version: 10.2.7
+  resolution: "glob@npm:10.2.7"
+  dependencies:
+    foreground-child: ^3.1.0
+    jackspeak: ^2.0.3
+    minimatch: ^9.0.1
+    minipass: ^5.0.0 || ^6.0.2
+    path-scurry: ^1.7.0
+  bin:
+    glob: dist/cjs/src/bin.js
+  checksum: 555205a74607d6f8d9874ba888924b305b5ea1abfaa2e9ccb11ac713d040aac7edbf7d8702a2f4a1cd81b2d7666412170ce7ef061d33cddde189dae8c1a1a054
+  languageName: node
+  linkType: hard
+
+"glob@npm:^10.2.2":
   version: 10.2.6
   resolution: "glob@npm:10.2.6"
   dependencies:
@@ -8557,9 +8572,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.115.2":
-  version: 35.115.2
-  resolution: "renovate@npm:35.115.2"
+"renovate@npm:35.118.0":
+  version: 35.118.0
+  resolution: "renovate@npm:35.118.0"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -8583,8 +8598,8 @@ __metadata:
     "@opentelemetry/semantic-conventions": 1.13.0
     "@qnighy/marshal": 0.1.3
     "@renovatebot/osv-offline": 1.2.12
-    "@renovatebot/pep440": 2.1.15
-    "@renovatebot/ruby-semver": 3.0.1
+    "@renovatebot/pep440": 2.1.16
+    "@renovatebot/ruby-semver": 3.0.2
     "@sindresorhus/is": 4.6.0
     "@types/ms": 0.7.31
     "@types/tmp": 0.2.3
@@ -8619,7 +8634,7 @@ __metadata:
     fs-extra: 11.1.1
     git-url-parse: 13.1.0
     github-url-from-git: 1.5.0
-    glob: 10.2.6
+    glob: 10.2.7
     global-agent: 3.0.0
     good-enough-parser: 1.1.23
     got: 11.8.6
@@ -8661,7 +8676,7 @@ __metadata:
     slugify: 1.6.6
     source-map-support: 0.5.21
     traverse: 0.6.7
-    tslib: 2.5.2
+    tslib: 2.5.3
     upath: 2.0.1
     url-join: 4.0.1
     validate-npm-package-name: 5.0.0
@@ -8674,7 +8689,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 541c159cb7749677eaf06104a3c1ebcdaae6f8682e140d37fee1ecfea97e419924115f07e437548b7d7f1c6cdabd935847543690e522d5189289338a80fb0c88
+  checksum: ebd4261605a1c97952a2b379a5c7d7fc87d7b52e9f72785a1ca102d77fb62607dbb7cc218fa1d1d950f4340e239847accdcea94fa61dee6664ff7817a3c68f8b
   languageName: node
   linkType: hard
 
@@ -9554,10 +9569,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.5.2":
-  version: 2.5.2
-  resolution: "tslib@npm:2.5.2"
-  checksum: 4d3c1e238b94127ed0e88aa0380db3c2ddae581dc0f4bae5a982345e9f50ee5eda90835b8bfba99b02df10a5734470be197158c36f9129ac49fdc14a6a9da222
+"tslib@npm:2.5.3, tslib@npm:^2.1.0, tslib@npm:^2.3.1, tslib@npm:^2.5.0":
+  version: 2.5.3
+  resolution: "tslib@npm:2.5.3"
+  checksum: 88902b309afaf83259131c1e13da1dceb0ad1682a213143a1346a649143924d78cf3760c448b84d796938fd76127183894f8d85cbb3bf9c4fddbfcc140c0003c
   languageName: node
   linkType: hard
 
@@ -9565,13 +9580,6 @@ __metadata:
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2.1.0, tslib@npm:^2.3.1, tslib@npm:^2.5.0":
-  version: 2.5.3
-  resolution: "tslib@npm:2.5.3"
-  checksum: 88902b309afaf83259131c1e13da1dceb0ad1682a213143a1346a649143924d78cf3760c448b84d796938fd76127183894f8d85cbb3bf9c4fddbfcc140c0003c
   languageName: node
   linkType: hard
 
