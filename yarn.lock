@@ -1438,12 +1438,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cdktf/hcl2json@npm:0.17.0":
-  version: 0.17.0
-  resolution: "@cdktf/hcl2json@npm:0.17.0"
+"@cdktf/hcl2json@npm:0.17.1":
+  version: 0.17.1
+  resolution: "@cdktf/hcl2json@npm:0.17.1"
   dependencies:
     fs-extra: ^11.1.1
-  checksum: 173093436b263e014a89709b5c3822168ba80210c4ca8aa027848d0973cece252641ba79022557e85e00d8f89e2665efe61e744c1edac840fa44a2ea4f1f4549
+  checksum: 233d6c54fb2fc412fee8e01459c6f6621e9d929fe1ef46ccc626867409a3bfdd97a866588b7fe70f9aaed8128e878473638e509d4e785acddcf9dc732404c6cb
   languageName: node
   linkType: hard
 
@@ -3276,7 +3276,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 3.0.0
-    renovate: 36.0.3
+    renovate: 36.1.5
   languageName: unknown
   linkType: soft
 
@@ -4743,17 +4743,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"editorconfig@npm:1.0.3":
-  version: 1.0.3
-  resolution: "editorconfig@npm:1.0.3"
+"editorconfig@npm:2.0.0":
+  version: 2.0.0
+  resolution: "editorconfig@npm:2.0.0"
   dependencies:
     "@one-ini/wasm": 0.1.1
     commander: ^11.0.0
-    minimatch: 9.0.1
+    minimatch: 9.0.2
     semver: ^7.5.3
   bin:
     editorconfig: bin/editorconfig
-  checksum: 40ff29a92c628a1f00b44af538aac7e845fce7986606992d46138387a5299506e6cfc2ba0aed7b58b37865b00991217b19e8bf664174b890b2b8c13731fcae45
+  checksum: d5b3eca96dfa3115cef79e9814108b217a52f66263b056cc676a482742dfc85b8aca78811a770ecba1b8b118f74fded54c1c2d2061b023677abc0d758ca22a9a
   languageName: node
   linkType: hard
 
@@ -4785,17 +4785,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emojibase-regex@npm:6.0.1":
-  version: 6.0.1
-  resolution: "emojibase-regex@npm:6.0.1"
-  checksum: 8435e8c780355d742021d546bc5ed7c80d8701f4d37d809794e6f9946b36fb0194eb9406b27fedf50dda76ff25ab239c55f9b9382806670253af705194b4aeb9
+"emojibase-regex@npm:15.0.0":
+  version: 15.0.0
+  resolution: "emojibase-regex@npm:15.0.0"
+  checksum: f3759319a8a47c84eacc38ddf5c3e2aa4ea870321e73ea2e8ab2cc2492fd32a027b5748bd0d57ddb1dd1cae9bb276fced405b5ceec5efa5cff336235e6091245
   languageName: node
   linkType: hard
 
-"emojibase@npm:6.1.0":
-  version: 6.1.0
-  resolution: "emojibase@npm:6.1.0"
-  checksum: a0f975a04451dc30ddbe7dddbfab68a71d209a4003c986ca7dc0171df6cf85605b678483006ee08cc6bb48bccb414de9e1bedab8afc50755d9183794fd2b1b22
+"emojibase@npm:15.0.0":
+  version: 15.0.0
+  resolution: "emojibase@npm:15.0.0"
+  checksum: 6cd0aee781a6e558802bb06bb389b14188496f163fe06e4f697fb6f0ec7f6b8c5abe309e787f41db0084678f9239cf56c2122057a8ba290da82bdc793e3b9c28
   languageName: node
   linkType: hard
 
@@ -7397,15 +7397,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:9.0.1":
-  version: 9.0.1
-  resolution: "minimatch@npm:9.0.1"
-  dependencies:
-    brace-expansion: ^2.0.1
-  checksum: 97f5f5284bb57dc65b9415dec7f17a0f6531a33572193991c60ff18450dcfad5c2dad24ffeaf60b5261dccd63aae58cc3306e2209d57e7f88c51295a532d8ec3
-  languageName: node
-  linkType: hard
-
 "minimatch@npm:9.0.2, minimatch@npm:^9.0.1":
   version: 9.0.2
   resolution: "minimatch@npm:9.0.2"
@@ -8478,9 +8469,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:36.0.3":
-  version: 36.0.3
-  resolution: "renovate@npm:36.0.3"
+"renovate@npm:36.1.5":
+  version: 36.1.5
+  resolution: "renovate@npm:36.1.5"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -8488,7 +8479,7 @@ __metadata:
     "@aws-sdk/client-rds": 3.348.0
     "@aws-sdk/client-s3": 3.348.0
     "@breejs/later": 4.1.0
-    "@cdktf/hcl2json": 0.17.0
+    "@cdktf/hcl2json": 0.17.1
     "@cheap-glitch/mi-cron": 1.0.1
     "@iarna/toml": 3.0.0
     "@opentelemetry/api": 1.4.1
@@ -8527,11 +8518,11 @@ __metadata:
     delay: 5.0.0
     dequal: 2.0.3
     detect-indent: 6.1.0
-    editorconfig: 1.0.3
+    editorconfig: 2.0.0
     email-addresses: 5.0.0
     emoji-regex: 10.2.1
-    emojibase: 6.1.0
-    emojibase-regex: 6.0.1
+    emojibase: 15.0.0
+    emojibase-regex: 15.0.0
     extract-zip: 2.0.1
     find-packages: 10.0.4
     find-up: 5.0.0
@@ -8594,7 +8585,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 42dcde1bfa3e484b17c0ae6173dc32ca16300f662153c6d05ad21cfa47ac755fcb1eb5eb2cd5cd86f4148016d31a5895e486ef3804b1dc63d72c6eb8ea08dfdd
+  checksum: 766586fcea68a535247ccb13bcc41a2ac09204ff433e2415e382d921b643b554a05a47d0d2f5234ce097f9e768bc9cd14330dba43100ff853087b2d70ac20722
   languageName: node
   linkType: hard
 
