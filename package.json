@@ -83,7 +83,7 @@
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "1.1.2",
     "prettier": "3.0.0",
-    "renovate": "36.1.15"
+    "renovate": "36.1.16"
   },
   "packageManager": "yarn@3.6.1",
   "engines": {
