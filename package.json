@@ -59,19 +59,8 @@
   "eslintConfig": {
     "extends": [
       "@w5s/eslint-config"
-    ],
-    "root": true
+    ]
   },
-  "eslintIgnore": [
-    "lib/",
-    "node_modules/",
-    "coverage/",
-    "build/",
-    ".cache/",
-    "**/tsconfig.json",
-    ".vscode/**",
-    "public/"
-  ],
   "devDependencies": {
     "@w5s/commitlint-config": "1.1.1",
     "@w5s/cspell-config": "1.1.0",
