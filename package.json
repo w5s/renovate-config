@@ -31,6 +31,7 @@
     "prepare:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks",
     "release": ":",
     "rescue": "git clean -fdx;yarn install",
+    "spellcheck": "npx cspell --no-progress '**'",
     "test": "concurrently \"npm:test:*\"",
     "test:renovate-config": "test/test.sh",
     "test:renovate-config-schema": "ajv test -s test/schema.json -d base.json --valid",
