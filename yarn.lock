@@ -1031,13 +1031,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cheap-glitch/mi-cron@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@cheap-glitch/mi-cron@npm:1.0.1"
-  checksum: 34522cf6ffa0b3af1954ffdc2609346b8f10d72b0cfc33c5c29e386ce5e915c6daadaa4f3d1edf2b7d01902c1d08f7c5227682c74024843444aed7b45fefd06f
-  languageName: node
-  linkType: hard
-
 "@chevrotain/types@npm:^9.1.0":
   version: 9.1.0
   resolution: "@chevrotain/types@npm:9.1.0"
@@ -3358,7 +3351,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 3.0.0
-    renovate: 36.8.12
+    renovate: 36.9.1
   languageName: unknown
   linkType: soft
 
@@ -4437,6 +4430,15 @@ __metadata:
     parse-json: ^5.0.0
     path-type: ^4.0.0
   checksum: ff4cdf89ac1ae52e7520816622c21a9e04380d04b82d653f5139ec581aa4f7f29e096d46770bc76c4a63c225367e88a1dfa233ea791669a35101f5f9b972c7d1
+  languageName: node
+  linkType: hard
+
+"cron-parser@npm:4.8.1":
+  version: 4.8.1
+  resolution: "cron-parser@npm:4.8.1"
+  dependencies:
+    luxon: ^3.2.1
+  checksum: e3e7b227cb45c8e3e16b5ceab9fd1b4769b878b430f009d5de26c3e20d4e0112fde6f90a663afbcd9cc2be92d73b6eefe2d939d1646f3a96704f73c63dd39b6f
   languageName: node
   linkType: hard
 
@@ -7243,7 +7245,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:3.3.0, luxon@npm:^3.3.0":
+"luxon@npm:3.3.0, luxon@npm:^3.2.1, luxon@npm:^3.3.0":
   version: 3.3.0
   resolution: "luxon@npm:3.3.0"
   checksum: 50cf17a0dc155c3dcacbeae8c0b7e80db425e0ba97b9cbdf12a7fc142d841ff1ab1560919f033af46240ed44e2f70c49f76e3422524c7fc8bb8d81ca47c66187
@@ -8854,9 +8856,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:36.8.12":
-  version: 36.8.12
-  resolution: "renovate@npm:36.8.12"
+"renovate@npm:36.9.1":
+  version: 36.9.1
+  resolution: "renovate@npm:36.9.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.363.0
     "@aws-sdk/client-ec2": 3.363.0
@@ -8865,7 +8867,6 @@ __metadata:
     "@aws-sdk/client-s3": 3.363.0
     "@breejs/later": 4.1.0
     "@cdktf/hcl2json": 0.17.1
-    "@cheap-glitch/mi-cron": 1.0.1
     "@iarna/toml": 3.0.0
     "@opentelemetry/api": 1.4.1
     "@opentelemetry/context-async-hooks": 1.15.0
@@ -8899,6 +8900,7 @@ __metadata:
     clean-git-ref: 2.0.1
     commander: 11.0.0
     conventional-commits-detector: 1.0.3
+    cron-parser: 4.8.1
     deepmerge: 4.3.1
     dequal: 2.0.3
     detect-indent: 6.1.0
@@ -8970,7 +8972,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: d1e736cfd82a870a9d1851eb37928f5b51f212ed299ee165100691a0083a3bd2c823bbe592d859d4a54a86a65c8728f5455d377a9ae25f5d725a33e05099c215
+  checksum: 38905bedb549c5b9ee9cb2aba98ffc5a047f685434fa9fe5a6c8c53efb0d14605941d9773d83fe36f97fe1da5b876afdac0d7c5c4c4e4bcb48993db72f291ab3
   languageName: node
   linkType: hard
 
