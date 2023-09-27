@@ -46,6 +46,7 @@
         "@babel/eslint-parser",
         "@babel/core",
         "@commitlint/cli",
+        "browserslist",
         "concurrently",
         "cypress",
         "esbuild",
