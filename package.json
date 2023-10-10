@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "@w5s/commitlint-config": "1.2.4",
-    "@w5s/cspell-config": "1.2.0",
+    "@w5s/cspell-config": "1.2.1",
     "@w5s/eslint-config": "1.4.5",
     "ajv-cli": "5.0.0",
     "concurrently": "8.2.1",
