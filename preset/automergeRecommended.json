@@ -5,6 +5,7 @@
     "github>w5s/renovate-config//preset/automergeGitlabCI",
     "github>w5s/renovate-config//preset/automergeNPM",
     "github>w5s/renovate-config//preset/automergeNPMDevDependencies",
-    "github>w5s/renovate-config//preset/automergeTypesMinor"
+    "github>w5s/renovate-config//preset/automergeTypesMinor",
+    "github>w5s/renovate-config//preset/automergeVersionManagers"
   ]
 }

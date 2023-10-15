@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge version managers (asdf, rvm, etc)",
+  "packageRules": [
+    {
+      "matchManagers": ["nodenv", "nvm", "asdf", "ruby-version"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
+    }
+  ]
+}
