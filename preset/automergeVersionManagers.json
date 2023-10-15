@@ -5,7 +5,8 @@
     {
       "matchManagers": ["nodenv", "nvm", "asdf", "ruby-version"],
       "matchUpdateTypes": ["patch"],
-      "automerge": true
+      "automerge": true,
+      "stabilityDays": 2
     }
   ]
 }
