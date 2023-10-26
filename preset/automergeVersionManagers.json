@@ -5,7 +5,10 @@
     {
       "matchManagers": ["nodenv", "nvm", "asdf", "ruby-version"],
       "matchUpdateTypes": ["patch"],
-      "automerge": true,
+      "automerge": true
+    },
+    {
+      "matchManagers": ["nodenv", "nvm", "asdf", "ruby-version"],
       "stabilityDays": 7
     }
   ]
