@@ -3437,23 +3437,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/dev@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "@w5s/dev@npm:2.0.2"
+"@w5s/dev@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@w5s/dev@npm:2.0.3"
   dependencies:
     "@types/eslint": "npm:^8.44.0"
-  checksum: f0690020be7aeaebff128693596cf0323b6f0883e88403abeef8a1116c1ee0e52a523b55f4fd187e0010d9171bfdb7e5f072e821647776d554b4bf98c4da2fde
+  checksum: 6a91213f196da18e359fa54ae62c02899d2ead8f4538fda5ceead4eae6331b0cab726373015f8be51d0c66ffad5cf8f44f2174455f5938e5d5a78ea63fab46f6
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@w5s/eslint-config@npm:2.0.2"
+"@w5s/eslint-config@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@w5s/eslint-config@npm:2.0.3"
   dependencies:
     "@rushstack/eslint-patch": "npm:^1.1.0"
     "@typescript-eslint/eslint-plugin": "npm:^6.0.0"
     "@typescript-eslint/parser": "npm:^6.0.0"
-    "@w5s/dev": "npm:^2.0.2"
+    "@w5s/dev": "npm:^2.0.3"
     "@w5s/prettier-config": "npm:^2.0.1"
     eslint-config-airbnb-base: "npm:^15.0.0"
     eslint-config-prettier: "npm:^9.0.0"
@@ -3476,7 +3476,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 4bcc5f0a17e72f79142efb6f28f5a7f87325b50e264b32a7d17076b275df506a5668b61b64d2fec313f7e069180867b6da5fe1c2109c1c78997941c52a963dcf
+  checksum: da262b310063c076d0e3fcd95da93bfe324ea6dbf1c9f71dc215d612e8bc1ef13df67c0f0358e6d2fac17343b504704028f561ce2e4eec6afce2daa6a469744f
   languageName: node
   linkType: hard
 
@@ -3498,7 +3498,7 @@ __metadata:
   dependencies:
     "@w5s/commitlint-config": "npm:2.0.3"
     "@w5s/cspell-config": "npm:2.0.2"
-    "@w5s/eslint-config": "npm:2.0.2"
+    "@w5s/eslint-config": "npm:2.0.3"
     ajv-cli: "npm:5.0.0"
     concurrently: "npm:8.2.2"
     cspell: "npm:7.3.8"
