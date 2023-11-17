@@ -8,6 +8,7 @@
     "github>w5s/renovate-config//preset/groupJestPlusESJest",
     "github>w5s/renovate-config//preset/groupReact",
     "github>w5s/renovate-config//preset/groupRNFirebase",
+    "github>w5s/renovate-config//preset/groupVite",
     "github>w5s/renovate-config//preset/groupW5sCore"
   ]
 }
