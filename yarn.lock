@@ -1121,7 +1121,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/cspell-bundled-dicts@npm:8.0.0":
+"@cspell/cspell-bundled-dicts@npm:8.0.0, @cspell/cspell-bundled-dicts@npm:^8.0.0":
   version: 8.0.0
   resolution: "@cspell/cspell-bundled-dicts@npm:8.0.0"
   dependencies:
@@ -1174,62 +1174,6 @@ __metadata:
     "@cspell/dict-typescript": "npm:^3.1.2"
     "@cspell/dict-vue": "npm:^3.0.0"
   checksum: 731ee7d9a53d7193491bfe9d8567fa4f4164b6f0687c18370db4d04bd970a46e7cee4c2ab06eb9f6163f2c55599a4b468bc048f675afdc5eaac7816da70375a5
-  languageName: node
-  linkType: hard
-
-"@cspell/cspell-bundled-dicts@npm:^7.0.0":
-  version: 7.3.9
-  resolution: "@cspell/cspell-bundled-dicts@npm:7.3.9"
-  dependencies:
-    "@cspell/dict-ada": "npm:^4.0.2"
-    "@cspell/dict-aws": "npm:^4.0.0"
-    "@cspell/dict-bash": "npm:^4.1.2"
-    "@cspell/dict-companies": "npm:^3.0.27"
-    "@cspell/dict-cpp": "npm:^5.0.9"
-    "@cspell/dict-cryptocurrencies": "npm:^4.0.0"
-    "@cspell/dict-csharp": "npm:^4.0.2"
-    "@cspell/dict-css": "npm:^4.0.12"
-    "@cspell/dict-dart": "npm:^2.0.3"
-    "@cspell/dict-django": "npm:^4.1.0"
-    "@cspell/dict-docker": "npm:^1.1.7"
-    "@cspell/dict-dotnet": "npm:^5.0.0"
-    "@cspell/dict-elixir": "npm:^4.0.3"
-    "@cspell/dict-en-common-misspellings": "npm:^1.0.2"
-    "@cspell/dict-en-gb": "npm:1.1.33"
-    "@cspell/dict-en_us": "npm:^4.3.11"
-    "@cspell/dict-filetypes": "npm:^3.0.2"
-    "@cspell/dict-fonts": "npm:^4.0.0"
-    "@cspell/dict-fsharp": "npm:^1.0.1"
-    "@cspell/dict-fullstack": "npm:^3.1.5"
-    "@cspell/dict-gaming-terms": "npm:^1.0.4"
-    "@cspell/dict-git": "npm:^2.0.0"
-    "@cspell/dict-golang": "npm:^6.0.4"
-    "@cspell/dict-haskell": "npm:^4.0.1"
-    "@cspell/dict-html": "npm:^4.0.5"
-    "@cspell/dict-html-symbol-entities": "npm:^4.0.0"
-    "@cspell/dict-java": "npm:^5.0.6"
-    "@cspell/dict-k8s": "npm:^1.0.2"
-    "@cspell/dict-latex": "npm:^4.0.0"
-    "@cspell/dict-lorem-ipsum": "npm:^4.0.0"
-    "@cspell/dict-lua": "npm:^4.0.2"
-    "@cspell/dict-makefile": "npm:^1.0.0"
-    "@cspell/dict-node": "npm:^4.0.3"
-    "@cspell/dict-npm": "npm:^5.0.12"
-    "@cspell/dict-php": "npm:^4.0.4"
-    "@cspell/dict-powershell": "npm:^5.0.2"
-    "@cspell/dict-public-licenses": "npm:^2.0.5"
-    "@cspell/dict-python": "npm:^4.1.10"
-    "@cspell/dict-r": "npm:^2.0.1"
-    "@cspell/dict-ruby": "npm:^5.0.1"
-    "@cspell/dict-rust": "npm:^4.0.1"
-    "@cspell/dict-scala": "npm:^5.0.0"
-    "@cspell/dict-software-terms": "npm:^3.3.9"
-    "@cspell/dict-sql": "npm:^2.1.2"
-    "@cspell/dict-svelte": "npm:^1.0.2"
-    "@cspell/dict-swift": "npm:^2.0.1"
-    "@cspell/dict-typescript": "npm:^3.1.2"
-    "@cspell/dict-vue": "npm:^3.0.0"
-  checksum: cdc1c959c05f2374e7928df256be5d1ac2ce3f7e0ba64d3649bf4fc3bd1150cf3851851c948830790a4bca8b481a3dd96d37caea4cf50cd3b7c936cab87912da
   languageName: node
   linkType: hard
 
@@ -3445,17 +3389,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/cspell-config@npm:2.2.2":
-  version: 2.2.2
-  resolution: "@w5s/cspell-config@npm:2.2.2"
+"@w5s/cspell-config@npm:2.2.3":
+  version: 2.2.3
+  resolution: "@w5s/cspell-config@npm:2.2.3"
   dependencies:
-    "@cspell/cspell-bundled-dicts": "npm:^7.0.0"
+    "@cspell/cspell-bundled-dicts": "npm:^8.0.0"
   peerDependencies:
-    cspell: ^6.0.0 || ^7.0.0
+    cspell: ^6.0.0 || ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: be5948aebc8a051ba44f4bdfaf7b4e9115933ae3d846c459030389b03767226f3d963554615a0dd04696690eb7bb801ff2c5412d1ee6efc300a39f1febf31efd
+  checksum: 994ea76fea2e04a06325b682a3b8c33c52e5ba59b2a427a3fa3b157c9bd04e5efe8962779e7c409a157cff981966ccc4a0ea9f572c9a332dce563c1a16c6ed5e
   languageName: node
   linkType: hard
 
@@ -3519,7 +3463,7 @@ __metadata:
   resolution: "@w5s/renovate-config@workspace:."
   dependencies:
     "@w5s/commitlint-config": "npm:2.0.4"
-    "@w5s/cspell-config": "npm:2.2.2"
+    "@w5s/cspell-config": "npm:2.2.3"
     "@w5s/eslint-config": "npm:2.0.5"
     ajv-cli: "npm:5.0.0"
     concurrently: "npm:8.2.2"
