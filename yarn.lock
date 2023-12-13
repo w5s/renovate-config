@@ -2280,17 +2280,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pep440@npm:3.0.12":
-  version: 3.0.12
-  resolution: "@renovatebot/pep440@npm:3.0.12"
-  checksum: cb8f2b5a85870ca4e468a3078304fb720218c6061a440302579fa33c33eb7e3cf3581972a8904689114e5b41e630aac5dfeb8cee38c4912152ba28c876553f2b
+"@renovatebot/pep440@npm:3.0.14":
+  version: 3.0.14
+  resolution: "@renovatebot/pep440@npm:3.0.14"
+  checksum: 7286a7ac34f36587acbf8153360933937ebbd68b269e6e636bfde00235122084d8fbde5bee9633fd0e66c61e205815cb2b0a6e8d51d2d308175f08b70428e275
   languageName: node
   linkType: hard
 
-"@renovatebot/ruby-semver@npm:3.0.19":
-  version: 3.0.19
-  resolution: "@renovatebot/ruby-semver@npm:3.0.19"
-  checksum: 3bde4de64e82dab70dcfd14190538a5013b9082a076634d96b40b4f232dfc9e11c10d6b35496d3b9047cdd81736be265a365ff543188f9da659da067a99b837c
+"@renovatebot/ruby-semver@npm:3.0.21":
+  version: 3.0.21
+  resolution: "@renovatebot/ruby-semver@npm:3.0.21"
+  checksum: f4820a3c030c62b35246000e3b37fb0f5616ddc82f89180ec806637bcf7b5c4e09dbfbd039f1b23b7b04d73e3c38a6cc092eca099992d027ffeb7e5b3e072298
   languageName: node
   linkType: hard
 
@@ -3473,7 +3473,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.1.1"
-    renovate: "npm:37.89.8"
+    renovate: "npm:37.92.3"
   languageName: unknown
   linkType: soft
 
@@ -8894,9 +8894,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.89.8":
-  version: 37.89.8
-  resolution: "renovate@npm:37.89.8"
+"renovate@npm:37.92.3":
+  version: 37.92.3
+  resolution: "renovate@npm:37.92.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -8918,8 +8918,8 @@ __metadata:
     "@opentelemetry/semantic-conventions": "npm:1.18.1"
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/osv-offline": "npm:1.3.10"
-    "@renovatebot/pep440": "npm:3.0.12"
-    "@renovatebot/ruby-semver": "npm:3.0.19"
+    "@renovatebot/pep440": "npm:3.0.14"
+    "@renovatebot/ruby-semver": "npm:3.0.21"
     "@sindresorhus/is": "npm:4.6.0"
     "@types/ms": "npm:0.7.34"
     "@types/tmp": "npm:0.2.6"
@@ -9011,7 +9011,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: fbd7245076b81df30c7cf7c95a382c7e84c846f91daad1c5eda6aa289b39a8101f8344639d5a3e5e15ca4f4c04701c9908332267cb2d949d85aec6e788a99207
+  checksum: 6e98a379a2d6aeef1cafbade749928e88f3871466b47ecf56618817316a195c1a3d2b41a579542c59089ac7d8fc6f5904e82c00fdd61a189f635b51d175c360b
   languageName: node
   linkType: hard
 
