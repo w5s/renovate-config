@@ -13,7 +13,8 @@
     "github>w5s/renovate-config//preset/commit",
     "github>w5s/renovate-config//preset/schedule",
     "github>w5s/renovate-config//preset/ignore",
-    "workarounds:all"
+    "workarounds:all",
+    "config:best-practices"
   ],
   "forkProcessing": "disabled",
   "ignoreUnstable": true,
