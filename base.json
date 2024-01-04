@@ -7,15 +7,18 @@
   "dependencyDashboard": true,
   "extends": [
     ":ignoreModulesAndTests",
+    ":semanticPrefixFixDepsChoreOthers",
     "helpers:disableTypesNodeMajor",
+    "helpers:pinGitHubActionDigests",
+    "docker:pinDigests",
+    ":pinDevDependencies",
     "github>w5s/renovate-config//preset/groupRecommended",
     "github>w5s/renovate-config//preset/automergeRecommended",
     "github>w5s/renovate-config//preset/commit",
     "github>w5s/renovate-config//preset/schedule",
     "github>w5s/renovate-config//preset/ignore",
     "replacements:all",
-    "workarounds:all",
-    "config:best-practices"
+    "workarounds:all"
   ],
   "forkProcessing": "disabled",
   "ignoreUnstable": true,
