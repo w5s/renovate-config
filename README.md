@@ -1,5 +1,5 @@
-<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=# W5s Renovate configuration _(${name})_) -->
-# W5s Renovate configuration _(@w5s/renovate-config)_
+<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=# W5S Renovate configuration _(${name})_) -->
+# W5S Renovate configuration _(@w5s/renovate-config)_
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 [![License][license-image]][license-url]
@@ -34,7 +34,7 @@
 
 `renovate.json`
 
-**JavaScript application** (dashboard, static website generator):
+**JavaScript application** (api, webapp, static website generator, etc):
 
 ```json
 {
