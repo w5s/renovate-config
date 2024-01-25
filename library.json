@@ -1,5 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Default configuration for a library",
-  "extends": ["github>w5s/renovate-config:base", ":pinOnlyDevDependencies"]
+  "extends": [
+    "github>w5s/renovate-config:recommended",
+    ":pinOnlyDevDependencies"
+  ]
 }

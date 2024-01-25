@@ -11,8 +11,6 @@
     "helpers:disableTypesNodeMajor",
     "helpers:pinGitHubActionDigests",
     "docker:pinDigests",
-    "github>w5s/renovate-config//preset/groupRecommended",
-    "github>w5s/renovate-config//preset/automergeRecommended",
     "github>w5s/renovate-config//preset/commit",
     "github>w5s/renovate-config//preset/schedule",
     "github>w5s/renovate-config//preset/ignore",
