@@ -4112,6 +4112,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"array.prototype.filter@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "array.prototype.filter@npm:1.0.3"
+  dependencies:
+    call-bind: "npm:^1.0.2"
+    define-properties: "npm:^1.2.0"
+    es-abstract: "npm:^1.22.1"
+    es-array-method-boxes-properly: "npm:^1.0.0"
+    is-string: "npm:^1.0.7"
+  checksum: 10/3da2189afb00f95559cc73fc3c50f17a071a65bb705c0b2f2e2a2b2142781215b622442368c8b4387389b6ab251adf09ad347f9a8a4cf29d24404cc5ea1e295c
+  languageName: node
+  linkType: hard
+
 "array.prototype.findlastindex@npm:^1.2.3":
   version: 1.2.3
   resolution: "array.prototype.findlastindex@npm:1.2.3"
@@ -5525,7 +5538,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-abstract@npm:^1.22.1":
+"es-abstract@npm:^1.22.1, es-abstract@npm:^1.22.3":
   version: 1.22.3
   resolution: "es-abstract@npm:1.22.3"
   dependencies:
@@ -5572,10 +5585,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-errors@npm:^1.0.0":
+"es-array-method-boxes-properly@npm:^1.0.0":
   version: 1.0.0
-  resolution: "es-errors@npm:1.0.0"
-  checksum: 10/5ffe692918a79970a86ceaa75febb58477a41d33e4c24692252e890a57e313ae17469ea8e6e00a1874746b8b2f93e7ee9d7e78f8166bbf6a26aecb6dd44ef60c
+  resolution: "es-array-method-boxes-properly@npm:1.0.0"
+  checksum: 10/27a8a21acf20f3f51f69dce8e643f151e380bffe569e95dc933b9ded9fcd89a765ee21b5229c93f9206c93f87395c6b75f80be8ac8c08a7ceb8771e1822ff1fb
+  languageName: node
+  linkType: hard
+
+"es-errors@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "es-errors@npm:1.1.0"
+  checksum: 10/8c5984e086ad23d639bed8eef5fe09b0a1ecfb54447227539f469e48302d86d964ba72eb51c6974e71f05b1f6527ebcb741fd2afadc2c0703f9e24960b5c895f
   languageName: node
   linkType: hard
 
@@ -8761,14 +8781,15 @@ __metadata:
   linkType: hard
 
 "object.groupby@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "object.groupby@npm:1.0.1"
+  version: 1.0.2
+  resolution: "object.groupby@npm:1.0.2"
   dependencies:
-    call-bind: "npm:^1.0.2"
-    define-properties: "npm:^1.2.0"
-    es-abstract: "npm:^1.22.1"
-    get-intrinsic: "npm:^1.2.1"
-  checksum: 10/b7123d91403f95d63978513b23a6079c30f503311f64035fafc863c291c787f287b58df3b21ef002ce1d0b820958c9009dd5a8ab696e0eca325639d345e41524
+    array.prototype.filter: "npm:^1.0.3"
+    call-bind: "npm:^1.0.5"
+    define-properties: "npm:^1.2.1"
+    es-abstract: "npm:^1.22.3"
+    es-errors: "npm:^1.0.0"
+  checksum: 10/07c1bea1772c45f7967a63358a683ef7b0bd99cabe0563e6fee3e8acc061cc5984d2f01a46472ebf10b2cb439298c46776b2134550dce457fd7240baaaa4f592
   languageName: node
   linkType: hard
 
