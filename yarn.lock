@@ -3696,29 +3696,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/commitlint-config@npm:2.0.7":
-  version: 2.0.7
-  resolution: "@w5s/commitlint-config@npm:2.0.7"
+"@w5s/commitlint-config@npm:2.0.8":
+  version: 2.0.8
+  resolution: "@w5s/commitlint-config@npm:2.0.8"
   dependencies:
     "@commitlint/types": "npm:^18.0.0"
-    "@w5s/conventional-changelog": "npm:^2.0.5"
+    "@w5s/conventional-changelog": "npm:^2.0.6"
   peerDependencies:
     "@commitlint/cli": ^16.0.0 || ^17.0.0 || ^18.0.0
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: 10/330f141d82491e18f63b322ee753a532327841be6c9da689243d01cfa415db47b82794f5f1e5ccf6a99f0cc9d5863042e9cf05efe9dedf970fda020f2059bc1d
+  checksum: 10/31c950a8d6a83d5ab4b5e24127dcf9d1e559b397f8104ba225834660d319b6781f348a8e918f5c251ebf87b267218d7c18cb3771a192c0afb5fa72ad35202012
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:^2.0.5":
-  version: 2.0.5
-  resolution: "@w5s/conventional-changelog@npm:2.0.5"
+"@w5s/conventional-changelog@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "@w5s/conventional-changelog@npm:2.0.6"
   dependencies:
     "@commitlint/types": "npm:^18.0.0"
     emoji-regex: "npm:^10.2.1"
     gitmojis: "npm:^3.13.4"
-  checksum: 10/2d9ad732b44d75d2f6c278f4e081215883a447c9055694396cc6b91f6b91eff7ee7dbf87e3e1b62b9009ae1bb903b2d9e515660c7a7657cdc4da56e85a4046c9
+  checksum: 10/46c7ed0e1551944cd4228265107bec0aebe6176ed641e14a9ca51e5a478cb25b8d86e0a20050bf0d01d68d82564c72414001591d35f65d1472046e26bcfdcefa
   languageName: node
   linkType: hard
 
@@ -3795,7 +3795,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@w5s/renovate-config@workspace:."
   dependencies:
-    "@w5s/commitlint-config": "npm:2.0.7"
+    "@w5s/commitlint-config": "npm:2.0.8"
     "@w5s/cspell-config": "npm:2.2.7"
     "@w5s/eslint-config": "npm:2.0.8"
     concurrently: "npm:8.2.2"
