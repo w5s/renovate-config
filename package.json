@@ -64,7 +64,7 @@
   "devDependencies": {
     "@w5s/commitlint-config": "2.0.8",
     "@w5s/cspell-config": "2.2.8",
-    "@w5s/eslint-config": "2.0.9",
+    "@w5s/eslint-config": "2.0.10",
     "concurrently": "8.2.2",
     "cspell": "8.6.0",
     "eslint": "8.57.0",
