@@ -10,6 +10,11 @@
     {
       "matchManagers": ["nodenv", "nvm", "asdf", "ruby-version"],
       "minimumReleaseAge": "7 days"
+    },
+    {
+      "matchManagers": ["nodenv", "nvm", "asdf", "ruby-version"],
+      "matchPackageNames": ["ruby"],
+      "automerge": false
     }
   ]
 }
