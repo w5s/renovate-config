@@ -3738,9 +3738,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/cspell-config@npm:2.2.14":
-  version: 2.2.14
-  resolution: "@w5s/cspell-config@npm:2.2.14"
+"@w5s/cspell-config@npm:2.2.15":
+  version: 2.2.15
+  resolution: "@w5s/cspell-config@npm:2.2.15"
   dependencies:
     "@cspell/cspell-bundled-dicts": "npm:^8.0.0"
   peerDependencies:
@@ -3748,7 +3748,7 @@ __metadata:
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 10/49cb89bd172b8dbe875b8d3d3dcccd365281109568478a5806888ee9c3eb9951f9532c77b3b49d93c5298cd4fe924ea8d9fcc2f63dfc657b7f8d78570fdb1e74
+  checksum: 10/f12e84172677e17298b58e4e79f136f0668f681952b9886c31645f70f2f5ba0aee1ae368c302932d65e690b00aaa0bef41904f4b22edfce662b6da54033877db
   languageName: node
   linkType: hard
 
@@ -3812,7 +3812,7 @@ __metadata:
   resolution: "@w5s/renovate-config@workspace:."
   dependencies:
     "@w5s/commitlint-config": "npm:2.0.15"
-    "@w5s/cspell-config": "npm:2.2.14"
+    "@w5s/cspell-config": "npm:2.2.15"
     "@w5s/eslint-config": "npm:2.0.16"
     concurrently: "npm:8.2.2"
     cspell: "npm:8.8.0"
