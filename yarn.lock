@@ -3824,7 +3824,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.5"
-    renovate: "npm:37.363.9"
+    renovate: "npm:37.368.0"
     vitest: "npm:1.6.0"
   languageName: unknown
   linkType: soft
@@ -6696,18 +6696,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:10.3.12":
-  version: 10.3.12
-  resolution: "glob@npm:10.3.12"
+"glob@npm:10.3.14":
+  version: 10.3.14
+  resolution: "glob@npm:10.3.14"
   dependencies:
     foreground-child: "npm:^3.1.0"
     jackspeak: "npm:^2.3.6"
     minimatch: "npm:^9.0.1"
     minipass: "npm:^7.0.4"
-    path-scurry: "npm:^1.10.2"
+    path-scurry: "npm:^1.11.0"
   bin:
     glob: dist/esm/bin.mjs
-  checksum: 10/9e8186abc22dc824b5dd86cefd8e6b5621a72d1be7f68bacc0fd681e8c162ec5546660a6ec0553d6a74757a585e655956c7f8f1a6d24570e8d865c307323d178
+  checksum: 10/750dae74f2d73350f3b90b775f8b08d7ad3a174ec6f890ce712fe801be408794cc77da9808d45b60f4f15482d604861fe05980aceb3a7af95b539e1f0897187a
   languageName: node
   linkType: hard
 
@@ -7838,10 +7838,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonata@npm:2.0.4":
-  version: 2.0.4
-  resolution: "jsonata@npm:2.0.4"
-  checksum: 10/eb613eee1cb139f56b411891184df0612a049ca2174592ce18fab4423ce77ed8024b952ccec5d7b84a605f9a9f1c251416d8ad8055bef75bb022378b1961cb68
+"jsonata@npm:2.0.5":
+  version: 2.0.5
+  resolution: "jsonata@npm:2.0.5"
+  checksum: 10/957bf79d9b97a82fc3421fd51d05fbf0645850ec8d3d8f86583579e657ae3d8bc67165f94b549be7195c57c1874ba84a163cc9e4462e7929353e1cb3096a6c08
   languageName: node
   linkType: hard
 
@@ -9275,7 +9275,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-scurry@npm:^1.10.2, path-scurry@npm:^1.11.0":
+"path-scurry@npm:^1.11.0":
   version: 1.11.1
   resolution: "path-scurry@npm:1.11.1"
   dependencies:
@@ -9770,9 +9770,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.363.9":
-  version: 37.363.9
-  resolution: "renovate@npm:37.363.9"
+"renovate@npm:37.368.0":
+  version: 37.368.0
+  resolution: "renovate@npm:37.368.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.565.0"
     "@aws-sdk/client-ec2": "npm:3.565.0"
@@ -9829,7 +9829,7 @@ __metadata:
     fs-extra: "npm:11.2.0"
     git-url-parse: "npm:14.0.0"
     github-url-from-git: "npm:1.5.0"
-    glob: "npm:10.3.12"
+    glob: "npm:10.3.14"
     global-agent: "npm:3.0.0"
     good-enough-parser: "npm:1.1.23"
     google-auth-library: "npm:9.9.0"
@@ -9842,7 +9842,7 @@ __metadata:
     json-dup-key-validator: "npm:1.0.3"
     json-stringify-pretty-compact: "npm:3.0.0"
     json5: "npm:2.2.3"
-    jsonata: "npm:2.0.4"
+    jsonata: "npm:2.0.5"
     jsonc-parser: "npm:3.2.1"
     klona: "npm:2.0.6"
     lru-cache: "npm:10.2.2"
@@ -9892,7 +9892,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/82cdacf9d5fbe9d5f14387a6e5c72d69a540c302f80962daa2ebebb56e40352f3cd223fa60828fddb2bc3d4fdb533e62453a822ca873d432e7307af8ddb69f8e
+  checksum: 10/f4eb7f578f9a7bf9556c71b64183b60b82ab7c17bf1d8fa6c5e4a7fa956d1f0f3a080cc76f8830f7a63f4d3069be9f2c2efdd6efece9cbd49975eb91149ef3d0
   languageName: node
   linkType: hard
 
