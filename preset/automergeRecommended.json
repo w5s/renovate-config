@@ -1,8 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>w5s/renovate-config//preset/automergeGithubActions",
-    "github>w5s/renovate-config//preset/automergeGitlabCI",
+    "github>w5s/renovate-config//preset/automergeCI",
     "github>w5s/renovate-config//preset/automergeNPM",
     "github>w5s/renovate-config//preset/automergeNPMDevDependencies",
     "github>w5s/renovate-config//preset/automergeTypesMinor",
