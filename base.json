@@ -21,7 +21,6 @@
   "ignoreUnstable": true,
   "lockFileMaintenance": {
     "enabled": true,
-    "prPriority": 1,
     "automerge": true
   },
   "packageRules": [
