@@ -3971,7 +3971,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.3.2"
-    renovate: "npm:37.421.3"
+    renovate: "npm:37.421.7"
     vitest: "npm:1.6.0"
   languageName: unknown
   linkType: soft
@@ -4419,14 +4419,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:9.6.0":
-  version: 9.6.0
-  resolution: "better-sqlite3@npm:9.6.0"
+"better-sqlite3@npm:11.0.0":
+  version: 11.0.0
+  resolution: "better-sqlite3@npm:11.0.0"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10/06b3d95221071a06c2e22a9746d9b7049c0bce7962e5e3290ccf088fffbf4d4d52868f0d98b8ae2565fe33b1adab89823145f23c6f6eb63ecc4fc1b883f9082c
+  checksum: 10/2fe3743ff5744cac0b76a7d4eb0b1318f576bdaf643ab994f4ae257082063c5649a878e3748e55ca2ae1b457afb327ca123d5961d0f6e4b53a165a91c024d1b3
   languageName: node
   linkType: hard
 
@@ -8019,10 +8019,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-parser@npm:3.2.1":
-  version: 3.2.1
-  resolution: "jsonc-parser@npm:3.2.1"
-  checksum: 10/fe2df6f39e21653781d52cae20c5b9e0ab62461918d97f9430b216cea9b6500efc1d8b42c6584cc0a7548b4c996055e9cdc39f09b9782fa6957af2f45306c530
+"jsonc-parser@npm:3.3.1":
+  version: 3.3.1
+  resolution: "jsonc-parser@npm:3.3.1"
+  checksum: 10/9b0dc391f20b47378f843ef1e877e73ec652a5bdc3c5fa1f36af0f119a55091d147a86c1ee86a232296f55c929bba174538c2bf0312610e0817a22de131cc3f4
   languageName: node
   linkType: hard
 
@@ -9992,9 +9992,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.421.3":
-  version: 37.421.3
-  resolution: "renovate@npm:37.421.3"
+"renovate@npm:37.421.7":
+  version: 37.421.7
+  resolution: "renovate@npm:37.421.7"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.606.0"
     "@aws-sdk/client-ec2": "npm:3.606.0"
@@ -10027,7 +10027,7 @@ __metadata:
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.0"
     azure-devops-node-api: "npm:13.0.0"
-    better-sqlite3: "npm:9.6.0"
+    better-sqlite3: "npm:11.0.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:18.0.3"
     cacheable-lookup: "npm:5.0.4"
@@ -10066,7 +10066,7 @@ __metadata:
     json-stringify-pretty-compact: "npm:3.0.0"
     json5: "npm:2.2.3"
     jsonata: "npm:2.0.5"
-    jsonc-parser: "npm:3.2.1"
+    jsonc-parser: "npm:3.3.1"
     klona: "npm:2.0.6"
     lru-cache: "npm:10.2.2"
     luxon: "npm:3.4.4"
@@ -10115,7 +10115,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/f95ade8d357e6ff4a36f6291f0bcffdca17b5dc1da01c5e482fd6c5e3e38cfe08ed4b10277694cda0c0ba02208c2745e16a184b31055bc9fe3cf156793d8cf94
+  checksum: 10/004514dccd02c8cdd408baf548ae11152e131aeec378f2236c4b49e96207696261dc384b60859a9a9a71f8cc8eeaa9ddebf2126bd30e6f3be2398968c17b8a31
   languageName: node
   linkType: hard
 
