@@ -4014,24 +4014,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/dev@npm:^2.2.3":
-  version: 2.2.3
-  resolution: "@w5s/dev@npm:2.2.3"
+"@w5s/dev@npm:^2.2.5":
+  version: 2.2.5
+  resolution: "@w5s/dev@npm:2.2.5"
   dependencies:
     "@types/eslint": "npm:^8.44.0"
-  checksum: 10/b6bc8bff8e2446a87e45068c2f0b456353309438348a68334e4db96029c957a1aa7d6b28b32ac85820360aa1839ccaf75883a52efa0f6ad7d99313c3e05dda3f
+  checksum: 10/245035ad633af809d51adb6385311a6e5b2c0b7b37882a0974bbf2fba94f69a5e27089e975bf7d77d4dacf0f71bd76a3308e9ffb24b8cf50522da8393817d6d8
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:2.0.22":
-  version: 2.0.22
-  resolution: "@w5s/eslint-config@npm:2.0.22"
+"@w5s/eslint-config@npm:2.0.24":
+  version: 2.0.24
+  resolution: "@w5s/eslint-config@npm:2.0.24"
   dependencies:
     "@rushstack/eslint-patch": "npm:^1.1.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.0.0"
     "@typescript-eslint/parser": "npm:^7.0.0"
-    "@w5s/dev": "npm:^2.2.3"
-    "@w5s/prettier-config": "npm:^2.0.16"
+    "@w5s/dev": "npm:^2.2.5"
+    "@w5s/prettier-config": "npm:^2.0.18"
     eslint-config-airbnb-base: "npm:^15.0.0"
     eslint-config-prettier: "npm:^9.0.0"
     eslint-plugin-import: "npm:^2.25.0"
@@ -4053,19 +4053,19 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/ae21b499dc96ca9fc657ba4b950cc812c2770930ef701a709c9d0f30a20a16bb55e2a100f6d86db5849bf46704e5a27ece31f46f8730dc2ed38d0e751e1ce2c1
+  checksum: 10/8560f24644a5a8ee59e55aa3be819fd8d7144d708500d535311face6a051ebcda049419e11aed3aef837181804be3ba2f14a5f469f7682b600d1eea6e88b865a
   languageName: node
   linkType: hard
 
-"@w5s/prettier-config@npm:^2.0.16":
-  version: 2.0.16
-  resolution: "@w5s/prettier-config@npm:2.0.16"
+"@w5s/prettier-config@npm:^2.0.18":
+  version: 2.0.18
+  resolution: "@w5s/prettier-config@npm:2.0.18"
   peerDependencies:
     prettier: 2.x || 3.x
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 10/768ea8de1e98373da9fb054807086cb331149ce3e5edba5e595a5d472da8d4bac227544e0092c6eeef909d55b07b7c44921a258faaeaefa982536162baccec1e
+  checksum: 10/c41ea866c804646650c572d880f4d71bd91fb90387bc7cabd6b3b4c563ba9953a39f79abd02ad444a9738b6ca9c88b2764efe2c8f203b5f3c061cb335918a963
   languageName: node
   linkType: hard
 
@@ -4075,7 +4075,7 @@ __metadata:
   dependencies:
     "@w5s/commitlint-config": "npm:2.0.19"
     "@w5s/cspell-config": "npm:2.3.4"
-    "@w5s/eslint-config": "npm:2.0.22"
+    "@w5s/eslint-config": "npm:2.0.24"
     concurrently: "npm:8.2.2"
     cspell: "npm:8.12.1"
     eslint: "npm:8.57.0"
