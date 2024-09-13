@@ -6,6 +6,7 @@
     "github>w5s/renovate-config//preset/groupAlgoliaClientJavascript",
     "github>w5s/renovate-config//preset/groupCSpell",
     "github>w5s/renovate-config//preset/groupJestPlusESJest",
+    "github>w5s/renovate-config//preset/groupDocusaurusPlusPlugins",
     "github>w5s/renovate-config//preset/groupReact",
     "github>w5s/renovate-config//preset/groupRNFirebase",
     "github>w5s/renovate-config//preset/groupVite",
