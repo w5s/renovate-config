@@ -41,6 +41,13 @@
     {
       "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "matchPackageNames": ["npm-run-all", "npm-run-all2", "concurrently"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     },
