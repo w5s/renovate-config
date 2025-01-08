@@ -65,7 +65,7 @@
   "devDependencies": {
     "@w5s/commitlint-config": "2.1.6",
     "@w5s/cspell-config": "2.3.18",
-    "@w5s/eslint-config": "2.2.6",
+    "@w5s/eslint-config": "2.3.1",
     "cspell": "8.17.1",
     "eslint": "8.57.1",
     "markdown-magic": "3.3.0",
