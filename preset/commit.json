@@ -1,25 +1,31 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Commit gitmoji preset",
-  "commitMessagePrefix": "⬆️",
+  "semanticCommits": "enabled",
+  "semanticCommitScope": null,
+  "semanticCommitType": "⬆️",
   "commitMessageAction": "Upgrade",
   "packageRules": [
     {
       "matchUpdateTypes": ["pin"],
-      "commitMessagePrefix": "📌",
+      "semanticCommitType": "📌",
       "commitMessageAction": "Pin"
     },
     {
       "matchUpdateTypes": ["rollback"],
-      "commitMessagePrefix": "⬇️",
+      "semanticCommitType": "⬇️",
       "commitMessageAction": "Downgrade"
     },
     {
       "matchUpdateTypes": ["digest", "bump"],
-      "commitMessagePrefix": "🔖"
+      "semanticCommitType": "🔖"
     },
     {
-      "commitMessagePrefix": "👷",
+      "matchDepTypes": ["devDependencies"],
+      "semanticCommitType": "🔨"
+    },
+    {
+      "semanticCommitType": "👷",
       "matchCategories": ["ci"]
     }
   ]
