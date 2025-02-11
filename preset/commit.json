@@ -15,6 +15,10 @@
       "commitMessageAction": "Downgrade"
     },
     {
+      "matchUpdateTypes": ["digest", "bump"],
+      "commitMessagePrefix": "🔖"
+    },
+    {
       "commitMessagePrefix": "👷",
       "matchCategories": ["ci"]
     }
