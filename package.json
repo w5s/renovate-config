@@ -60,12 +60,16 @@
   "eslintConfig": {
     "extends": [
       "@w5s/eslint-config"
-    ]
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
   },
   "devDependencies": {
     "@w5s/commitlint-config": "2.1.9",
     "@w5s/cspell-config": "2.3.21",
     "@w5s/eslint-config": "2.4.2",
+    "@w5s/ts-config": "2.3.1",
     "cspell": "8.17.5",
     "eslint": "8.57.1",
     "markdown-magic": "3.4.0",
@@ -74,6 +78,7 @@
     "npm-run-all2": "7.0.2",
     "prettier": "3.5.3",
     "renovate": "39.185.7",
+    "typescript": "5.8.2",
     "vitest": "3.0.7"
   },
   "packageManager": "yarn@4.7.0",
