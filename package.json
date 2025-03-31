@@ -79,7 +79,7 @@
     "prettier": "3.5.3",
     "renovate": "39.222.4",
     "typescript": "5.8.2",
-    "vitest": "3.0.9"
+    "vitest": "3.1.1"
   },
   "packageManager": "yarn@4.8.1",
   "engines": {
