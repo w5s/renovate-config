@@ -69,7 +69,7 @@
     "@w5s/commitlint-config": "2.1.10",
     "@w5s/cspell-config": "2.3.22",
     "@w5s/eslint-config": "2.4.3",
-    "@w5s/ts-config": "2.3.1",
+    "@w5s/ts-config": "2.3.2",
     "cspell": "8.18.1",
     "eslint": "8.57.1",
     "markdown-magic": "3.4.1",
