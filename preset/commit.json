@@ -19,7 +19,7 @@
       "commitMessagePrefix": "🔖"
     },
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "lockFileMaintenance"],
       "commitMessagePrefix": "🔨"
     },
     {
