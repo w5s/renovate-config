@@ -1070,12 +1070,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cdktf/hcl2json@npm:0.20.11":
-  version: 0.20.11
-  resolution: "@cdktf/hcl2json@npm:0.20.11"
+"@cdktf/hcl2json@npm:0.20.12":
+  version: 0.20.12
+  resolution: "@cdktf/hcl2json@npm:0.20.12"
   dependencies:
-    fs-extra: "npm:11.2.0"
-  checksum: 10/7e1b982d2f90da8ababebadd48f814ddd7456ec86a07862d840eb12286ed376084e21a8f40031e09e525368bd03daab388c48b19865c632f0ec80812bdd06fd6
+    fs-extra: "npm:11.3.0"
+  checksum: 10/a158f3eb6dbd1aeec809f471ab2919a0713df79cae08cdd271f470cefde112693fc94954d5264cf575d869a294b786d55b8d328b20adf1c2732fa73a296e5be4
   languageName: node
   linkType: hard
 
@@ -4047,7 +4047,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
     prettier: "npm:3.5.3"
-    renovate: "npm:39.257.3"
+    renovate: "npm:39.257.8"
     typescript: "npm:5.8.3"
     vitest: "npm:3.1.2"
   languageName: unknown
@@ -6781,17 +6781,6 @@ __metadata:
   version: 1.0.0
   resolution: "fs-constants@npm:1.0.0"
   checksum: 10/18f5b718371816155849475ac36c7d0b24d39a11d91348cfcb308b4494824413e03572c403c86d3a260e049465518c4f0d5bd00f0371cdfcad6d4f30a85b350d
-  languageName: node
-  linkType: hard
-
-"fs-extra@npm:11.2.0":
-  version: 11.2.0
-  resolution: "fs-extra@npm:11.2.0"
-  dependencies:
-    graceful-fs: "npm:^4.2.0"
-    jsonfile: "npm:^6.0.1"
-    universalify: "npm:^2.0.0"
-  checksum: 10/0579bf6726a4cd054d4aa308f10b483f52478bb16284f32cf60b4ce0542063d551fca1a08a2af365e35db21a3fa5a06cf2a6ed614004b4368982bc754cb816b3
   languageName: node
   linkType: hard
 
@@ -10270,9 +10259,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.257.3":
-  version: 39.257.3
-  resolution: "renovate@npm:39.257.3"
+"renovate@npm:39.257.8":
+  version: 39.257.8
+  resolution: "renovate@npm:39.257.8"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.777.0"
     "@aws-sdk/client-ec2": "npm:3.779.0"
@@ -10283,7 +10272,7 @@ __metadata:
     "@aws-sdk/credential-providers": "npm:3.778.0"
     "@baszalmstra/rattler": "npm:0.2.1"
     "@breejs/later": "npm:4.2.0"
-    "@cdktf/hcl2json": "npm:0.20.11"
+    "@cdktf/hcl2json": "npm:0.20.12"
     "@opentelemetry/api": "npm:1.9.0"
     "@opentelemetry/context-async-hooks": "npm:2.0.0"
     "@opentelemetry/exporter-trace-otlp-http": "npm:0.200.0"
@@ -10403,7 +10392,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/ff264539369b6f5645c14351e5391e55bd58edb10d4ebe0aba2a649ee9cfd0e161c9ed4b6ed8f751256649bdc44dc10e14bd1e8466ee7422099ce5c4bc017301
+  checksum: 10/2d555fdd4d5a91b0489d9b19d5627983408573e6773bda29de24232839edc0baa9fa8f9f4162e29aa77277ea9bb0482bd592bc19d49c1f99ad57cc95d3831f59
   languageName: node
   linkType: hard
 
