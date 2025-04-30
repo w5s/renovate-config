@@ -4040,7 +4040,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
     prettier: "npm:3.5.3"
-    renovate: "npm:39.262.1"
+    renovate: "npm:39.264.0"
     typescript: "npm:5.8.3"
     vitest: "npm:3.1.2"
   languageName: unknown
@@ -10249,9 +10249,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.262.1":
-  version: 39.262.1
-  resolution: "renovate@npm:39.262.1"
+"renovate@npm:39.264.0":
+  version: 39.264.0
+  resolution: "renovate@npm:39.264.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.777.0"
     "@aws-sdk/client-ec2": "npm:3.779.0"
@@ -10382,7 +10382,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/1e9a13664c4ab3ffd0dc41fcff4cc580f8881ed47d0bac3ff6c2d9a71619f72a2191a3f7c1dd67650d69f59e10c086c91d713cc41ce95858094c7ab3f109f30e
+  checksum: 10/e6f4fe3a0a2d9a418966b3b7a6e23322bcafac93cbf88857ad280d6e5f2791da40c549914aa133e33d94e44a48806cbdf9a3fdbc35f3b064b4fad2b38e734937
   languageName: node
   linkType: hard
 
