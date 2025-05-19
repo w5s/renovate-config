@@ -4144,7 +4144,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.2"
     prettier: "npm:3.5.3"
-    renovate: "npm:40.14.6"
+    renovate: "npm:40.18.1"
     typescript: "npm:5.8.3"
     vitest: "npm:3.1.4"
   languageName: unknown
@@ -9470,10 +9470,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openpgp@npm:6.1.0":
-  version: 6.1.0
-  resolution: "openpgp@npm:6.1.0"
-  checksum: 10/ee8a7f005defd7c312f9ff21ed90f03734ba5cf919952b65e84fec35266ebdf7727bc27819eb32bec77824115f16827eafa74f3ddcfd5ba09db5a6f28af3ab11
+"openpgp@npm:6.1.1":
+  version: 6.1.1
+  resolution: "openpgp@npm:6.1.1"
+  checksum: 10/1c575fe65b6fd2f03b81fe2ba44aff6961d7d57aa857a36e1e345fe9344e125cbb68d655b5cdec0e3118c5dfa5006e6bc5e67eafbb609dfd496436badc016241
   languageName: node
   linkType: hard
 
@@ -10304,9 +10304,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:40.14.6":
-  version: 40.14.6
-  resolution: "renovate@npm:40.14.6"
+"renovate@npm:40.18.1":
+  version: 40.18.1
+  resolution: "renovate@npm:40.18.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.799.0"
     "@aws-sdk/client-ec2": "npm:3.800.0"
@@ -10397,7 +10397,7 @@ __metadata:
     nanoid: "npm:5.1.5"
     neotraverse: "npm:0.6.18"
     node-html-parser: "npm:7.0.1"
-    openpgp: "npm:6.1.0"
+    openpgp: "npm:6.1.1"
     p-all: "npm:3.0.0"
     p-map: "npm:4.0.0"
     p-queue: "npm:6.6.2"
@@ -10411,7 +10411,7 @@ __metadata:
     remark: "npm:13.0.0"
     remark-github: "npm:10.1.0"
     safe-stable-stringify: "npm:2.5.0"
-    semver: "npm:7.7.1"
+    semver: "npm:7.7.2"
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:2.1.2"
@@ -10437,7 +10437,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/e139f8e80c2ff341fa60a83403b5c75cc366819157f8f0fe5edf7bf6663bc65b5e8e81196074b010b650ad2139ecd9ef6baee5c36f4c0fb954e346cec9707016
+  checksum: 10/8efd6e2b08a8f41c8c1dc5ce4a897081e99b0e71bfeb52d5c9149b3c4dd9269abe65a0035cae56b9bc2f8c73ffcd83b3c6400ba7f00af9f0aaa947bf04f1dbd5
   languageName: node
   linkType: hard
 
@@ -10781,12 +10781,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.7.1":
-  version: 7.7.1
-  resolution: "semver@npm:7.7.1"
+"semver@npm:7.7.2, semver@npm:^7.0.0, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.5.4, semver@npm:^7.6.0, semver@npm:^7.6.3, semver@npm:^7.7.1":
+  version: 7.7.2
+  resolution: "semver@npm:7.7.2"
   bin:
     semver: bin/semver.js
-  checksum: 10/4cfa1eb91ef3751e20fc52e47a935a0118d56d6f15a837ab814da0c150778ba2ca4f1a4d9068b33070ea4273629e615066664c2cfcd7c272caf7a8a0f6518b2c
+  checksum: 10/7a24cffcaa13f53c09ce55e05efe25cd41328730b2308678624f8b9f5fc3093fc4d189f47950f0b811ff8f3c3039c24a2c36717ba7961615c682045bf03e1dda
   languageName: node
   linkType: hard
 
@@ -10796,15 +10796,6 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 10/1ef3a85bd02a760c6ef76a45b8c1ce18226de40831e02a00bad78485390b98b6ccaa31046245fc63bba4a47a6a592b6c7eedc65cc47126e60489f9cc1ce3ed7e
-  languageName: node
-  linkType: hard
-
-"semver@npm:^7.0.0, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.5.4, semver@npm:^7.6.0, semver@npm:^7.6.3, semver@npm:^7.7.1":
-  version: 7.7.2
-  resolution: "semver@npm:7.7.2"
-  bin:
-    semver: bin/semver.js
-  checksum: 10/7a24cffcaa13f53c09ce55e05efe25cd41328730b2308678624f8b9f5fc3093fc4d189f47950f0b811ff8f3c3039c24a2c36717ba7961615c682045bf03e1dda
   languageName: node
   linkType: hard
 
