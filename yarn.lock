@@ -4141,7 +4141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.5.3"
-    renovate: "npm:40.41.0"
+    renovate: "npm:40.41.3"
     typescript: "npm:5.8.3"
     vitest: "npm:3.2.1"
   languageName: unknown
@@ -10009,27 +10009,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"protobufjs@npm:7.5.2":
-  version: 7.5.2
-  resolution: "protobufjs@npm:7.5.2"
-  dependencies:
-    "@protobufjs/aspromise": "npm:^1.1.2"
-    "@protobufjs/base64": "npm:^1.1.2"
-    "@protobufjs/codegen": "npm:^2.0.4"
-    "@protobufjs/eventemitter": "npm:^1.1.0"
-    "@protobufjs/fetch": "npm:^1.1.0"
-    "@protobufjs/float": "npm:^1.0.2"
-    "@protobufjs/inquire": "npm:^1.1.0"
-    "@protobufjs/path": "npm:^1.1.2"
-    "@protobufjs/pool": "npm:^1.1.0"
-    "@protobufjs/utf8": "npm:^1.1.0"
-    "@types/node": "npm:>=13.7.0"
-    long: "npm:^5.0.0"
-  checksum: 10/b19adca6f2fd02099d9d51c4bff154947290bd5887364c5cf7227b67d8960644a60c077fcab5889512de6313149d9b429d58d6a57d8793da12a7358196073445
-  languageName: node
-  linkType: hard
-
-"protobufjs@npm:^7.3.0":
+"protobufjs@npm:7.5.3, protobufjs@npm:^7.3.0":
   version: 7.5.3
   resolution: "protobufjs@npm:7.5.3"
   dependencies:
@@ -10325,9 +10305,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:40.41.0":
-  version: 40.41.0
-  resolution: "renovate@npm:40.41.0"
+"renovate@npm:40.41.3":
+  version: 40.41.3
+  resolution: "renovate@npm:40.41.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.821.0"
     "@aws-sdk/client-ec2": "npm:3.821.0"
@@ -10425,7 +10405,7 @@ __metadata:
     p-throttle: "npm:4.1.1"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.5.3"
-    protobufjs: "npm:7.5.2"
+    protobufjs: "npm:7.5.3"
     punycode: "npm:2.3.1"
     re2: "npm:1.22.1"
     redis: "npm:4.7.1"
@@ -10447,7 +10427,7 @@ __metadata:
     vuln-vects: "npm:1.1.0"
     xmldoc: "npm:1.3.0"
     yaml: "npm:2.8.0"
-    zod: "npm:3.25.32"
+    zod: "npm:3.25.34"
   dependenciesMeta:
     better-sqlite3:
       optional: true
@@ -10458,7 +10438,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/e48b6ec70e2b42c04454841f35a66fbee01623e53d203591ae864d4a73f38a03a9aae5cb04db3a5bb7adc6722e68f2078f374cad3c5fee6c4931787020fe5e3e
+  checksum: 10/af4ac2f14375e50ab98216543ef56c86d795d4b996e966a78ba0cfd3b8fb05eb05587dfdbfe7ee9468f4f3b0576b9344377f551c997f16625b6be3948a3a101b
   languageName: node
   linkType: hard
 
@@ -12546,10 +12526,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:3.25.32":
-  version: 3.25.32
-  resolution: "zod@npm:3.25.32"
-  checksum: 10/58504f7e0382b04313f8e4f63d215d2a19b1d23ccdf45bf9d54c7ac9fa6362e43ba41349e251129a5d3596f4396b78d9a239d177842c04c7287e78a729b7f4bc
+"zod@npm:3.25.34":
+  version: 3.25.34
+  resolution: "zod@npm:3.25.34"
+  checksum: 10/376d5008afa9b61624a273b44f7d923146264f3d4744a2ca25f78e73b64b27b7a0b8a890abf0b5e172d9dee8a74493f9b8c556fc09729af47273df82b680416c
   languageName: node
   linkType: hard
 
