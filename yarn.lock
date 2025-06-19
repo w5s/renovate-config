@@ -4174,7 +4174,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.5.3"
-    renovate: "npm:40.62.1"
+    renovate: "npm:41.1.1"
     typescript: "npm:5.8.3"
     vitest: "npm:3.2.4"
   languageName: unknown
@@ -6871,7 +6871,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"foreground-child@npm:^3.1.0":
+"foreground-child@npm:^3.1.0, foreground-child@npm:^3.3.1":
   version: 3.3.1
   resolution: "foreground-child@npm:3.3.1"
   dependencies:
@@ -7173,19 +7173,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:11.0.2":
-  version: 11.0.2
-  resolution: "glob@npm:11.0.2"
+"glob@npm:11.0.3":
+  version: 11.0.3
+  resolution: "glob@npm:11.0.3"
   dependencies:
-    foreground-child: "npm:^3.1.0"
-    jackspeak: "npm:^4.0.1"
-    minimatch: "npm:^10.0.0"
+    foreground-child: "npm:^3.3.1"
+    jackspeak: "npm:^4.1.1"
+    minimatch: "npm:^10.0.3"
     minipass: "npm:^7.1.2"
     package-json-from-dist: "npm:^1.0.0"
     path-scurry: "npm:^2.0.0"
   bin:
     glob: dist/esm/bin.mjs
-  checksum: 10/53501530240150fdceb9ace47ab856acd1e0d598f8101b0760b665fc11dae2160d366563b89232ae4f5df7ddba8f7c92294719268fe932bd3a32d16cc58c3d02
+  checksum: 10/2ae536c1360c0266b523b2bfa6aadc10144a8b7e08869b088e37ac3c27cd30774f82e4bfb291cde796776e878f9e13200c7ff44010eb7054e00f46f649397893
   languageName: node
   linkType: hard
 
@@ -8199,7 +8199,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jackspeak@npm:^4.0.1":
+"jackspeak@npm:^4.1.1":
   version: 4.1.1
   resolution: "jackspeak@npm:4.1.1"
   dependencies:
@@ -9235,7 +9235,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^10.0.0":
+"minimatch@npm:^10.0.3":
   version: 10.0.3
   resolution: "minimatch@npm:10.0.3"
   dependencies:
@@ -10570,9 +10570,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:40.62.1":
-  version: 40.62.1
-  resolution: "renovate@npm:40.62.1"
+"renovate@npm:41.1.1":
+  version: 41.1.1
+  resolution: "renovate@npm:41.1.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.821.0"
     "@aws-sdk/client-ec2": "npm:3.821.0"
@@ -10638,7 +10638,7 @@ __metadata:
     fs-extra: "npm:11.3.0"
     git-url-parse: "npm:16.1.0"
     github-url-from-git: "npm:1.5.0"
-    glob: "npm:11.0.2"
+    glob: "npm:11.0.3"
     global-agent: "npm:3.0.0"
     good-enough-parser: "npm:1.1.23"
     google-auth-library: "npm:9.15.1"
@@ -10703,7 +10703,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/bce503c249c9ccc382d894e1506215f1678680a546fbe869330338f99fe6d7f5c4280f34e7a9a3b1f4093cb0d1d929808f309b6a7714c35d39414efcbefca8e4
+  checksum: 10/ef16d7ae7e09650490b2322b6ce0d86a36bf2a77c5d20c7c7faa80345a1d80df4092ee038c9fa2aa15bd02a9e0c67345909ccb5555abde0a7ce1849cf2ee12c8
   languageName: node
   linkType: hard
 
