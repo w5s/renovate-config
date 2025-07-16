@@ -2628,16 +2628,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:1.6.6":
-  version: 1.6.6
-  resolution: "@renovatebot/osv-offline@npm:1.6.6"
+"@renovatebot/osv-offline@npm:1.6.7":
+  version: 1.6.7
+  resolution: "@renovatebot/osv-offline@npm:1.6.7"
   dependencies:
     "@renovatebot/osv-offline-db": "npm:1.7.4"
     adm-zip: "npm:~0.5.16"
     fs-extra: "npm:^11.3.0"
     got: "npm:^11.8.6"
-    luxon: "npm:^3.6.1"
-  checksum: 10/ff8ac88f55fc37ff417f5c7410e098941d476e0cacae9d39cb5cc744459ebb7184fe9a6099de11249a53c7a1bf2417be0738d9eddf64ce9c550d9778caf0b5b5
+    luxon: "npm:^3.7.0"
+  checksum: 10/534471cba8b9ddda827d94d8e354788c50a8d5fc02cf0bc5faea514d5895b7b41a2c9c84fde3daaad2094461d0e4d75a5c31ea628da6749d2be8e6dcc641da42
   languageName: node
   linkType: hard
 
@@ -4114,7 +4114,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.37.5"
+    renovate: "npm:41.37.7"
     typescript: "npm:5.8.3"
     vitest: "npm:3.2.4"
   languageName: unknown
@@ -8602,14 +8602,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:3.7.0":
-  version: 3.7.0
-  resolution: "luxon@npm:3.7.0"
-  checksum: 10/a5f634c18ded6d748fea298952bb83deba0e9a2eacd13961e7c5c2f0293548d75842fa2e161d39920e80352450e24e53cadbafd613d83ab1d60ed906be6bae15
-  languageName: node
-  linkType: hard
-
-"luxon@npm:^3.6.1":
+"luxon@npm:3.7.1, luxon@npm:^3.7.0":
   version: 3.7.1
   resolution: "luxon@npm:3.7.1"
   checksum: 10/3582460c0e2d4a88f6f0c11df30cac70c7e09a3d595b66b1d04543759a38afe6e5be28c601c4d81ee73d2e8602c65f825e2c8a8542392cc564624f2bf7d6301f
@@ -10555,9 +10548,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.37.5":
-  version: 41.37.5
-  resolution: "renovate@npm:41.37.5"
+"renovate@npm:41.37.7":
+  version: 41.37.7
+  resolution: "renovate@npm:41.37.7"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.840.0"
     "@aws-sdk/client-ec2": "npm:3.840.0"
@@ -10587,7 +10580,7 @@ __metadata:
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/detect-tools": "npm:1.1.0"
     "@renovatebot/kbpgp": "npm:4.0.1"
-    "@renovatebot/osv-offline": "npm:1.6.6"
+    "@renovatebot/osv-offline": "npm:1.6.7"
     "@renovatebot/pep440": "npm:4.1.0"
     "@renovatebot/ruby-semver": "npm:4.0.0"
     "@sindresorhus/is": "npm:7.0.2"
@@ -10638,7 +10631,7 @@ __metadata:
     jsonata: "npm:2.0.6"
     jsonc-parser: "npm:3.3.1"
     klona: "npm:2.0.6"
-    luxon: "npm:3.7.0"
+    luxon: "npm:3.7.1"
     markdown-it: "npm:14.1.0"
     markdown-table: "npm:3.0.4"
     minimatch: "npm:10.0.3"
@@ -10689,7 +10682,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/831e6b56d30c6e031156e8d182df063ea3e9fa154b20ba1c84fffaf9f03a066467a2b76215203a8dcfaf041284951cecba95a896aa363d9ec9367e2b94f3f50a
+  checksum: 10/b8add59f59a0336abfe75407f9e0f2aaa9b8d03ee3fa90675cc1b81df921f45750ddbf9d8667c4f6fc338ba1c9dd5d85a3d3f98ab7167ab252fc588ff8468f1f
   languageName: node
   linkType: hard
 
