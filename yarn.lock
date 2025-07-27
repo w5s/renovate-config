@@ -6265,8 +6265,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-n@npm:^17.0.0":
-  version: 17.21.1
-  resolution: "eslint-plugin-n@npm:17.21.1"
+  version: 17.21.2
+  resolution: "eslint-plugin-n@npm:17.21.2"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.0"
     enhanced-resolve: "npm:^5.17.1"
@@ -6275,12 +6275,11 @@ __metadata:
     globals: "npm:^15.11.0"
     globrex: "npm:^0.1.2"
     ignore: "npm:^5.3.2"
-    minimatch: "npm:^9.0.5"
     semver: "npm:^7.6.3"
     ts-declaration-location: "npm:^1.0.6"
   peerDependencies:
     eslint: ">=8.23.0"
-  checksum: 10/a9d9c030aae52d654117738549bba5d4810afb41af1cb30aaded5c0c80e4cc134a37e6973ffad6e9f7d228eafa70598b2fe6bd5051d0a5cf00c2cacdb447c8be
+  checksum: 10/9ed076a00340e6c66572329efad35b9163aa188cc7df319997534b9346f35f85c58c4e1f01259158ce653a80da5178edcba50adb486ae9942305f1f993cab3a4
   languageName: node
   linkType: hard
 
@@ -9197,7 +9196,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^9.0.4, minimatch@npm:^9.0.5":
+"minimatch@npm:^9.0.4":
   version: 9.0.5
   resolution: "minimatch@npm:9.0.5"
   dependencies:
