@@ -6265,21 +6265,22 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-n@npm:^17.0.0":
-  version: 17.21.0
-  resolution: "eslint-plugin-n@npm:17.21.0"
+  version: 17.21.1
+  resolution: "eslint-plugin-n@npm:17.21.1"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.0"
     enhanced-resolve: "npm:^5.17.1"
     eslint-plugin-es-x: "npm:^7.8.0"
     get-tsconfig: "npm:^4.8.1"
     globals: "npm:^15.11.0"
+    globrex: "npm:^0.1.2"
     ignore: "npm:^5.3.2"
     minimatch: "npm:^9.0.5"
     semver: "npm:^7.6.3"
     ts-declaration-location: "npm:^1.0.6"
   peerDependencies:
     eslint: ">=8.23.0"
-  checksum: 10/b9dedfc2e83c86c852485ed62a6bddcacb92214591c79fcab9c0cc12e75bbfa85368a9c166e6627ec07a8d2272b19260d275b16ffaab79d1c6cd43a04afbc18f
+  checksum: 10/a9d9c030aae52d654117738549bba5d4810afb41af1cb30aaded5c0c80e4cc134a37e6973ffad6e9f7d228eafa70598b2fe6bd5051d0a5cf00c2cacdb447c8be
   languageName: node
   linkType: hard
 
