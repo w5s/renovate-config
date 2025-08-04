@@ -4125,7 +4125,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.51.1"
+    renovate: "npm:41.52.1"
     typescript: "npm:5.9.2"
     vitest: "npm:3.2.4"
   languageName: unknown
@@ -4733,7 +4733,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cacache@npm:19.0.1, cacache@npm:^19.0.1":
+"cacache@npm:20.0.0":
+  version: 20.0.0
+  resolution: "cacache@npm:20.0.0"
+  dependencies:
+    "@npmcli/fs": "npm:^4.0.0"
+    fs-minipass: "npm:^3.0.0"
+    glob: "npm:^11.0.3"
+    lru-cache: "npm:^11.1.0"
+    minipass: "npm:^7.0.3"
+    minipass-collect: "npm:^2.0.1"
+    minipass-flush: "npm:^1.0.5"
+    minipass-pipeline: "npm:^1.2.4"
+    p-map: "npm:^7.0.2"
+    ssri: "npm:^12.0.0"
+    tar: "npm:^7.4.3"
+    unique-filename: "npm:^4.0.0"
+  checksum: 10/b8018cf55f6f2fd870226adbd5198a2176454ae5512159ee129b1f671719de02822e87122f8a32868cb9c90b637b30d70c580dc3aa8317647cc69307d7c7a54a
+  languageName: node
+  linkType: hard
+
+"cacache@npm:^19.0.1":
   version: 19.0.1
   resolution: "cacache@npm:19.0.1"
   dependencies:
@@ -5141,12 +5161,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cronstrue@npm:2.61.0":
-  version: 2.61.0
-  resolution: "cronstrue@npm:2.61.0"
+"cronstrue@npm:3.2.0":
+  version: 3.2.0
+  resolution: "cronstrue@npm:3.2.0"
   bin:
     cronstrue: bin/cli.js
-  checksum: 10/38333eae2028a266733304311704c85d327a40be8d3652b2c4513ba52d15e04a6ed03166f2aa9cafaad525b3c0a58cdab4cbc884751ca184797b6fb85419f1e5
+  checksum: 10/5d22ea02d0ec164dacac1119cb4ee4c24fc2cba56751a780ee8f079b31f1b4459e22228308cfd6631e487e2b865688b3597773a2118cd4a5626a71ffe55b6570
   languageName: node
   linkType: hard
 
@@ -7134,7 +7154,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:11.0.3":
+"glob@npm:11.0.3, glob@npm:^11.0.3":
   version: 11.0.3
   resolution: "glob@npm:11.0.3"
   dependencies:
@@ -8570,7 +8590,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:^11.0.0":
+"lru-cache@npm:^11.0.0, lru-cache@npm:^11.1.0":
   version: 11.1.0
   resolution: "lru-cache@npm:11.1.0"
   checksum: 10/5011011675ca98428902de774d0963b68c3a193cd959347cb63b781dad4228924124afab82159fd7b8b4db18285d9aff462b877b8f6efd2b41604f806c1d9db4
@@ -10541,9 +10561,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.51.1":
-  version: 41.51.1
-  resolution: "renovate@npm:41.51.1"
+"renovate@npm:41.52.1":
+  version: 41.52.1
+  resolution: "renovate@npm:41.52.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.858.0"
     "@aws-sdk/client-ec2": "npm:3.858.0"
@@ -10586,14 +10606,14 @@ __metadata:
     azure-devops-node-api: "npm:15.1.0"
     better-sqlite3: "npm:12.2.0"
     bunyan: "npm:1.8.15"
-    cacache: "npm:19.0.1"
+    cacache: "npm:20.0.0"
     chalk: "npm:5.4.1"
     changelog-filename-regex: "npm:2.0.1"
     clean-git-ref: "npm:2.0.1"
     commander: "npm:14.0.0"
     conventional-commits-detector: "npm:1.0.3"
     croner: "npm:9.1.0"
-    cronstrue: "npm:2.61.0"
+    cronstrue: "npm:3.2.0"
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:7.0.1"
@@ -10651,7 +10671,7 @@ __metadata:
     semver: "npm:7.7.2"
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
-    shlex: "npm:2.1.2"
+    shlex: "npm:3.0.0"
     simple-git: "npm:3.28.0"
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
@@ -10675,7 +10695,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/fac14a51b2f0ddb5dea95b0077493c560ba983268966d20fef73f8d3ced76fda6880840730f854a79ca4bdbe19fb0c1128a3f5b9cd30f17dcc77a1e79fb593d7
+  checksum: 10/3bf055a4d4af99269dc9c9280940676fbac13ab4eb4e4b7702d30c57dff53b79b925372694ff9868002b7c0fab5f5ae1402fa23ccfbba40034683c7cb06d349a
   languageName: node
   linkType: hard
 
@@ -11106,10 +11126,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shlex@npm:2.1.2":
-  version: 2.1.2
-  resolution: "shlex@npm:2.1.2"
-  checksum: 10/f3432731f97830b0e73aef8f5d280fab890ee5893e3d5bb708b554d86f1b58c66d0e68ce15e45215d9cadac47946160fd93938e28eac271cfda9f77e97f76b99
+"shlex@npm:3.0.0":
+  version: 3.0.0
+  resolution: "shlex@npm:3.0.0"
+  checksum: 10/68d7ee9295d8383dcdd135d8d9775c3f3f2079d5ca7114950d4e3efc82aa649558ad7b3b3358cda1462e9736668bebd1cc510fd0d3f8074fee805aab7e562df0
   languageName: node
   linkType: hard
 
