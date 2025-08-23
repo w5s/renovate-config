@@ -4598,9 +4598,9 @@ __metadata:
   linkType: hard
 
 "bowser@npm:^2.11.0":
-  version: 2.12.0
-  resolution: "bowser@npm:2.12.0"
-  checksum: 10/fa376598a795129914f36e4a4ef12a99abd4362bd03c8a577e260897da618cc5b5868773e78456e76eb6170d5725c5fb353ba214e13d3363d1200ee1d69e402f
+  version: 2.12.1
+  resolution: "bowser@npm:2.12.1"
+  checksum: 10/ccd8bcb31312a25e0740eb43b2388301d560af19213c8d795efe77e40860c3eb6a55ec5fde36b5e25d44f603204dc06af6c975edf9cc7f6b26a9865e22d53461
   languageName: node
   linkType: hard
 
