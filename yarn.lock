@@ -2363,6 +2363,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pnpm/constants@npm:1001.3.1":
+  version: 1001.3.1
+  resolution: "@pnpm/constants@npm:1001.3.1"
+  checksum: 10/7e5a13cecb0992ac32bbd998c9533f2dda3b828db041da28e3f5df0b59256a0c812e9d952bf4657b5df5e1644c67f0f0510f14448f2682e0384c11962b6bf0cc
+  languageName: node
+  linkType: hard
+
 "@pnpm/constants@npm:6.1.0":
   version: 6.1.0
   resolution: "@pnpm/constants@npm:6.1.0"
@@ -2370,7 +2377,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/error@npm:1000.0.4, @pnpm/error@npm:^1000.0.4":
+"@pnpm/error@npm:1000.0.4":
   version: 1000.0.4
   resolution: "@pnpm/error@npm:1000.0.4"
   dependencies:
@@ -2385,6 +2392,15 @@ __metadata:
   dependencies:
     "@pnpm/constants": "npm:6.1.0"
   checksum: 10/c49df4ceea3c2eb3e2ca48b8d3b8672e9ef0b90e7f2706cc0d775bc81cdcda89074c13389fe1b56c670f667de821efe1efd9fe71e42d26e277b3d13e70c1374d
+  languageName: node
+  linkType: hard
+
+"@pnpm/error@npm:^1000.0.4":
+  version: 1000.0.5
+  resolution: "@pnpm/error@npm:1000.0.5"
+  dependencies:
+    "@pnpm/constants": "npm:1001.3.1"
+  checksum: 10/4b474366212c9089c823c49502529f49b95df8ad0044a3148fdaddff9fee6a2525eb9307a907783f729857019433c1abfaa9744f31324ce5f3a658359ce6799b
   languageName: node
   linkType: hard
 
@@ -5463,14 +5479,14 @@ __metadata:
   linkType: hard
 
 "debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.4, debug@npm:^4.3.5, debug@npm:^4.4.0, debug@npm:^4.4.1":
-  version: 4.4.1
-  resolution: "debug@npm:4.4.1"
+  version: 4.4.3
+  resolution: "debug@npm:4.4.3"
   dependencies:
     ms: "npm:^2.1.3"
   peerDependenciesMeta:
     supports-color:
       optional: true
-  checksum: 10/8e2709b2144f03c7950f8804d01ccb3786373df01e406a0f66928e47001cf2d336cbed9ee137261d4f90d68d8679468c755e3548ed83ddacdc82b194d2468afe
+  checksum: 10/9ada3434ea2993800bd9a1e320bd4aa7af69659fb51cca685d390949434bc0a8873c21ed7c9b852af6f2455a55c6d050aa3937d52b3c69f796dab666f762acad
   languageName: node
   linkType: hard
 
