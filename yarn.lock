@@ -4547,9 +4547,9 @@ __metadata:
   linkType: hard
 
 "backslash@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "backslash@npm:0.2.0"
-  checksum: 10/844996d595dfb57aa725dad7b37dce658367d54de58992d607e003a8250fc14e1fce8705c132f77d973d84fc27126bfde0428a60775ea93626a7aa3340652fbb
+  version: 0.2.2
+  resolution: "backslash@npm:0.2.2"
+  checksum: 10/290dedd81195ef7d403f8c4b228b10e1751388745a50340534d749ddbba364d7107e887dac00703070db1a8e0037ac6450cab61f5fdd7f6e76a0704875fd2bbd
   languageName: node
   linkType: hard
 
@@ -6361,8 +6361,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-n@npm:^17.0.0":
-  version: 17.21.3
-  resolution: "eslint-plugin-n@npm:17.21.3"
+  version: 17.22.0
+  resolution: "eslint-plugin-n@npm:17.22.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.0"
     enhanced-resolve: "npm:^5.17.1"
@@ -6375,7 +6375,7 @@ __metadata:
     ts-declaration-location: "npm:^1.0.6"
   peerDependencies:
     eslint: ">=8.23.0"
-  checksum: 10/da12ea061b5f81ab3b208297233662a85440fe29e9568bc0cc32a55405005d66d1c45356d88077a436bf9fd47097f3f45f42c26ca554612c2e0c9067aa99a1de
+  checksum: 10/4d50ab8700323d9c07f851b22bfb3f5a20b967783f26b516025fda2c846e74f82c000e6d24d1959f10bf47695bda643daef36288e31cef7ba9d025da523d8dc1
   languageName: node
   linkType: hard
 
