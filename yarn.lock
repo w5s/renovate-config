@@ -2619,9 +2619,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/kbpgp@npm:4.0.1":
-  version: 4.0.1
-  resolution: "@renovatebot/kbpgp@npm:4.0.1"
+"@renovatebot/kbpgp@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@renovatebot/kbpgp@npm:4.0.3"
   dependencies:
     bn: "npm:1.0.5"
     bzip-deflate: "npm:^1.0.0"
@@ -2635,7 +2635,7 @@ __metadata:
     purepack: "npm:^1.0.6"
     triplesec: "npm:^4.0.3"
     tweetnacl: "npm:^1.0.3"
-  checksum: 10/a2ca9d002c38924a49c8b5acd942725c0fbccd0c4856795b9b0874a3bc602acbbda698beae0352667a4daa0c9ed903a112202fa2df5a995643ef49e732d4b47b
+  checksum: 10/d5037939229548267e9a9b9c891fed4fb348dcd501aa32ac9754a50dccf9fb442683caa68f3ecf403cdeb333fbf0e516c5882546f57e06fd89e033895f9b1842
   languageName: node
   linkType: hard
 
@@ -2661,10 +2661,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pep440@npm:4.2.0":
-  version: 4.2.0
-  resolution: "@renovatebot/pep440@npm:4.2.0"
-  checksum: 10/78c007914fbe2ec5ddc99a30093101267efae99370bf7638cc171737aef89ed59529bdeafb16ea520fc5c226af6e80f0c602fdda51475d6e06637a2ec0a52dd1
+"@renovatebot/pep440@npm:4.2.1":
+  version: 4.2.1
+  resolution: "@renovatebot/pep440@npm:4.2.1"
+  checksum: 10/f9c41ca06abc03a94da686df48a55712780990b063ea94cd893246f18d798bee29be842e2335e75523b95c1932e2c0b8b331b0e7ef0edd0ce7761a7788c34a16
   languageName: node
   linkType: hard
 
@@ -4145,7 +4145,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.117.0"
+    renovate: "npm:41.118.0"
     typescript: "npm:5.9.2"
     vitest: "npm:3.2.4"
   languageName: unknown
@@ -10808,9 +10808,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.117.0":
-  version: 41.117.0
-  resolution: "renovate@npm:41.117.0"
+"renovate@npm:41.118.0":
+  version: 41.118.0
+  resolution: "renovate@npm:41.118.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.879.0"
     "@aws-sdk/client-ec2": "npm:3.879.0"
@@ -10839,9 +10839,9 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.2"
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/detect-tools": "npm:1.1.0"
-    "@renovatebot/kbpgp": "npm:4.0.1"
+    "@renovatebot/kbpgp": "npm:4.0.3"
     "@renovatebot/osv-offline": "npm:1.6.10"
-    "@renovatebot/pep440": "npm:4.2.0"
+    "@renovatebot/pep440": "npm:4.2.1"
     "@renovatebot/ruby-semver": "npm:4.1.2"
     "@sindresorhus/is": "npm:7.0.2"
     "@yarnpkg/core": "npm:4.4.3"
@@ -10943,7 +10943,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/731ab8620724c3567b2b2f9b25b014d6a665a698717b23bc1d432b80101b92f60a41cfbdf4873fa9000ac94437f005aeb4a0edfa84f8e3a3c8f80c557f12726b
+  checksum: 10/26503a83febc9355170adf2985f19ba5af0cb23211776f2d48d0322e22a71d7aca092bfab37ded3233012c373f905a385431504df2696df288eea67be2b71e54
   languageName: node
   linkType: hard
 
