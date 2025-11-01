@@ -1312,23 +1312,23 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-common-misspellings@npm:^2.1.6":
-  version: 2.1.7
-  resolution: "@cspell/dict-en-common-misspellings@npm:2.1.7"
-  checksum: 10/9f3be98cd5d025ebfd74ac0017ebce501cb805c13bf709d92c8cbd7053490c01260176e9b752492fb41d814aca5698310db0021416fa25cbaa19a75b578febc0
+  version: 2.1.8
+  resolution: "@cspell/dict-en-common-misspellings@npm:2.1.8"
+  checksum: 10/fe8764a14b28269956650092eea34df94ce4e903ff5178e3a504283414cc2ae3b2afc2e2716317d2adde6fe13bc5189eae3577901921f5ef462af1ac2a898b8c
   languageName: node
   linkType: hard
 
 "@cspell/dict-en-gb-mit@npm:^3.1.10":
-  version: 3.1.13
-  resolution: "@cspell/dict-en-gb-mit@npm:3.1.13"
-  checksum: 10/3876cd2c517df197e4ebce67c74d722c762700b079165a80e010055d61f2480f8741560f55b65dcc0ffd9dc999b209ffb87499c6ca7ec0f9003f6c8b4a0f541f
+  version: 3.1.14
+  resolution: "@cspell/dict-en-gb-mit@npm:3.1.14"
+  checksum: 10/5fcc70cb32b1f57cac35a3b3352453c2da90c48b29e71276e487b115addccd2b9fefe02975725b114dfc3f3f565f23b8513bf7995517872d3fa7acbe5729e929
   languageName: node
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.4.20":
-  version: 4.4.23
-  resolution: "@cspell/dict-en_us@npm:4.4.23"
-  checksum: 10/2919d06f65d7cabd25f4e00aa5bf30e5ffe4188393b287e966002ea26cf54c63b16f21d5f3ec0141ca7063ae2e9af6c7265ab1f2c933fe794f77285f67c0328a
+  version: 4.4.24
+  resolution: "@cspell/dict-en_us@npm:4.4.24"
+  checksum: 10/b7a6525d5c6153610e8722266d7d8cbbf4818c741992977a4b8099b0ff7196824b2bb509deba9de66fc2414479bfc4db2f41640e9748e048edd99058aaae2a42
   languageName: node
   linkType: hard
 
