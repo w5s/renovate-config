@@ -4122,7 +4122,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.171.3"
+    renovate: "npm:41.171.9"
     typescript: "npm:5.9.3"
     vitest: "npm:4.0.7"
   languageName: unknown
@@ -7790,10 +7790,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ini@npm:5.0.0":
-  version: 5.0.0
-  resolution: "ini@npm:5.0.0"
-  checksum: 10/76e5567b46504b2b12650878ba6277204500a6ead3fe69eef419ee570456b364b39c040ee545846053f6d8a15797a82fc6d9efe06e392b9b6093935f4a2f2c30
+"ini@npm:6.0.0":
+  version: 6.0.0
+  resolution: "ini@npm:6.0.0"
+  checksum: 10/e87d8cde86d091ddb104580d42dfdc8306593627269990ca0f5176ccc60c936268bad56856398fef924cdf0af33b1a9c21e84f85914820037e003ee45443cc85
   languageName: node
   linkType: hard
 
@@ -10102,13 +10102,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-queue@npm:8.1.1":
-  version: 8.1.1
-  resolution: "p-queue@npm:8.1.1"
+"p-queue@npm:9.0.0":
+  version: 9.0.0
+  resolution: "p-queue@npm:9.0.0"
   dependencies:
     eventemitter3: "npm:^5.0.1"
-    p-timeout: "npm:^6.1.2"
-  checksum: 10/03fb14d3a7ff605f16338bfca8f0791a7d633ac023eda6f1cfc7daf3ab3db70afa70c3f907a38c2e49cb28ea1863f49f0f230b6cb2c1cc3170059a0652af8f60
+    p-timeout: "npm:^7.0.0"
+  checksum: 10/62df9f8bcfc738372b6b64a0398e7388eee3991d979697dd51b61f6b533622ff4e71b05ad516c06355d41858535e59a72e380e20b82a50a53d7fecfaf65d630e
   languageName: node
   linkType: hard
 
@@ -10119,10 +10119,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-timeout@npm:^6.1.2":
-  version: 6.1.4
-  resolution: "p-timeout@npm:6.1.4"
-  checksum: 10/5ee0df408ba353cc2d7036af90d2eb1724c428fd1cf67cd9110c03f0035077c29f6506bff7198dfbef4910ec558c711f21f9741d89d043a6f2c2ff82064afcaf
+"p-timeout@npm:^7.0.0":
+  version: 7.0.1
+  resolution: "p-timeout@npm:7.0.1"
+  checksum: 10/1d65827a07fd10eae5bc1fa493ef5c40522acda21cbbb04131cdb0f63f703c91e5fac2701431e28e308992284a86807d7138dbc2be694e2b8342bee20be652f6
   languageName: node
   linkType: hard
 
@@ -10774,9 +10774,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.171.3":
-  version: 41.171.3
-  resolution: "renovate@npm:41.171.3"
+"renovate@npm:41.171.9":
+  version: 41.171.9
+  resolution: "renovate@npm:41.171.9"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.922.0"
     "@aws-sdk/client-ec2": "npm:3.922.0"
@@ -10851,7 +10851,7 @@ __metadata:
     graph-data-structure: "npm:4.5.0"
     handlebars: "npm:4.7.8"
     ignore: "npm:7.0.5"
-    ini: "npm:5.0.0"
+    ini: "npm:6.0.0"
     json-dup-key-validator: "npm:1.0.3"
     json-stringify-pretty-compact: "npm:4.0.0"
     json5: "npm:2.2.3"
@@ -10870,7 +10870,7 @@ __metadata:
     openpgp: "npm:6.2.2"
     p-all: "npm:5.0.1"
     p-map: "npm:7.0.3"
-    p-queue: "npm:8.1.1"
+    p-queue: "npm:9.0.0"
     p-throttle: "npm:8.0.0"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.6.2"
@@ -10895,7 +10895,7 @@ __metadata:
     tslib: "npm:2.8.1"
     upath: "npm:2.0.1"
     url-join: "npm:5.0.0"
-    validate-npm-package-name: "npm:6.0.2"
+    validate-npm-package-name: "npm:7.0.0"
     xmldoc: "npm:2.0.2"
     yaml: "npm:2.8.1"
     zod: "npm:3.25.76"
@@ -10909,7 +10909,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/3806793d1219d533df659dde0a512b5509fbbe8e12b0daa7aeb44ccf902f7c6265f83c77413672416ef4df59131c27428fad96a6e2d3c0eaa4471a6657120aa8
+  checksum: 10/79b4f98263c473aca12e677b47989954323ceddf3dff8059d9d10da1961f6238e2a66b2d5d2842d512c47c703573f89245281b9804525712528c204b517f5eb8
   languageName: node
   linkType: hard
 
@@ -12548,10 +12548,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"validate-npm-package-name@npm:6.0.2":
-  version: 6.0.2
-  resolution: "validate-npm-package-name@npm:6.0.2"
-  checksum: 10/f0e022b0a7f11345a92b64121b059b720204cd64406a0d65d81526181dcb70aef551c7c6bf9ca37b91607a7c6ff4d62e1f63a86c8d9b7346d722a641a4bd8789
+"validate-npm-package-name@npm:7.0.0":
+  version: 7.0.0
+  resolution: "validate-npm-package-name@npm:7.0.0"
+  checksum: 10/e0c686bb57cd574928d696d6b784cff51999bf3a0db194658616e3e7dc4d0a2ad2c89a13f74b715322b6355dafd68453e6ac6ad0d64a5fb26fbfb9e1ca607fc5
   languageName: node
   linkType: hard
 
