@@ -2615,25 +2615,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline-db@npm:1.7.10":
-  version: 1.7.10
-  resolution: "@renovatebot/osv-offline-db@npm:1.7.10"
+"@renovatebot/osv-offline-db@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@renovatebot/osv-offline-db@npm:1.8.0"
   dependencies:
     "@seald-io/nedb": "npm:^4.1.2"
-  checksum: 10/7ef6032def13f2dcf85972cc2d86adff6c305aa3e8030c65953635ef0f45d412588c079b01c361acd80629c7f34de8ac4354797b8bb20a8b16b78cc3c2af6b4c
+  checksum: 10/0e702fadcdb30a9bd7b30d4d62e45f41657d6e6149e23c723f70eef8a8bcdd1a591ce7d00b52b2c3cc70a8528f123450475a9bc14a0c4a98bfa3d3bc5ad2bbb9
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:1.7.10":
-  version: 1.7.10
-  resolution: "@renovatebot/osv-offline@npm:1.7.10"
+"@renovatebot/osv-offline@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@renovatebot/osv-offline@npm:1.8.0"
   dependencies:
-    "@renovatebot/osv-offline-db": "npm:1.7.10"
+    "@renovatebot/osv-offline-db": "npm:1.8.0"
     adm-zip: "npm:~0.5.16"
+    debug: "npm:^4.4.3"
     fs-extra: "npm:^11.3.2"
     got: "npm:^11.8.6"
     luxon: "npm:^3.7.2"
-  checksum: 10/4f23dc5cba58832a4396f53dbd7c85472344943c11c00f2a851d1547ce2c5d9b0b7e6feef6ec534e3a8648a4958974133a21ea829e785b90f25cb3f97f75a5f6
+  checksum: 10/d90cfeba87e061d49d9f6eff184489be4aca11d1d161d4683065c9711e54cf555964f149e417e20a2bd3e7d612cfb7695720b08ef5197889a84ec1565c188768
   languageName: node
   linkType: hard
 
@@ -4140,7 +4141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:42.11.0"
+    renovate: "npm:42.13.3"
     typescript: "npm:5.9.3"
     vitest: "npm:4.0.10"
   languageName: unknown
@@ -4158,14 +4159,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.4.4":
-  version: 4.4.4
-  resolution: "@yarnpkg/core@npm:4.4.4"
+"@yarnpkg/core@npm:4.5.0":
+  version: 4.5.0
+  resolution: "@yarnpkg/core@npm:4.5.0"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
     "@types/treeify": "npm:^1.0.0"
-    "@yarnpkg/fslib": "npm:^3.1.3"
+    "@yarnpkg/fslib": "npm:^3.1.4"
     "@yarnpkg/libzip": "npm:^3.2.2"
     "@yarnpkg/parsers": "npm:^3.0.3"
     "@yarnpkg/shell": "npm:^4.1.3"
@@ -4188,11 +4189,11 @@ __metadata:
     tinylogic: "npm:^2.0.0"
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
-  checksum: 10/a4c9f166de3341b93ccdbbf2025f3556e7f7671df26abc1d8f0c49749e64cca69b6b9413364c5d1a3ec454ee467940b0384489171d4298313ad4a45a7ea74cc8
+  checksum: 10/438e0d0e73f22454696575436ee11f27e765df7fa6b6f9bf63e3d5f79f2b7ceb382dd7df1efbb27ca674a974a2c444a5bf346aac3875ffa6a555b26517309b71
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.1.2, @yarnpkg/fslib@npm:^3.1.3":
+"@yarnpkg/fslib@npm:^3.1.2, @yarnpkg/fslib@npm:^3.1.3, @yarnpkg/fslib@npm:^3.1.4":
   version: 3.1.4
   resolution: "@yarnpkg/fslib@npm:3.1.4"
   dependencies:
@@ -7238,19 +7239,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:11.0.3, glob@npm:^11.0.3":
-  version: 11.0.3
-  resolution: "glob@npm:11.0.3"
+"glob@npm:11.1.0":
+  version: 11.1.0
+  resolution: "glob@npm:11.1.0"
   dependencies:
     foreground-child: "npm:^3.3.1"
     jackspeak: "npm:^4.1.1"
-    minimatch: "npm:^10.0.3"
+    minimatch: "npm:^10.1.1"
     minipass: "npm:^7.1.2"
     package-json-from-dist: "npm:^1.0.0"
     path-scurry: "npm:^2.0.0"
   bin:
     glob: dist/esm/bin.mjs
-  checksum: 10/2ae536c1360c0266b523b2bfa6aadc10144a8b7e08869b088e37ac3c27cd30774f82e4bfb291cde796776e878f9e13200c7ff44010eb7054e00f46f649397893
+  checksum: 10/da4501819633daff8822c007bb3f93d5c4d2cbc7b15a8e886660f4497dd251a1fb4f53a85fba1e760b31704eff7164aeb2c7a82db10f9f2c362d12c02fe52cf3
   languageName: node
   linkType: hard
 
@@ -7267,6 +7268,22 @@ __metadata:
   bin:
     glob: dist/esm/bin.mjs
   checksum: 10/698dfe11828b7efd0514cd11e573eaed26b2dff611f0400907281ce3eab0c1e56143ef9b35adc7c77ecc71fba74717b510c7c223d34ca8a98ec81777b293d4ac
+  languageName: node
+  linkType: hard
+
+"glob@npm:^11.0.3":
+  version: 11.0.3
+  resolution: "glob@npm:11.0.3"
+  dependencies:
+    foreground-child: "npm:^3.3.1"
+    jackspeak: "npm:^4.1.1"
+    minimatch: "npm:^10.0.3"
+    minipass: "npm:^7.1.2"
+    package-json-from-dist: "npm:^1.0.0"
+    path-scurry: "npm:^2.0.0"
+  bin:
+    glob: dist/esm/bin.mjs
+  checksum: 10/2ae536c1360c0266b523b2bfa6aadc10144a8b7e08869b088e37ac3c27cd30774f82e4bfb291cde796776e878f9e13200c7ff44010eb7054e00f46f649397893
   languageName: node
   linkType: hard
 
@@ -9386,7 +9403,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:10.1.1, minimatch@npm:^10.0.3":
+"minimatch@npm:10.1.1, minimatch@npm:^10.0.3, minimatch@npm:^10.1.1":
   version: 10.1.1
   resolution: "minimatch@npm:10.1.1"
   dependencies:
@@ -9619,7 +9636,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nan@npm:^2.14.0, nan@npm:^2.22.2":
+"nan@npm:^2.14.0, nan@npm:^2.23.1":
   version: 2.23.1
   resolution: "nan@npm:2.23.1"
   dependencies:
@@ -9738,7 +9755,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:^11.2.0":
+"node-gyp@npm:^11.5.0":
   version: 11.5.0
   resolution: "node-gyp@npm:11.5.0"
   dependencies:
@@ -10127,10 +10144,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-throttle@npm:8.0.0":
-  version: 8.0.0
-  resolution: "p-throttle@npm:8.0.0"
-  checksum: 10/a6691dec6ac0362e43d7f52632ac2bf0cd0cfd8a4a71749a8339b938111a5097c47eb65f11788d0271b16f4d5d2820f60b9121476d8cde1da6e7e0eb4a6aeeb5
+"p-throttle@npm:8.1.0":
+  version: 8.1.0
+  resolution: "p-throttle@npm:8.1.0"
+  checksum: 10/a22e5580fc9f816af831b6a7aaa0323cb83c266146e833cd3af2abfe1390b0576701366e53ad598cb7f05d6e182f243b3fa3c64e6f68e6d6a900d4629d8e239a
   languageName: node
   linkType: hard
 
@@ -10556,14 +10573,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.22.1":
-  version: 1.22.1
-  resolution: "re2@npm:1.22.1"
+"re2@npm:1.22.3":
+  version: 1.22.3
+  resolution: "re2@npm:1.22.3"
   dependencies:
     install-artifact-from-github: "npm:^1.4.0"
-    nan: "npm:^2.22.2"
-    node-gyp: "npm:^11.2.0"
-  checksum: 10/d969d7b1306ce273c0437c336ed310e5c2eccd079136eb98387c4c7fe1bd63446809b0623334418e5ff695ec7f6b9d57394b9e48f8a9a0d48ac77638d5318d31
+    nan: "npm:^2.23.1"
+    node-gyp: "npm:^11.5.0"
+  checksum: 10/c054a800d8a08bfcc217381546771bc48a35bf1eeb76420540cf6efe2029fb60aea4641212a7279ae49b0edf19d878db6770b0ea2266eefafa7892baeb7687c7
   languageName: node
   linkType: hard
 
@@ -10772,9 +10789,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:42.11.0":
-  version: 42.11.0
-  resolution: "renovate@npm:42.11.0"
+"renovate@npm:42.13.3":
+  version: 42.13.3
+  resolution: "renovate@npm:42.13.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.922.0"
     "@aws-sdk/client-ec2": "npm:3.922.0"
@@ -10803,12 +10820,12 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.3"
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/detect-tools": "npm:1.2.4"
-    "@renovatebot/osv-offline": "npm:1.7.10"
+    "@renovatebot/osv-offline": "npm:1.8.0"
     "@renovatebot/pep440": "npm:4.2.1"
     "@renovatebot/pgp": "npm:1.1.1"
     "@renovatebot/ruby-semver": "npm:4.1.2"
     "@sindresorhus/is": "npm:7.1.1"
-    "@yarnpkg/core": "npm:4.4.4"
+    "@yarnpkg/core": "npm:4.5.0"
     "@yarnpkg/parsers": "npm:3.0.3"
     ae-cvss-calculator: "npm:1.0.9"
     agentkeepalive: "npm:4.6.0"
@@ -10841,7 +10858,7 @@ __metadata:
     fs-extra: "npm:11.3.2"
     git-url-parse: "npm:16.1.0"
     github-url-from-git: "npm:1.5.0"
-    glob: "npm:11.0.3"
+    glob: "npm:11.1.0"
     global-agent: "npm:3.0.0"
     good-enough-parser: "npm:1.1.23"
     google-auth-library: "npm:10.5.0"
@@ -10869,12 +10886,12 @@ __metadata:
     p-all: "npm:5.0.1"
     p-map: "npm:7.0.3"
     p-queue: "npm:9.0.0"
-    p-throttle: "npm:8.0.0"
+    p-throttle: "npm:8.1.0"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.6.2"
     protobufjs: "npm:7.5.4"
     punycode: "npm:2.3.1"
-    re2: "npm:1.22.1"
+    re2: "npm:1.22.3"
     redis: "npm:5.9.0"
     remark: "npm:15.0.1"
     remark-gfm: "npm:4.0.1"
@@ -10907,7 +10924,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/59be14cdc81d764e45ae46c82f7793eb43b84bda9bf42126491c5e4fad7ca5cebded11de106ed70056ad0d66c35230bda55b11822b8201d8a795bb58c096b545
+  checksum: 10/63e5adc1b62bc7b78981c46be9dfbbc02193b932f92d5796422c1ce78bf16713ce9417b992f71733b1004d0707edeb4ce1ac8a7be5bd9509432dc991713024c3
   languageName: node
   linkType: hard
 
