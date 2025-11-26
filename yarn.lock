@@ -2674,10 +2674,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pgp@npm:1.2.0":
-  version: 1.2.0
-  resolution: "@renovatebot/pgp@npm:1.2.0"
-  checksum: 10/0099236149eb7cc3d0e806fe0e8a3114d6a7e9dce18c783e70c1aeabcd77fb2707a4354e23fd5db143fe0d5874da793b047857bcb4290f34a52f7d00d961ae42
+"@renovatebot/pgp@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@renovatebot/pgp@npm:1.2.1"
+  checksum: 10/c840fcf9fc3a9331320b03a9ed9b3ef35e0d574e0c94b6caf56aa9553b056e0ba41ee323db887c274ad11f2a6e4dbe92839d1f039d40c03ede06cbf7f00db294
   languageName: node
   linkType: hard
 
@@ -4170,7 +4170,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:42.21.1"
+    renovate: "npm:42.21.4"
     typescript: "npm:5.9.3"
     vitest: "npm:4.0.14"
   languageName: unknown
@@ -10832,9 +10832,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:42.21.1":
-  version: 42.21.1
-  resolution: "renovate@npm:42.21.1"
+"renovate@npm:42.21.4":
+  version: 42.21.4
+  resolution: "renovate@npm:42.21.4"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.922.0"
     "@aws-sdk/client-ec2": "npm:3.922.0"
@@ -10866,7 +10866,7 @@ __metadata:
     "@renovatebot/detect-tools": "npm:1.2.4"
     "@renovatebot/osv-offline": "npm:1.8.0"
     "@renovatebot/pep440": "npm:4.2.1"
-    "@renovatebot/pgp": "npm:1.2.0"
+    "@renovatebot/pgp": "npm:1.2.1"
     "@renovatebot/ruby-semver": "npm:4.1.2"
     "@sindresorhus/is": "npm:7.1.1"
     "@yarnpkg/core": "npm:4.5.0"
@@ -10968,7 +10968,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/1af630cb31eadfff4049b2407fef888037c56384089ce64360e8b03f92dc33d1ada0889ba93dec2696af493583e1758ab2b61217301bb98f55e660f81732d354
+  checksum: 10/c835a8024e026f10d80da162ee3e5abd3f06415889de81d8262170086ef2f4b17662e75502ee52027aa262a0843d2fbcc8c1a72af6b8a93cc6ea6877c2badf1a
   languageName: node
   linkType: hard
 
