@@ -4181,7 +4181,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.7.4"
-    renovate: "npm:42.64.1"
+    renovate: "npm:42.66.0"
     typescript: "npm:5.9.3"
     vitest: "npm:4.0.16"
   languageName: unknown
@@ -4580,13 +4580,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:15.1.1":
-  version: 15.1.1
-  resolution: "azure-devops-node-api@npm:15.1.1"
+"azure-devops-node-api@npm:15.1.2":
+  version: 15.1.2
+  resolution: "azure-devops-node-api@npm:15.1.2"
   dependencies:
     tunnel: "npm:0.0.6"
     typed-rest-client: "npm:2.1.0"
-  checksum: 10/93b633b2a75d3d73cceffe2276e4f966fb5750d61c8e6ea4842e00bf2d059bf5b19d2544a051d8e77c5ce9c8c0fc239e53f7ab7e1d51571f3e52cf228e364c0e
+  checksum: 10/39bfd7ac94d35c17753e82d1c1d69c484b83b5a3883bb9db3c5e2f2d03c09cd7faab71a2f86af8097042a71e9deefc63779b9e7c54d0681416bd84275bb2882b
   languageName: node
   linkType: hard
 
@@ -10845,9 +10845,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:42.64.1":
-  version: 42.64.1
-  resolution: "renovate@npm:42.64.1"
+"renovate@npm:42.66.0":
+  version: 42.66.0
+  resolution: "renovate@npm:42.66.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.940.0"
     "@aws-sdk/client-ec2": "npm:3.940.0"
@@ -10889,7 +10889,7 @@ __metadata:
     async-mutex: "npm:0.5.0"
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.2"
-    azure-devops-node-api: "npm:15.1.1"
+    azure-devops-node-api: "npm:15.1.2"
     better-sqlite3: "npm:12.5.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:20.0.3"
@@ -10981,7 +10981,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/8db6d188107854a82657f03030b306c035f701fdfaf479db648256cd98270e490d6f93dad10d61112c5410a9ff7366d21d63b252ee9a8a664d4379f20f0d0037
+  checksum: 10/01aa4febfafb34f3deeab854a8a4d69e963159b38ef918bd88d005e396defc1c7b1997834c90ba06a990e5443d860812c1f429a3437aab0d692ebcffbf617cfd
   languageName: node
   linkType: hard
 
