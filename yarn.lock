@@ -4249,7 +4249,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.7.4"
-    renovate: "npm:42.81.5"
+    renovate: "npm:42.81.7"
     typescript: "npm:5.9.3"
     vitest: "npm:4.0.17"
   languageName: unknown
@@ -5656,10 +5656,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"diff@npm:8.0.2":
-  version: 8.0.2
-  resolution: "diff@npm:8.0.2"
-  checksum: 10/82a2120d3418f97822e17a6044ccd4b99a91e26e145e8698353673d7146bd2d092bbebb79c112aae7badc7b9c526f9098cbe342f96174feb6beabdd2587b3c42
+"diff@npm:8.0.3":
+  version: 8.0.3
+  resolution: "diff@npm:8.0.3"
+  checksum: 10/52f957e1fa53db4616ff5f4811b92b22b97a160c12a2f86f22debd4181227b0f6751aa8fd711d6a8fcf4618acb13b86bc702e6d9d6d6ed82acfd00c9cb26ace2
   languageName: node
   linkType: hard
 
@@ -10758,9 +10758,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:42.81.5":
-  version: 42.81.5
-  resolution: "renovate@npm:42.81.5"
+"renovate@npm:42.81.7":
+  version: 42.81.7
+  resolution: "renovate@npm:42.81.7"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.958.0"
     "@aws-sdk/client-ec2": "npm:3.958.0"
@@ -10816,7 +10816,7 @@ __metadata:
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:7.0.2"
-    diff: "npm:8.0.2"
+    diff: "npm:8.0.3"
     editorconfig: "npm:3.0.1"
     email-addresses: "npm:5.0.0"
     emoji-regex: "npm:10.6.0"
@@ -10895,7 +10895,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/607ad80a27c3479f7cefde7cb048dfca2ee9e18725370c838b28749ada79613733ad331d6d0ab17201701e4c053ba4d9e0712e3f266294f7d37722ca9d73a164
+  checksum: 10/2a0e1d1c970e1f178905e7e0f8cc0014730de8b904c78873bb4621ab8fc9be39f6cd5d49fac3ae2c99c53ffb4b948a07c233f2c33173eb5c9bc54e1f72184937
   languageName: node
   linkType: hard
 
