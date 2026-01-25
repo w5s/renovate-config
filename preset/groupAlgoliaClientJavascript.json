@@ -3,8 +3,8 @@
   "packageRules": [
     {
       "groupName": "Algolia packages",
-      "matchSourceUrlPrefixes": [
-        "https://github.com/algolia/algoliasearch-client-javascript"
+      "matchSourceUrls": [
+        "https://github.com/algolia/algoliasearch-client-javascript{/,}**"
       ]
     }
   ]

@@ -3,8 +3,7 @@
   "packageRules": [
     {
       "groupName": "CSpell group",
-      "matchPackagePatterns": ["^@cspell"],
-      "matchPackageNames": ["cspell"]
+      "matchPackageNames": ["cspell", "/^@cspell/"]
     }
   ]
 }

@@ -2,9 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchSourceUrlPrefixes": ["https://github.com/facebook/react-native"],
       "groupName": "react-native monorepo",
-      "automerge": false
+      "automerge": false,
+      "matchSourceUrls": ["https://github.com/facebook/react-native{/,}**"]
     }
   ]
 }

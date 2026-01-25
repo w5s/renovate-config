@@ -4,8 +4,7 @@
   "packageRules": [
     {
       "groupName": "vite monorepo",
-      "matchPackageNames": ["vite"],
-      "matchPackagePatterns": ["^@vitejs/"]
+      "matchPackageNames": ["vite", "/^@vitejs//"]
     }
   ]
 }
