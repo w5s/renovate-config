@@ -1,5 +1,5 @@
-<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=# W5S Renovate configuration _(${name})_) -->
-# W5S Renovate configuration _(@w5s/renovate-config)_
+<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=# W5S Renovate configuration) -->
+# W5S Renovate configuration
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 [![License][license-image]][license-url]
