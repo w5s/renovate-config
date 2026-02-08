@@ -4705,9 +4705,9 @@ __metadata:
   linkType: hard
 
 "bowser@npm:^2.11.0":
-  version: 2.13.1
-  resolution: "bowser@npm:2.13.1"
-  checksum: 10/b93c4f92b0ee2225c7bcfd8cd8a657e4abe4dadfae51588e7567b39846d7e47d98dfb4b178a23989eb753a36dc6451a18c5adce7a38bc41f5df7b2de19e4a759
+  version: 2.14.0
+  resolution: "bowser@npm:2.14.0"
+  checksum: 10/62621ce90c1d71b79dc2d74da6664fefd9608e92006b8f0e4eee1655c37047beb392383aa3825ef7b8e88b2b0053a55e95fb3f9b712a8861701107f392459d06
   languageName: node
   linkType: hard
 
@@ -6328,13 +6328,13 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-jest@npm:^29.0.0":
-  version: 29.12.2
-  resolution: "eslint-plugin-jest@npm:29.12.2"
+  version: 29.13.0
+  resolution: "eslint-plugin-jest@npm:29.13.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.0.0"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^8.0.0
-    eslint: ^8.57.0 || ^9.0.0
+    eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
     jest: "*"
     typescript: ">=4.8.4 <6.0.0"
   peerDependenciesMeta:
@@ -6344,7 +6344,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/fb54ec7ae166c9838075cbd3c1f0b210ca6e81501126b1a08230ddc92d1efebb529cbfba569ea02b837313d9378c9165440319ca8a84bd13d37364c98fe83e80
+  checksum: 10/826b78118aa3b036de5c4bbc71b901175f494de14bd8c64ab8f3abdfeeff26bbc4aabcae2dad61c7a62aa897e0ea8ae62b63890a6db71285b50c496b0e4afb8c
   languageName: node
   linkType: hard
 
