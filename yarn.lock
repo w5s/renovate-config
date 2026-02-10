@@ -2760,10 +2760,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pgp@npm:1.2.4":
-  version: 1.2.4
-  resolution: "@renovatebot/pgp@npm:1.2.4"
-  checksum: 10/b57341d130fd023c706d3dd114ba3494b0b4978419aa8a8ae55e31343a55c717813fe203677ba67242e93320c1546f17f402d342c705759248bdbc16ba51019e
+"@renovatebot/pgp@npm:1.3.0":
+  version: 1.3.0
+  resolution: "@renovatebot/pgp@npm:1.3.0"
+  checksum: 10/d93f363232112fd9fb4957af74fc8cb6d90bf024fc9d01db1da137c1f6720ab635b9d7f94bfa97dded2716c47d89beea9fbf93e0954b56c7d0755da880654da7
   languageName: node
   linkType: hard
 
@@ -4227,7 +4227,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.4.5"
+    renovate: "npm:43.8.1"
     typescript: "npm:5.9.3"
     vitest: "npm:4.0.18"
   languageName: unknown
@@ -7274,14 +7274,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:13.0.0":
-  version: 13.0.0
-  resolution: "glob@npm:13.0.0"
+"glob@npm:13.0.1, glob@npm:^13.0.0":
+  version: 13.0.1
+  resolution: "glob@npm:13.0.1"
   dependencies:
-    minimatch: "npm:^10.1.1"
+    minimatch: "npm:^10.1.2"
     minipass: "npm:^7.1.2"
     path-scurry: "npm:^2.0.0"
-  checksum: 10/de390721d29ee1c9ea41e40ec2aa0de2cabafa68022e237dc4297665a5e4d650776f2573191984ea1640aba1bf0ea34eddef2d8cbfbfc2ad24b5fb0af41d8846
+  checksum: 10/465e8cc269ab88d7415a3906cdc0f4543a2ae54df99207204af5bc28a944396d8d893822f546a8056a78ec714e608ab4f3502532c4d6b9cc5e113adf0fe5109e
   languageName: node
   linkType: hard
 
@@ -7298,17 +7298,6 @@ __metadata:
   bin:
     glob: dist/esm/bin.mjs
   checksum: 10/ab3bccfefcc0afaedbd1f480cd0c4a2c0e322eb3f0aa7ceaa31b3f00b825069f17cf0f1fc8b6f256795074b903f37c0ade37ddda6a176aa57f1c2bbfe7240653
-  languageName: node
-  linkType: hard
-
-"glob@npm:^13.0.0":
-  version: 13.0.1
-  resolution: "glob@npm:13.0.1"
-  dependencies:
-    minimatch: "npm:^10.1.2"
-    minipass: "npm:^7.1.2"
-    path-scurry: "npm:^2.0.0"
-  checksum: 10/465e8cc269ab88d7415a3906cdc0f4543a2ae54df99207204af5bc28a944396d8d893822f546a8056a78ec714e608ab4f3502532c4d6b9cc5e113adf0fe5109e
   languageName: node
   linkType: hard
 
@@ -9411,7 +9400,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^10.1.1, minimatch@npm:^10.1.2":
+"minimatch@npm:^10.1.2":
   version: 10.1.2
   resolution: "minimatch@npm:10.1.2"
   dependencies:
@@ -10737,9 +10726,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.4.5":
-  version: 43.4.5
-  resolution: "renovate@npm:43.4.5"
+"renovate@npm:43.8.1":
+  version: 43.8.1
+  resolution: "renovate@npm:43.8.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.980.0"
     "@aws-sdk/client-ec2": "npm:3.980.0"
@@ -10772,7 +10761,7 @@ __metadata:
     "@renovatebot/good-enough-parser": "npm:1.2.0"
     "@renovatebot/osv-offline": "npm:2.0.1"
     "@renovatebot/pep440": "npm:4.2.1"
-    "@renovatebot/pgp": "npm:1.2.4"
+    "@renovatebot/pgp": "npm:1.3.0"
     "@renovatebot/ruby-semver": "npm:4.1.2"
     "@sindresorhus/is": "npm:7.2.0"
     "@yarnpkg/core": "npm:4.5.0"
@@ -10808,7 +10797,7 @@ __metadata:
     fs-extra: "npm:11.3.3"
     git-url-parse: "npm:16.1.0"
     github-url-from-git: "npm:1.5.0"
-    glob: "npm:13.0.0"
+    glob: "npm:13.0.1"
     global-agent: "npm:3.0.0"
     google-auth-library: "npm:10.5.0"
     got: "npm:11.8.6"
@@ -10872,7 +10861,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/96f08dcc76d7ce06bc52b9989ceed3972e86320f98d64a749c11462e72b7784ac16ac5526d4f87a721a889ce1942deac07b1909816a8123b45b368f4b7c17c56
+  checksum: 10/bc033d8248b0a7c1810a44de3d31a319e73370f6bdd812ff2a1310410f821c9886ba7e376358756c4d3ea4b97cfbb9d4a587d23888c4dc95ac4ba6a2b4dd8f41
   languageName: node
   linkType: hard
 
