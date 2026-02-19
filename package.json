@@ -26,8 +26,8 @@
     "code-analysis": ":",
     "develop": ":",
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
-    "format": "eslint . --cache --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
-    "lint": "eslint . --cache --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "format": "eslint . --cache --fix",
+    "lint": "eslint . --cache",
     "postinstall": "npx run-p \"postinstall:*\"",
     "postinstall:githooks": "[ -n \"${CI:-}\" ] || git config core.hooksPath .githooks",
     "release": ":",
@@ -57,21 +57,13 @@
       "eslint"
     ]
   },
-  "eslintConfig": {
-    "extends": [
-      "@w5s/eslint-config"
-    ],
-    "parserOptions": {
-      "project": "./tsconfig.json"
-    }
-  },
   "devDependencies": {
     "@w5s/commitlint-config": "3.0.5",
     "@w5s/cspell-config": "3.0.5",
-    "@w5s/eslint-config": "3.3.1",
+    "@w5s/eslint-config": "3.3.4",
     "@w5s/tsconfig": "3.1.1",
     "cspell": "9.6.4",
-    "eslint": "8.57.1",
+    "eslint": "9.39.2",
     "markdown-magic": "4.8.0",
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "1.1.2",
