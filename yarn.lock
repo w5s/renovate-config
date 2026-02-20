@@ -4285,22 +4285,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/commitlint-config@npm:3.0.5":
-  version: 3.0.5
-  resolution: "@w5s/commitlint-config@npm:3.0.5"
+"@w5s/commitlint-config@npm:3.0.6":
+  version: 3.0.6
+  resolution: "@w5s/commitlint-config@npm:3.0.6"
   dependencies:
     "@commitlint/types": "npm:^20.0.0"
-    "@w5s/conventional-changelog": "npm:^3.0.5"
+    "@w5s/conventional-changelog": "npm:^3.0.6"
   peerDependencies:
     "@commitlint/cli": ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: 10/08430677dca08e2e7a6ca4fdd15299194d4bd21c3d94d317d55262d550cbc68684d36fa6b4ace7a3ca07f3f0458207315ac5746af78b927bb7a9e42edbbdef56
+  checksum: 10/a482bc4daace9c8f597c5927b2def70cdf4d89eb23f56a8bf3ed1f916babeec93a4c116e50ee2e08bd8d58f28eb9bc17b5537f1bf463fa50915867dff53cc2f3
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:^3.0.5":
+"@w5s/conventional-changelog@npm:^3.0.6":
   version: 3.0.6
   resolution: "@w5s/conventional-changelog@npm:3.0.6"
   dependencies:
@@ -4383,7 +4383,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@w5s/renovate-config@workspace:."
   dependencies:
-    "@w5s/commitlint-config": "npm:3.0.5"
+    "@w5s/commitlint-config": "npm:3.0.6"
     "@w5s/cspell-config": "npm:3.0.5"
     "@w5s/eslint-config": "npm:3.3.4"
     "@w5s/tsconfig": "npm:3.1.1"
