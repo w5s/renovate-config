@@ -2950,6 +2950,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@simple-libs/stream-utils@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@simple-libs/stream-utils@npm:1.2.0"
+  checksum: 10/80a2602f0e96515cab1f4ab054dccd0ee570b0a0b1722189d29fe2625e96a63b83c87486259268101b8b15a77a129aaca22bf480cf111e0910650af0820d26ee
+  languageName: node
+  linkType: hard
+
 "@sindresorhus/base62@npm:^1.0.0":
   version: 1.0.0
   resolution: "@sindresorhus/base62@npm:1.0.0"
@@ -5245,13 +5252,14 @@ __metadata:
   linkType: hard
 
 "conventional-commits-parser@npm:^6.2.1":
-  version: 6.2.1
-  resolution: "conventional-commits-parser@npm:6.2.1"
+  version: 6.3.0
+  resolution: "conventional-commits-parser@npm:6.3.0"
   dependencies:
+    "@simple-libs/stream-utils": "npm:^1.2.0"
     meow: "npm:^13.0.0"
   bin:
     conventional-commits-parser: dist/cli/index.js
-  checksum: 10/342764ac7c8114e3030d9d86968eafa3023ed887bc66412f89891fb55f09179d151a02342142a4039ca3375a7e39553d29789e022afd08edddbd995a1d5d9c24
+  checksum: 10/e57ed66a739cf5c747d9c89594dbffb35572ad5d8324767416d8cfd9014aecbf0d0cc0f0f29e9d16595ec795dc868d83597b38275ab2667971ba6aba38d2fcb0
   languageName: node
   linkType: hard
 
@@ -5591,14 +5599,14 @@ __metadata:
   linkType: hard
 
 "dedent@npm:^1.6.0":
-  version: 1.7.1
-  resolution: "dedent@npm:1.7.1"
+  version: 1.7.2
+  resolution: "dedent@npm:1.7.2"
   peerDependencies:
     babel-plugin-macros: ^3.1.0
   peerDependenciesMeta:
     babel-plugin-macros:
       optional: true
-  checksum: 10/78785ef592e37e0b1ca7a7a5964c8f3dee1abdff46c5bb49864168579c122328f6bb55c769bc7e005046a7381c3372d3859f0f78ab083950fa146e1c24873f4f
+  checksum: 10/30b9062290dca72b0f5a6cd3667633448cef8cd0dec602eab61015741269ad49df90cabf0521f9a32d134ceab4e21aa7f097258c55cc3baadef94874686d6480
   languageName: node
   linkType: hard
 
@@ -7330,9 +7338,9 @@ __metadata:
   linkType: hard
 
 "globals@npm:^17.0.0":
-  version: 17.3.0
-  resolution: "globals@npm:17.3.0"
-  checksum: 10/44ba2b7db93eb6a2531dfba09219845e21f2e724a4f400eb59518b180b7d5bcf7f65580530e3d3023d7dc2bdbacf5d265fd87c393f567deb9a2b0472b51c9d5e
+  version: 17.4.0
+  resolution: "globals@npm:17.4.0"
+  checksum: 10/ffad244617e94efcb3da72b7beefc941167c21316148ce378f322db7af72db06468f370e23224b3c7b17b5173a7c75b134e5e7b0949f2828519054a76892508d
   languageName: node
   linkType: hard
 
