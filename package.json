@@ -20,7 +20,7 @@
   "author": "Julien Polo <julien.polo@gmail.com>",
   "type": "module",
   "scripts": {
-    "build": "npx run-p \"build:*\"",
+    "build": "pnpm run \"/build:.*/\"",
     "build:empty": ":",
     "clean": ":",
     "code-analysis": ":",
@@ -28,15 +28,15 @@
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
     "format": "eslint . --cache --fix",
     "lint": "eslint . --cache",
-    "postinstall": "npx run-p \"postinstall:*\"",
-    "postinstall:githooks": "[ -n \"${CI:-}\" ] || git config core.hooksPath .githooks",
+    "prepare": "pnpm run \"/prepare:.*/\"",
+    "prepare:githooks": "[ -n \"${CI:-}\" ] || git config core.hooksPath .githooks",
     "release": ":",
-    "rescue": "git clean -fdx;yarn install",
-    "spellcheck": "npx cspell --no-progress '**'",
-    "test": "npx run-p \"test:*\"",
+    "rescue": "git clean -fdx;pnpm install",
+    "spellcheck": "npm dlx cspell --no-progress '**'",
+    "test": "pnpm run \"/test:.*/\"",
     "test:renovate-config": "test/test.sh",
     "test:unit": "vitest run",
-    "validate": "npm run build && npm run lint && npm test"
+    "validate": "pnpm run build && pnpm run lint && pnpm run test"
   },
   "commitlint": {
     "extends": [
@@ -67,17 +67,16 @@
     "markdown-magic": "4.8.0",
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "1.1.2",
-    "npm-run-all2": "8.0.4",
     "prettier": "3.8.1",
     "renovate": "43.46.6",
     "typescript": "5.9.3",
     "vitest": "4.0.18"
   },
-  "packageManager": "yarn@4.12.0",
+  "packageManager": "pnpm@10.30.3",
   "engines": {
     "node": ">=12.0.0",
     "npm": ">=6.0.0",
-    "yarn": ">=1.0.0"
+    "pnpm": ">=10.0.0"
   },
   "publishConfig": {
     "access": "public"
