@@ -31,19 +31,16 @@ ifneq ($(wildcard Gemfile),)
 ## Ruby feature enabled
 RUBY_ENABLED ?= true
 endif
+ifneq ($(wildcard .shellcheckrc shellcheckrc),)
+## Enable shellcheck
+SHELL_ENABLED ?= true
+endif
 
 ## Enable Scalingo deployment
 SCALINGO_ENABLED ?= false
 
 ## Enable Heroku deployment
 HEROKU_ENABLED ?= false
-
-# Enable xeol by default
-XEOL_ENABLED ?= true
-# ifneq ($(wildcard .xeol.yaml .xeol/config.yaml),)
-# ## Enable xeol scanner
-# XEOL_ENABLED ?= false
-# endif
 
 # Include variables
 include $(MAKEFILE_CI_SRC)/functions.mk
@@ -83,16 +80,16 @@ ifneq ($(call filter-false,$(COCOAPODS_ENABLED)),)
 include $(MAKEFILE_CI_SRC)/cocoapods.mk
 endif
 
+ifneq ($(call filter-false,$(SHELL_ENABLED)),)
+include $(MAKEFILE_CI_SRC)/shell.mk
+endif
+
 ifneq ($(call filter-false,$(SCALINGO_ENABLED)),)
 include $(MAKEFILE_CI_SRC)/scalingo.mk
 endif
 
 ifneq ($(call filter-false,$(HEROKU_ENABLED)),)
 include $(MAKEFILE_CI_SRC)/heroku.mk
-endif
-
-ifneq ($(call filter-false,$(XEOL_ENABLED)),)
-include $(MAKEFILE_CI_SRC)/xeol.mk
 endif
 
 # End of all declarations

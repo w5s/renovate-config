@@ -1,3 +1,7 @@
+ifeq ($(COREPACK_ENABLE_DOWNLOAD_PROMPT),)
+	COREPACK_ENABLE_DOWNLOAD_PROMPT := 0
+endif
+
 ## NodeJS cache path (default: .cache/node)
 NODEJS_CACHE_PATH ?= $(PROJECT_CACHE_PATH)/node
 
@@ -28,9 +32,9 @@ endif
 
 # Corepack enable command
 ifeq ($(NODEJS_VERSION_MANAGER),asdf)
-	COREPACK_ENABLE := corepack enable && asdf reshim nodejs
+	.NODEJS_INSTALL_PACKAGE_MANAGER_COMMAND = corepack enable && asdf reshim nodejs
 else
-	COREPACK_ENABLE := corepack enable
+	.NODEJS_INSTALL_PACKAGE_MANAGER_COMMAND = corepack enable
 endif
 
 ## NodeJS version
@@ -105,9 +109,9 @@ else ifeq ($(NODEJS_PACKAGE_MANAGER),pnpm)
 	NODEJS_STATEFILE := node_modules/.modules.yaml
 # PNPM frozen mode
 	ifneq ($(call filter-false,$(NODEJS_FROZEN)),)
-		NODEJS_INSTALL := pnpm install --frozen-file
+		NODEJS_INSTALL := pnpm install --frozen-lockfile
 	else
-		NODEJS_INSTALL := pnpm install
+		NODEJS_INSTALL := pnpm install --no-frozen-lockfile
 	endif
 # PNPM cache
 	ifneq ($(call filter-false,$(CI)),)
@@ -191,7 +195,7 @@ ifneq ($(NODEJS_PACKAGE_MANAGER),npm)
 # Only for asdf we have to reshim after corepack
 	$(Q)if ! $(NODEJS_PACKAGE_MANAGER_COMMAND) -v &>/dev/null; then \
 	  $(call log,info,"[NodeJS] Install $(NODEJS_PACKAGE_MANAGER)...",1); \
-		$(COREPACK_ENABLE); \
+		$(.NODEJS_INSTALL_PACKAGE_MANAGER_COMMAND); \
 	fi
 endif
 .setup:: node-setup # Add to `make setup`
