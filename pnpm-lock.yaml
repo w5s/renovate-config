@@ -1676,8 +1676,8 @@ packages:
       '@commitlint/cli':
         optional: true
 
-  '@w5s/conventional-changelog@3.0.6':
-    resolution: {integrity: sha512-sfVtdIyIQOK1G7tFh7gXuNTuPJF+CIwJs2TVPvmR8o6wnWY78JoZKgHqSLgtbsSS2znYzivHQKhn+faQ288lCw==}
+  '@w5s/conventional-changelog@3.1.1':
+    resolution: {integrity: sha512-PSt8Y6fLvzWm7Q3X6WJgzBzBYjT3j/fpKU18zfRe5owxHbspbXkVv43vqPkN/AS8IxVazZm4u/vByJh29tSi1w==}
     engines: {node: '>=20.0.0'}
 
   '@w5s/cspell-config@3.0.5':
@@ -1689,8 +1689,8 @@ packages:
       cspell:
         optional: true
 
-  '@w5s/dev@3.1.4':
-    resolution: {integrity: sha512-9tzWJPTyLInjqTEECOuTDs9qFzVHfwaFFipsVKjjs6GwehcJi4TQ/ee5Q2pXG9uY1Rv5YRhALGrW8xUPQxiBFA==}
+  '@w5s/dev@3.2.1':
+    resolution: {integrity: sha512-CC0AcxRsSvlB+RFPxnqwtQ96Um0Zo7OTlMtl7ud5NLiucF0rwYstKSzP4hEtWGDcoLxvMXOY0aCExM6T97zS4g==}
     engines: {node: '>=20.0.0'}
 
   '@w5s/eslint-config@3.3.4':
@@ -1705,8 +1705,8 @@ packages:
       typescript:
         optional: true
 
-  '@w5s/prettier-config@3.0.5':
-    resolution: {integrity: sha512-V/xpPdjvXquJ8BdUswktQ9zIOhklVd6fpaVByvtzVEkBgHU0Ck7/gaZ0435OVhFtv2PIS8uEfjvx7WXq9bCgFg==}
+  '@w5s/prettier-config@3.1.1':
+    resolution: {integrity: sha512-jRezQXlHf3clf9nN1tVE8/M2DWwkDgPjDLeMiLquIu/EkgQB5dG7chR8urE8fe2xCqQvgONWsv0o/Sbfh2k5eg==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       prettier: 2.x || 3.x
@@ -7303,9 +7303,9 @@ snapshots:
   '@w5s/commitlint-config@3.0.6':
     dependencies:
       '@commitlint/types': 20.4.3
-      '@w5s/conventional-changelog': 3.0.6
+      '@w5s/conventional-changelog': 3.1.1
 
-  '@w5s/conventional-changelog@3.0.6':
+  '@w5s/conventional-changelog@3.1.1':
     dependencies:
       '@commitlint/types': 20.4.3
       emoji-regex: 10.6.0
@@ -7317,7 +7317,7 @@ snapshots:
     optionalDependencies:
       cspell: 9.7.0
 
-  '@w5s/dev@3.1.4':
+  '@w5s/dev@3.2.1':
     dependencies:
       '@types/eslint': 9.6.1
 
@@ -7327,8 +7327,8 @@ snapshots:
       '@typescript-eslint/eslint-plugin': 8.56.1(@typescript-eslint/parser@8.56.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3)
       '@typescript-eslint/parser': 8.56.1(eslint@9.39.4)(typescript@5.9.3)
       '@vitest/eslint-plugin': 1.6.9(eslint@9.39.4)(typescript@5.9.3)(vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.5)(yaml@2.8.2))
-      '@w5s/dev': 3.1.4
-      '@w5s/prettier-config': 3.0.5(prettier@3.8.1)
+      '@w5s/dev': 3.2.1
+      '@w5s/prettier-config': 3.1.1(prettier@3.8.1)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.56.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)
       eslint-plugin-jsdoc: 62.6.1(eslint@9.39.4)
       eslint-plugin-jsonc: 2.21.1(eslint@9.39.4)
@@ -7351,7 +7351,7 @@ snapshots:
       - supports-color
       - vitest
 
-  '@w5s/prettier-config@3.0.5(prettier@3.8.1)':
+  '@w5s/prettier-config@3.1.1(prettier@3.8.1)':
     optionalDependencies:
       prettier: 3.8.1
 
