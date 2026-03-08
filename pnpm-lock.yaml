@@ -1689,8 +1689,8 @@ packages:
       cspell:
         optional: true
 
-  '@w5s/dev@3.2.1':
-    resolution: {integrity: sha512-CC0AcxRsSvlB+RFPxnqwtQ96Um0Zo7OTlMtl7ud5NLiucF0rwYstKSzP4hEtWGDcoLxvMXOY0aCExM6T97zS4g==}
+  '@w5s/dev@3.2.2':
+    resolution: {integrity: sha512-qlZQZagML9KYjGeDZMzPfOTd1hiqA+8SQlJdtCBNVOa69SF9X5cIOZMCdQl1/Q66AM7mVSIbOk2dgoCkIKu39w==}
     engines: {node: '>=20.0.0'}
 
   '@w5s/eslint-config@3.3.4':
@@ -1705,8 +1705,8 @@ packages:
       typescript:
         optional: true
 
-  '@w5s/prettier-config@3.1.1':
-    resolution: {integrity: sha512-jRezQXlHf3clf9nN1tVE8/M2DWwkDgPjDLeMiLquIu/EkgQB5dG7chR8urE8fe2xCqQvgONWsv0o/Sbfh2k5eg==}
+  '@w5s/prettier-config@3.1.2':
+    resolution: {integrity: sha512-oxkm/vWC/Ck8ZkqXU9pl/r9XF6nhsGZJdTtuHOMMScHM1aTSFCy8a3JCj8S5qQywygQozR4whb/egGJ7ujB7lQ==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       prettier: 2.x || 3.x
@@ -7313,7 +7313,7 @@ snapshots:
     optionalDependencies:
       cspell: 9.7.0
 
-  '@w5s/dev@3.2.1':
+  '@w5s/dev@3.2.2':
     dependencies:
       '@types/eslint': 9.6.1
 
@@ -7323,8 +7323,8 @@ snapshots:
       '@typescript-eslint/eslint-plugin': 8.56.1(@typescript-eslint/parser@8.56.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3)
       '@typescript-eslint/parser': 8.56.1(eslint@9.39.4)(typescript@5.9.3)
       '@vitest/eslint-plugin': 1.6.9(eslint@9.39.4)(typescript@5.9.3)(vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@25.3.5)(yaml@2.8.2))
-      '@w5s/dev': 3.2.1
-      '@w5s/prettier-config': 3.1.1(prettier@3.8.1)
+      '@w5s/dev': 3.2.2
+      '@w5s/prettier-config': 3.1.2(prettier@3.8.1)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.56.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)
       eslint-plugin-jsdoc: 62.6.1(eslint@9.39.4)
       eslint-plugin-jsonc: 2.21.1(eslint@9.39.4)
@@ -7347,7 +7347,7 @@ snapshots:
       - supports-color
       - vitest
 
-  '@w5s/prettier-config@3.1.1(prettier@3.8.1)':
+  '@w5s/prettier-config@3.1.2(prettier@3.8.1)':
     optionalDependencies:
       prettier: 3.8.1
 
