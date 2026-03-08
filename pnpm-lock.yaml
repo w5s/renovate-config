@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@w5s/commitlint-config':
-        specifier: 3.1.1
-        version: 3.1.1
+        specifier: 3.1.2
+        version: 3.1.2
       '@w5s/cspell-config':
         specifier: 3.1.1
         version: 3.1.1(cspell@9.7.0)
@@ -1667,8 +1667,8 @@ packages:
   '@vitest/utils@4.0.18':
     resolution: {integrity: sha512-msMRKLMVLWygpK3u2Hybgi4MNjcYJvwTb0Ru09+fOyCXIgT5raYP041DRRdiJiI3k/2U6SEbAETB3YtBrUkCFA==}
 
-  '@w5s/commitlint-config@3.1.1':
-    resolution: {integrity: sha512-00UqGGNi8HC4uaLZAMrKXBaKNrdInRJru9gYL/DhtvkEX4ibJSV/tc+rxwayAMy2JA6iSZVQmB7wjinavHwGdQ==}
+  '@w5s/commitlint-config@3.1.2':
+    resolution: {integrity: sha512-7wMXhZWSWoXkNZals2Shpc4hXul0ic3srHMCVzWr4N2RW6KMYinlTykqT90Dkwpjixtm8jZyALHakWmNZMBp9A==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
@@ -1676,8 +1676,8 @@ packages:
       '@commitlint/cli':
         optional: true
 
-  '@w5s/conventional-changelog@3.1.1':
-    resolution: {integrity: sha512-PSt8Y6fLvzWm7Q3X6WJgzBzBYjT3j/fpKU18zfRe5owxHbspbXkVv43vqPkN/AS8IxVazZm4u/vByJh29tSi1w==}
+  '@w5s/conventional-changelog@3.1.2':
+    resolution: {integrity: sha512-q3+xvvA8zXVzjYaoOXx2xT4WOQZc1cdheP0aGFuRT4PlcuCY+wHyJcdKElandGBoBySN3u4cr3V4M4Ago86zQA==}
     engines: {node: '>=20.0.0'}
 
   '@w5s/cspell-config@3.1.1':
@@ -7296,12 +7296,12 @@ snapshots:
       '@vitest/pretty-format': 4.0.18
       tinyrainbow: 3.0.3
 
-  '@w5s/commitlint-config@3.1.1':
+  '@w5s/commitlint-config@3.1.2':
     dependencies:
       '@commitlint/types': 20.4.3
-      '@w5s/conventional-changelog': 3.1.1
+      '@w5s/conventional-changelog': 3.1.2
 
-  '@w5s/conventional-changelog@3.1.1':
+  '@w5s/conventional-changelog@3.1.2':
     dependencies:
       '@commitlint/types': 20.4.3
       emoji-regex: 10.6.0
