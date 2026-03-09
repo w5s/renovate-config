@@ -16,20 +16,20 @@
 
 - [for GitHub](https://docs.renovatebot.com/install-github-app/)
 - [for GitLab](https://docs.renovatebot.com/install-gitlab-app/)
-    - go to [Renovate Dashboard](https://app.renovatebot.com/dashboard) to add your project,
-    - accept Renovate Bot PR
+  - go to [Renovate Dashboard](https://app.renovatebot.com/dashboard) to add your project,
+  - accept Renovate Bot PR
 
 ## Features
 
 - ✅ Automerge only when safe
-    - When dev dependency that is self validated by CI
-    - When project is following semantic-versioning and well maintained
+  - When dev dependency that is self validated by CI
+  - When project is following semantic-versioning and well maintained
 - 🚄 Focus on productivity
-    - The configuration should not overburden the team by creating a great amount of PR, it should be a safe way to automate and save time
+  - The configuration should not overburden the team by creating a great amount of PR, it should be a safe way to automate and save time
 - ✓ Main Supported Technologies
-    - NodeJS
-    - Docker
-    - React Native & Ionic (no upgrade for native dependencies)
+  - NodeJS
+  - Docker
+  - React Native & Ionic (no upgrade for native dependencies)
 - 🗓️ Scheduled to run outside working hours (night and weekend)
 
 ## Usage
@@ -44,7 +44,7 @@ For a library repository (where dependencies should be unpinned), use this confi
 
 ```json
 {
-    "extends": ["github>w5s/renovate-config:application"]
+  "extends": ["github>w5s/renovate-config:application"]
 }
 ```
 
@@ -54,11 +54,11 @@ For an unmaintained or untested repository include this configuration (will disa
 
 ```json
 {
-    "extends": ["github>w5s/renovate-config:application"]
+  "extends": ["github>w5s/renovate-config:application"]
 }
+```
 
 Later, when the PR amount is lower and the application you can switch to `application.json`
-```
 
 **Library**:
 
@@ -66,7 +66,7 @@ For a library repository (where dependencies should be unpinned), use this confi
 
 ```json
 {
-    "extends": ["github>w5s/renovate-config:library"]
+  "extends": ["github>w5s/renovate-config:library"]
 }
 ```
 
