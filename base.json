@@ -14,8 +14,12 @@
     "github>w5s/renovate-config//preset/commit",
     "github>w5s/renovate-config//preset/schedule",
     "github>w5s/renovate-config//preset/ignore",
+    "mergeConfidence:age-confidence-badges",
     "replacements:all",
-    "workarounds:all"
+    "workarounds:all",
+    "helpers:githubDigestChangelogs",
+    "helpers:goXPackagesChangelogLink",
+    "helpers:goXPackagesNameLink"
   ],
   "forkProcessing": "disabled",
   "ignoreUnstable": true,
