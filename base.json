@@ -23,6 +23,7 @@
   ],
   "forkProcessing": "disabled",
   "ignoreUnstable": true,
+  "labels": ["dependencies"],
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
