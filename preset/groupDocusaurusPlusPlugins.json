@@ -3,7 +3,9 @@
   "packageRules": [
     {
       "groupName": "docusaurus monorepo",
-      "matchPackageNames": ["/^docusaurus-plugin-/", "//docusaurus-plugin-/"]
+      "matchPackageNames": [
+        "/^(?:@[^/]+\/)?docusaurus-plugin-/"
+      ]
     }
   ]
 }
