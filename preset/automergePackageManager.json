@@ -6,6 +6,7 @@
       "matchManagers": ["npm"],
       "matchDepTypes": ["packageManager"],
       "matchUpdateTypes": ["minor", "patch"],
+      "automergeType": "branch",
       "automerge": true
     }
   ]
