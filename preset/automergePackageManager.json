@@ -1,11 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Automerge for Package Manager",
+  "description": "Automerge Node Package Manager",
   "packageRules": [
     {
+      "matchManagers": ["npm"],
       "matchDepTypes": ["packageManager"],
       "matchUpdateTypes": ["minor", "patch"],
-      "matchPackageNames": ["pnpm", "npm", "yarn", "bun"],
       "automerge": true
     }
   ]
