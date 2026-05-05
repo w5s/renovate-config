@@ -1,17 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Configuration snapshot > application.json 1`] = `
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Default configuration for an application",
-  "extends": [
-    "github>w5s/renovate-config:recommended",
-    ":pinAllExceptPeerDependencies",
-  ],
-}
-`;
-
-exports[`Configuration snapshot > base.json 1`] = `
+exports[`Configuration snapshot > _base.json 1`] = `
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "assigneesFromCodeOwners": true,
@@ -83,6 +72,17 @@ exports[`Configuration snapshot > base.json 1`] = `
   "separateMajorMinor": true,
   "separateMinorPatch": true,
   "updateNotScheduled": true,
+}
+`;
+
+exports[`Configuration snapshot > application.json 1`] = `
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default configuration for an application",
+  "extends": [
+    "github>w5s/renovate-config:recommended",
+    ":pinAllExceptPeerDependencies",
+  ],
 }
 `;
 
