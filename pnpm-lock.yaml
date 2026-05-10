@@ -3072,8 +3072,8 @@ packages:
     resolution: {integrity: sha512-75EA7EWZExL/j+MDKQrRbdzcRI2HOkRlmUw8fZJc1ioqFEOvBsq7Rt+A6yCxOt9w/TYNpkt52gC6nm/g5tFIng==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  jsonc-morph@0.3.3:
-    resolution: {integrity: sha512-YljoHRXfZacx4utaktqGlz8p9xJJaV12WxciEpf4+g+8jVk0QNmxpxStkXVwjTnJZr9EAK4TT5TzdCO5M2i7rw==}
+  jsonc-morph@0.3.4:
+    resolution: {integrity: sha512-tY9H0tplGdRZ0O/7N0qQGr8RuiwuAqGZfO1NCcy986qdMf2gcWTQnr2YF+Q3VkaCBKN2+mTPSZzewg3V4rWXQg==}
 
   jsonc-weaver@0.2.4:
     resolution: {integrity: sha512-aIKK8SOg+TdBdeML4MB++phUEdS7KWZxuaPPjxUSat8Kc/2A+2AoxmAGhvbVajNjqsgSX4dhjfCJq3QlE/NSCg==}
@@ -8655,11 +8655,11 @@ snapshots:
       eslint-visitor-keys: 5.0.1
       semver: 7.8.0
 
-  jsonc-morph@0.3.3: {}
+  jsonc-morph@0.3.4: {}
 
   jsonc-weaver@0.2.4:
     dependencies:
-      jsonc-morph: 0.3.3
+      jsonc-morph: 0.3.4
 
   jsonfile@6.2.1:
     dependencies:
