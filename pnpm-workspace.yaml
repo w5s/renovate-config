@@ -1,0 +1,7 @@
+allowBuilds:
+  better-sqlite3: true
+  core-js-pure: true
+  dtrace-provider: true
+  es5-ext: true
+  protobufjs: true
+  re2: true
