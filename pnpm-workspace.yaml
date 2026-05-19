@@ -5,3 +5,5 @@ allowBuilds:
   es5-ext: true
   protobufjs: true
   re2: true
+patchedDependencies:
+  '@w5s/eslint-config@3.5.4': patches/@w5s__eslint-config@3.5.4.patch

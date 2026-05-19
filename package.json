@@ -34,7 +34,6 @@
     "rescue": "git clean -fdx;pnpm install",
     "spellcheck": "npm dlx cspell --no-progress '**'",
     "test": "pnpm run \"/test:.*/\"",
-    "test:renovate-config": "test/test.sh",
     "test:unit": "vitest run",
     "validate": "pnpm run build && pnpm run lint && pnpm run test"
   },
@@ -58,6 +57,7 @@
     ]
   },
   "devDependencies": {
+    "@types/node": "25.9.0",
     "@w5s/commitlint-config": "3.1.4",
     "@w5s/cspell-config": "3.1.4",
     "@w5s/eslint-config": "3.5.4",
