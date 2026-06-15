@@ -70,7 +70,7 @@
     "prettier": "3.8.4",
     "renovate": "43.220.0",
     "typescript": "6.0.3",
-    "vitest": "4.1.6"
+    "vitest": "4.1.8"
   },
   "packageManager": "pnpm@11.3.0",
   "engines": {
