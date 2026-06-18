@@ -23,6 +23,7 @@ async function validateRenovateConfig(configFile: string): Promise<void> {
 }
 
 describe.concurrent('renovate-config-validator', () => {
+  // eslint-disable-next-line test/expect-expect
   test.concurrent.each(renovateConfigFiles)(
     'validates %s',
     async (configFile) => {
