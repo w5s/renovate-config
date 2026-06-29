@@ -29,5 +29,5 @@ export function findRenovateConfigFiles(
     }
   }
 
-  return files.toSorted();
+  return files.toSorted((left, right) => left.localeCompare(right));
 }
