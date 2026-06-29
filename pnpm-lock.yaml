@@ -21,8 +21,8 @@ importers:
         specifier: 3.8.0
         version: 3.8.0(eslint@10.6.0)(prettier@3.8.5)(typescript@6.0.3)(vitest@4.1.9(@opentelemetry/api@1.9.1)(@types/node@25.9.4)(vite@8.1.0(@types/node@25.9.4)(yaml@2.9.0)))
       '@w5s/tsconfig':
-        specifier: 3.1.8
-        version: 3.1.8(typescript@6.0.3)
+        specifier: 3.1.11
+        version: 3.1.11(typescript@6.0.3)
       cspell:
         specifier: 10.0.1
         version: 10.0.1
@@ -1362,8 +1362,8 @@ packages:
       prettier:
         optional: true
 
-  '@w5s/tsconfig@3.1.8':
-    resolution: {integrity: sha512-VgWb8t3R6JENUFOV0AbMpSR/5pWnJnaQeo3s7sXjKJiRRF5iC4/VfCTvv78c2fuqJtq/Vu3wsYw33RMm/jQpyA==}
+  '@w5s/tsconfig@3.1.11':
+    resolution: {integrity: sha512-CQLhyI+gnMyxxA1aFHk5PlsH+VVWgTONoi48qH9K7uboaGxavX8Qb2UIavB10wXLJvRhLmASx+eUtwZwx+dAfw==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       typescript: '>=5.x'
@@ -6091,7 +6091,7 @@ snapshots:
     optionalDependencies:
       prettier: 3.8.5
 
-  '@w5s/tsconfig@3.1.8(typescript@6.0.3)':
+  '@w5s/tsconfig@3.1.11(typescript@6.0.3)':
     optionalDependencies:
       typescript: 6.0.3
 

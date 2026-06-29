@@ -61,7 +61,7 @@
     "@w5s/commitlint-config": "3.1.15",
     "@w5s/cspell-config": "3.1.12",
     "@w5s/eslint-config": "3.8.0",
-    "@w5s/tsconfig": "3.1.8",
+    "@w5s/tsconfig": "3.1.11",
     "cspell": "10.0.1",
     "eslint": "10.6.0",
     "markdown-magic": "4.10.4",
