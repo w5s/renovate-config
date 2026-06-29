@@ -15,8 +15,8 @@ importers:
         specifier: 3.1.15
         version: 3.1.15
       '@w5s/cspell-config':
-        specifier: 3.1.12
-        version: 3.1.12(cspell@10.0.1)
+        specifier: 3.1.15
+        version: 3.1.15(cspell@10.0.1)
       '@w5s/eslint-config':
         specifier: 3.8.0
         version: 3.8.0(eslint@10.6.0)(prettier@3.8.5)(typescript@6.0.3)(vitest@4.1.9(@opentelemetry/api@1.9.1)(@types/node@25.9.4)(vite@8.1.0(@types/node@25.9.4)(yaml@2.9.0)))
@@ -1316,8 +1316,8 @@ packages:
     resolution: {integrity: sha512-Wz/7Y5ecms+ZSsCX3nDFMzLFlDqye2hqQlYChp4NzHtk8T8CXXtws/njxTCkXCKZfqhw0F08tH379iPX9PLUXQ==}
     engines: {node: '>=22.0.0'}
 
-  '@w5s/cspell-config@3.1.12':
-    resolution: {integrity: sha512-7OoUivgq9cq30R84qLDAAu6tD+lkhUhFz8AxdKGg7Bqy9NxEOj3/y7glPF81PFNpTOKA6e1e2FN/zyL4BYnIzg==}
+  '@w5s/cspell-config@3.1.15':
+    resolution: {integrity: sha512-Qxab3IRacol+X6xaCIaBKTbmvpJR39Cq/am/Qqv+1fc6coZtMCtUdcXWMrevt9IewtXWWE8Sw+/eXerIovnVSQ==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       cspell: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -6031,7 +6031,7 @@ snapshots:
       emoji-regex: 10.6.0
       gitmojis: 3.15.0
 
-  '@w5s/cspell-config@3.1.12(cspell@10.0.1)':
+  '@w5s/cspell-config@3.1.15(cspell@10.0.1)':
     dependencies:
       '@cspell/cspell-bundled-dicts': 10.0.1
     optionalDependencies:
