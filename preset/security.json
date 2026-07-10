@@ -14,6 +14,10 @@
     {
       "matchUpdateTypes": ["patch"],
       "minimumReleaseAge": "2 days"
+    },
+    {
+      "matchPackageNames": ["^@w5s/"],
+      "minimumReleaseAge": "0 days"
     }
   ]
 }
