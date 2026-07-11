@@ -12,8 +12,8 @@ importers:
         specifier: 25.9.5
         version: 25.9.5
       '@w5s/commitlint-config':
-        specifier: 3.1.17
-        version: 3.1.17
+        specifier: 3.2.0
+        version: 3.2.0
       '@w5s/cspell-config':
         specifier: 3.2.0
         version: 3.2.0(cspell@10.0.1)
@@ -1286,8 +1286,8 @@ packages:
   '@vitest/utils@4.1.10':
     resolution: {integrity: sha512-fy9am/HWxbaGt/Sawrp90vt6Y6jQwf1RX77cz3uwoJwJVMli/e1IEwRPnMNJ7vKfPTwo0diXifkpPvwH9v7nGA==}
 
-  '@w5s/commitlint-config@3.1.17':
-    resolution: {integrity: sha512-Ph5Mqv0W+N+VpX2bxbe4JFPZbNWtGZ9Xzq+5WChuO5bh+IM7c1CQZ9VXb8+cWzuVQgEAGD6HsAetFVyFzpBWtg==}
+  '@w5s/commitlint-config@3.2.0':
+    resolution: {integrity: sha512-JXBL96iWllFN8VRM2LCi3/w7D/VecY9z0t5hxIvquOjI7MTfWfon2SrHa7BPBxZ++Yami8GIpWmFJ5hbOm0nPw==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
@@ -5965,7 +5965,7 @@ snapshots:
       convert-source-map: 2.0.0
       tinyrainbow: 3.1.0
 
-  '@w5s/commitlint-config@3.1.17':
+  '@w5s/commitlint-config@3.2.0':
     dependencies:
       '@commitlint/types': 21.2.0
       '@w5s/conventional-changelog': 3.5.0
