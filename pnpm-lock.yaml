@@ -19,7 +19,7 @@ importers:
         version: 3.2.0(cspell@10.0.1)
       '@w5s/eslint-config':
         specifier: 3.11.0
-        version: 3.11.0(eslint@10.6.0)(prettier@3.9.4)(typescript@6.0.3)(vitest@4.1.10(@opentelemetry/api@1.9.1)(@types/node@25.9.5)(vite@8.1.4(@types/node@25.9.5)(yaml@2.9.0)))
+        version: 3.11.0(eslint@10.6.0)(prettier@3.9.5)(typescript@6.0.3)(vitest@4.1.10(@opentelemetry/api@1.9.1)(@types/node@25.9.5)(vite@8.1.4(@types/node@25.9.5)(yaml@2.9.0)))
       '@w5s/tsconfig':
         specifier: 3.1.14
         version: 3.1.14(typescript@6.0.3)
@@ -39,8 +39,8 @@ importers:
         specifier: 1.1.2
         version: 1.1.2(markdown-magic@4.11.0)
       prettier:
-        specifier: 3.9.4
-        version: 3.9.4
+        specifier: 3.9.5
+        version: 3.9.5
       renovate:
         specifier: 43.256.1
         version: 43.256.1(typanion@3.14.0)
@@ -3654,8 +3654,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  prettier@3.9.4:
-    resolution: {integrity: sha512-yWG/o/4oJfo036EKAfK6ACAoDOfHeRHx4tuxkfBZiauURiaSmYwlpOr5LQqKtIkRD2z1PLteme2WoxEnj4tHTg==}
+  prettier@3.9.5:
+    resolution: {integrity: sha512-/FVl766LpUfB5vXgCYOYa0MeV/441Ia99AeICQIQFTY/Nw0roZwULcXpku5i1/m5kt/baz+s4Zogspd839HSMg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5999,7 +5999,7 @@ snapshots:
       eslint: 10.6.0
       typescript: 6.0.3
 
-  '@w5s/eslint-config@3.11.0(eslint@10.6.0)(prettier@3.9.4)(typescript@6.0.3)(vitest@4.1.10(@opentelemetry/api@1.9.1)(@types/node@25.9.5)(vite@8.1.4(@types/node@25.9.5)(yaml@2.9.0)))':
+  '@w5s/eslint-config@3.11.0(eslint@10.6.0)(prettier@3.9.5)(typescript@6.0.3)(vitest@4.1.10(@opentelemetry/api@1.9.1)(@types/node@25.9.5)(vite@8.1.4(@types/node@25.9.5)(yaml@2.9.0)))':
     dependencies:
       '@e18e/eslint-plugin': 0.5.1(eslint@10.6.0)
       '@eslint-react/eslint-plugin': 5.9.2(eslint@10.6.0)(typescript@6.0.3)
@@ -6012,7 +6012,7 @@ snapshots:
       '@vitest/eslint-plugin': 1.6.22(@typescript-eslint/eslint-plugin@8.63.0(@typescript-eslint/parser@8.63.0(eslint@10.6.0)(typescript@6.0.3))(eslint@10.6.0)(typescript@6.0.3))(eslint@10.6.0)(typescript@6.0.3)(vitest@4.1.10(@opentelemetry/api@1.9.1)(@types/node@25.9.5)(vite@8.1.4(@types/node@25.9.5)(yaml@2.9.0)))
       '@w5s/dev': 3.7.0
       '@w5s/eslint-config-ignore': 1.6.0(eslint@10.6.0)(typescript@6.0.3)
-      '@w5s/prettier-config': 3.1.20(prettier@3.9.4)
+      '@w5s/prettier-config': 3.1.20(prettier@3.9.5)
       eslint-merge-processors: 2.0.0(eslint@10.6.0)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.63.0(eslint@10.6.0)(typescript@6.0.3))(eslint@10.6.0)
       eslint-plugin-jsdoc: 63.0.13(eslint@10.6.0)
@@ -6037,9 +6037,9 @@ snapshots:
       - ts-declaration-location
       - vitest
 
-  '@w5s/prettier-config@3.1.20(prettier@3.9.4)':
+  '@w5s/prettier-config@3.1.20(prettier@3.9.5)':
     optionalDependencies:
-      prettier: 3.9.4
+      prettier: 3.9.5
 
   '@w5s/tsconfig@3.1.14(typescript@6.0.3)':
     optionalDependencies:
@@ -8798,7 +8798,7 @@ snapshots:
 
   prettier@3.8.1: {}
 
-  prettier@3.9.4: {}
+  prettier@3.9.5: {}
 
   proc-log@7.0.0:
     optional: true
