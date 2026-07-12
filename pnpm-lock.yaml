@@ -42,8 +42,8 @@ importers:
         specifier: 3.9.5
         version: 3.9.5
       renovate:
-        specifier: 43.257.2
-        version: 43.257.2(typanion@3.14.0)
+        specifier: 43.257.4
+        version: 43.257.4(typanion@3.14.0)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -3741,8 +3741,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.257.2:
-    resolution: {integrity: sha512-CcyLyFhmAr1FqYQgYrJOFFlQstmkFqYBPyp6QNoZB4YB9WhnfAAMGy1mr5J1FUuH7Jar7NhOO/jSOXRv1L/BZA==}
+  renovate@43.257.4:
+    resolution: {integrity: sha512-quU9mgmogssO8Hgtf/dmlh2HHqecNOAl5OOjrKmD6g9C8EBBSdah9vXT4mizf/LDX0qOt3fV8XSQ+7dPgxEgbw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -5565,7 +5565,7 @@ snapshots:
 
   '@renovatebot/detect-tools@4.0.8':
     dependencies:
-      fs-extra: 11.3.5
+      fs-extra: 11.3.6
       toml-eslint-parser: 1.0.3
       upath: 3.0.7
       zod: 4.4.3
@@ -8935,7 +8935,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.257.2(typanion@3.14.0):
+  renovate@43.257.4(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
