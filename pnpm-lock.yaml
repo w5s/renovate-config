@@ -42,8 +42,8 @@ importers:
         specifier: 3.9.5
         version: 3.9.5
       renovate:
-        specifier: 43.257.7
-        version: 43.257.7(typanion@3.14.0)
+        specifier: 43.257.9
+        version: 43.257.9(typanion@3.14.0)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -3667,8 +3667,8 @@ packages:
     resolution: {integrity: sha512-APnkIgmaHNJpkAn7k+CrJSi9WMuff5ctYFbD0CO2XIPkM8yO7d/ShouU2clywbpHV/DUsyc4bpJCsNgddNtx4g==}
     engines: {node: '>=8'}
 
-  protobufjs@8.6.5:
-    resolution: {integrity: sha512-zeE5LPpencAGXvsxyOYmEgJhxzHY8IsmPAFzstZVhDSVT8QH03q6gMZwZRaQGApevZbAL6u28ugs4CC+YKB2jQ==}
+  protobufjs@8.6.6:
+    resolution: {integrity: sha512-RkLIhE+Tdc2Kpq1F4Uw6OnpAXPca7B+GSDov/GqGCqNBpVyDskQ9yReZfgM+C7xw9AAix873iQZXbBWXj6NzYQ==}
     engines: {node: '>=12.0.0'}
 
   protocols@2.0.2:
@@ -3731,8 +3731,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.257.7:
-    resolution: {integrity: sha512-nWoFyS1ikx0TDScgxLTR/XPz4gQgXR5NBjhq3RwvHaHX3Zx8KSpy0cWsl+3v6AP3PBL5VrUf8Ul2Na7nS5bvSg==}
+  renovate@43.257.9:
+    resolution: {integrity: sha512-4k6UTfJWFcBI4Qlow4ay4R0iRV3+SsbqIC2L+6FkSwLDnjLeBG1xVfDmw9Ok4iedfpP/9o5IwCE37xINgsW+5A==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -8809,7 +8809,7 @@ snapshots:
 
   promisify-child-process@4.1.2: {}
 
-  protobufjs@8.6.5:
+  protobufjs@8.6.6:
     dependencies:
       long: 5.3.2
 
@@ -8913,7 +8913,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.257.7(typanion@3.14.0):
+  renovate@43.257.9(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -9009,7 +9009,7 @@ snapshots:
       p-throttle: 8.1.0
       parse-link-header: 2.0.0
       prettier: 3.8.1
-      protobufjs: 8.6.5
+      protobufjs: 8.6.6
       punycode: 2.3.1
       remark: 15.0.1
       remark-gfm: 4.0.1
