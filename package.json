@@ -68,7 +68,7 @@
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "1.1.2",
     "prettier": "3.9.5",
-    "renovate": "43.259.2",
+    "renovate": "43.259.3",
     "typescript": "6.0.3",
     "vitest": "4.1.10"
   },
