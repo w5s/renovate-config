@@ -5,8 +5,8 @@ const RENOVATE_SCHEMA = 'https://docs.renovatebot.com/renovate-schema.json';
 
 export function findRenovateConfigFiles(
   directory: string,
-  files: string[] = [],
-): string[] {
+  files: Array<string> = [],
+): Array<string> {
   for (const entry of fs.readdirSync(directory)) {
     if (entry === 'node_modules') {
       continue;

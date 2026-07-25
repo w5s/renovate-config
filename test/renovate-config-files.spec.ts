@@ -2,6 +2,7 @@ import childProcess from 'node:child_process';
 import path from 'node:path';
 import { promisify } from 'node:util';
 import { describe, test } from 'vitest';
+
 import { findRenovateConfigFiles } from './renovate-config-files.js';
 
 const execFileAsync = promisify(childProcess.execFile);
