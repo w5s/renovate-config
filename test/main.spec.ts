@@ -1,7 +1,8 @@
-import { describe, test, expect } from 'vitest';
-import baseJSON from '../_base.json';
-import applicationJSON from '../application.json';
-import libraryJSON from '../library.json';
+import { describe, expect, test } from 'vitest';
+
+import baseJSON from '../_base.json' with { type: 'json' };
+import applicationJSON from '../application.json' with { type: 'json' };
+import libraryJSON from '../library.json' with { type: 'json' };
 
 describe('Configuration snapshot', () => {
   test('_base.json', () => {
