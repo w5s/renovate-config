@@ -2,6 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Security configuration for all W5s projects.",
   "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "schedule": [],
+    "minimumReleaseAge": null,
+    "automerge": true,
+    "automergeType": "pr",
+    "platformAutomerge": true
+  },
   "minimumReleaseAge": "2 days",
   "packageRules": [
     {
@@ -11,6 +18,11 @@
     {
       "matchPackageNames": ["/^@w5s\\//"],
       "minimumReleaseAge": null
+    },
+    {
+      "description": "Do not automerge major security bumps without review",
+      "matchUpdateTypes": ["major"],
+      "vulnerabilityAlerts": { "automerge": false }
     }
   ]
 }
