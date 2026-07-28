@@ -2,22 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Security configuration for all W5s projects.",
   "osvVulnerabilityAlerts": true,
+  "minimumReleaseAge": "2 days",
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
       "minimumReleaseAge": "7 days"
     },
     {
-      "matchUpdateTypes": ["minor"],
-      "minimumReleaseAge": "2 days"
-    },
-    {
-      "matchUpdateTypes": ["patch"],
-      "minimumReleaseAge": "2 days"
-    },
-    {
       "matchPackageNames": ["/^@w5s\\//"],
-      "minimumReleaseAge": "0 days"
+      "minimumReleaseAge": null
     }
   ]
 }
