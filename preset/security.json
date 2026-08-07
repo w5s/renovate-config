@@ -16,7 +16,7 @@
       "minimumReleaseAge": "7 days"
     },
     {
-      "matchPackageNames": ["/^@w5s\\//"],
+      "matchPackageNames": ["@w5s/*"],
       "minimumReleaseAge": null
     },
     {
