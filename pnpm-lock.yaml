@@ -1,8 +1,31 @@
+---
+lockfileVersion: '9.0'
+
+importers:
+
+  .:
+    configDependencies:
+      '@w5s/pnpm-plugin-config':
+        specifier: 1.4.0
+        version: 1.4.0
+
+packages:
+
+  '@w5s/pnpm-plugin-config@1.4.0':
+    resolution: {integrity: sha512-wk5j18t9OO0dVpmAL64JGHa2Jpky6LHCb92qqSeP5OK/sIxwi7rSP67rV6wVbRCRGKjb2dkRU7gbwafE/XOAVA==}
+
+snapshots:
+
+  '@w5s/pnpm-plugin-config@1.4.0': {}
+
+---
 lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
+
+pnpmfileChecksum: sha256-tCJbkr+GnoWNSMaDQFgd966cR9jmibhCv56g3yv48RU=
 
 importers:
 
