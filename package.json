@@ -67,7 +67,7 @@
     "markdown-magic": "4.11.0",
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "2.1.0",
-    "renovate": "44.22.0",
+    "renovate": "44.23.0",
     "typescript": "6.0.3",
     "vitest": "4.1.10"
   },
