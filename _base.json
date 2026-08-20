@@ -12,6 +12,7 @@
     "helpers:pinGitHubActionDigests",
     "docker:pinDigests",
     "github>w5s/renovate-config//preset/commit",
+    "github>w5s/renovate-config//preset/labels",
     "github>w5s/renovate-config//preset/schedule",
     "github>w5s/renovate-config//preset/security",
     "github>w5s/renovate-config//preset/ignore",
