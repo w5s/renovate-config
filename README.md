@@ -34,42 +34,29 @@
 
 ## Usage
 
-### Renovate Configuration
+### 1. Select repository archetype : Application / Library / Legacy ?
 
-`renovate.json`
+#### Legacy repository _(unmaintained or untested)_
 
-**Application** (api, webapp, static website generator, etc):
+For an unmaintained or untested repository include the configuration (will disable automerge and limit maximum PR). Add a safe guard that avoids too many pull request and disables auto merge.
 
-For a library repository (where dependencies should be unpinned), use this configuration:
-
-```json
-{
-  "extends": ["github>w5s/renovate-config:application"]
-}
-```
-
-**Legacy application** (unmaintained or untested):
-
-For an unmaintained or untested repository include the configuration (will disable automerge and limit maximum PR):
-
-```json
+```json title="renovate.json"
 {
   "extends": [
-    "github>Inthememory/renovate-config:application", // or library
-    "github>Inthememory/renovate-config:safeLegacy"
+    "github>w5s/renovate-config:safeLegacy"
   ]
 }
 ```
 
-Later, when the PR amount is lower and the application you can switch to `application.json`
+Later, when the PR amount is lower and the application you should remove to `safeLegacy.json`
 
-**Library**:
+#### General purpose
 
-For a library repository (where dependencies should be unpinned), use this configuration:
+For other kind of repository, libraries, monorepo, etc (only dev dependencies will be pinned), use this configuration:
 
-```json
+```json title="renovate.json"
 {
-  "extends": ["github>w5s/renovate-config:library"]
+  "extends": ["github>w5s/renovate-config:default"]
 }
 ```
 
