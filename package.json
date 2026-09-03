@@ -62,7 +62,7 @@
     "@w5s/cspell-config": "3.23.0",
     "@w5s/eslint-config": "3.35.0",
     "@w5s/tsconfig": "3.1.35",
-    "cspell": "10.1.1",
+    "cspell": "10.2.0",
     "eslint": "10.9.1",
     "markdown-magic": "4.11.0",
     "markdown-magic-package-json": "2.0.2",
