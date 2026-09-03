@@ -26,8 +26,7 @@
   "forkProcessing": "disabled",
   "ignoreUnstable": true,
   "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true
+    "enabled": true
   },
   "prConcurrentLimit": 20,
   "prCreation": "immediate",
