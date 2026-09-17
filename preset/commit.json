@@ -19,7 +19,7 @@
       "commitMessagePrefix": "🔖"
     },
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "pnpm.catalog.dev"],
       "commitMessagePrefix": "🔨"
     },
     {

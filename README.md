@@ -22,7 +22,7 @@
 ## Features
 
 - ✅ Automerge only when safe
-  - When dev dependency that is self validated by CI
+  - When a Dev-class dependency (npm `devDependencies` or pnpm named catalog `dev`) is self-validated by CI
   - When project is following semantic-versioning and well maintained
 - 🚄 Focus on productivity
   - The configuration should not overburden the team by creating a great amount of PR, it should be a safe way to automate and save time

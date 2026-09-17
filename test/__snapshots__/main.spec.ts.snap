@@ -50,6 +50,7 @@ exports[`Configuration snapshot > default.json 1`] = `
   "extends": [
     "github>w5s/renovate-config:recommended",
     ":pinOnlyDevDependencies",
+    "github>w5s/renovate-config//preset/pinPnpmCatalogDev",
   ],
 }
 `;

@@ -25,7 +25,7 @@
     },
     {
       "description": "Label dependency type dev",
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "pnpm.catalog.dev"],
       "addLabels": ["dependencies:dev"]
     },
     {
