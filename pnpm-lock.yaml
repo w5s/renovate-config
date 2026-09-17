@@ -181,8 +181,8 @@ importers:
         specifier: 3.24.0
         version: 3.24.0
       '@w5s/cspell-config':
-        specifier: 3.24.0
-        version: 3.24.0(cspell@10.3.1)
+        specifier: 3.26.0
+        version: 3.26.0(cspell@10.3.1)
       '@w5s/eslint-config':
         specifier: 3.36.0
         version: 3.36.0(eslint@10.10.0(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.0(@opentelemetry/api@1.9.1)(@types/node@25.9.6)(vite@8.3.0(@types/node@25.9.6)(yaml@2.9.1)))
@@ -358,10 +358,6 @@ packages:
   '@commitlint/types@21.2.0':
     resolution: {integrity: sha512-7zVFCDB2reMvJH5dmbKnOQPjZEvjdJTH8jc0U/PIPU1r3/+vf5pD1HlfitV2MWsWXrvu7u39iY1lyLUPOaN0Gw==}
     engines: {node: '>=22.12.0'}
-
-  '@cspell/cspell-bundled-dicts@10.3.0':
-    resolution: {integrity: sha512-gwJ5MWMLDFMIaZdzI8NJgzoq9cYC8CKhKRxvoyF2gc7mCRJokYDPjYrnZFvvkpYWpun1OdQ2drRpU7ZkxFGMpQ==}
-    engines: {node: '>=22.18.0'}
 
   '@cspell/cspell-bundled-dicts@10.3.1':
     resolution: {integrity: sha512-wHRmqaHrhmPHxsnYs9JhYCwD+lLsIOltbvaK9XfIkisblfBCjvsSihsJZhVEvSQ2pPNqESUaOQnBBeVbqv52qA==}
@@ -1473,8 +1469,8 @@ packages:
     resolution: {integrity: sha512-qRqIzotYcvgFzv5FUOVLTRkNO72PQo1BQl7wawqPdA9jI6KtWAqd3YkJGAdryAqkxKOOjMFhSXEhc8DbJ8NKRQ==}
     engines: {node: '>=22.0.0'}
 
-  '@w5s/cspell-config@3.24.0':
-    resolution: {integrity: sha512-koWXGtSqV3qqfHCiX34UzjBrRmTo01Qxm90MlHDc9yI8hWvKwAlY4O5y2L2yn7ZVSfjcfhu4zk5ZcVWawmY4cQ==}
+  '@w5s/cspell-config@3.26.0':
+    resolution: {integrity: sha512-H6t83s6wF/q6yJF9ZYQxebxsCbpeFHottsWiH81ZPujQTyiboD9Z1UdIk0WEGV4ACw2tvkGZsAb6PdwNFTPMQw==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       cspell: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -5066,68 +5062,6 @@ snapshots:
       conventional-commits-parser: 7.1.2
       picocolors: 1.1.1
 
-  '@cspell/cspell-bundled-dicts@10.3.0':
-    dependencies:
-      '@cspell/dict-ada': 4.1.1
-      '@cspell/dict-al': 1.1.1
-      '@cspell/dict-aws': 4.0.17
-      '@cspell/dict-bash': 4.2.3
-      '@cspell/dict-companies': 3.2.13
-      '@cspell/dict-cpp': 7.1.2
-      '@cspell/dict-cryptocurrencies': 5.0.5
-      '@cspell/dict-csharp': 4.0.8
-      '@cspell/dict-css': 4.1.2
-      '@cspell/dict-dart': 2.3.2
-      '@cspell/dict-data-science': 2.0.16
-      '@cspell/dict-django': 4.1.6
-      '@cspell/dict-docker': 1.1.17
-      '@cspell/dict-dotnet': 5.0.15
-      '@cspell/dict-elixir': 4.0.8
-      '@cspell/dict-en-common-misspellings': 2.2.2
-      '@cspell/dict-en-gb-mit': 3.1.29
-      '@cspell/dict-en_us': 4.4.40
-      '@cspell/dict-filetypes': 3.0.18
-      '@cspell/dict-flutter': 1.1.1
-      '@cspell/dict-fonts': 4.0.6
-      '@cspell/dict-fsharp': 1.1.1
-      '@cspell/dict-fullstack': 3.2.9
-      '@cspell/dict-gaming-terms': 1.1.2
-      '@cspell/dict-git': 3.1.0
-      '@cspell/dict-golang': 6.0.29
-      '@cspell/dict-google': 1.0.9
-      '@cspell/dict-haskell': 4.0.6
-      '@cspell/dict-html': 4.0.16
-      '@cspell/dict-html-symbol-entities': 4.0.5
-      '@cspell/dict-java': 5.0.12
-      '@cspell/dict-julia': 1.1.1
-      '@cspell/dict-k8s': 1.0.13
-      '@cspell/dict-kotlin': 1.1.1
-      '@cspell/dict-latex': 5.1.0
-      '@cspell/dict-lorem-ipsum': 4.0.5
-      '@cspell/dict-lua': 4.0.8
-      '@cspell/dict-makefile': 1.0.5
-      '@cspell/dict-markdown': 2.0.18(@cspell/dict-css@4.1.2)(@cspell/dict-html-symbol-entities@4.0.5)(@cspell/dict-html@4.0.16)(@cspell/dict-typescript@3.2.3)
-      '@cspell/dict-monkeyc': 1.1.2
-      '@cspell/dict-node': 5.0.9
-      '@cspell/dict-npm': 5.2.49
-      '@cspell/dict-php': 4.1.3
-      '@cspell/dict-powershell': 5.0.17
-      '@cspell/dict-public-licenses': 2.0.16
-      '@cspell/dict-python': 4.5.2
-      '@cspell/dict-r': 2.1.1
-      '@cspell/dict-ruby': 5.1.4
-      '@cspell/dict-rust': 4.1.2
-      '@cspell/dict-scala': 5.0.11
-      '@cspell/dict-shell': 1.2.0
-      '@cspell/dict-software-terms': 5.4.4
-      '@cspell/dict-sql': 2.2.1
-      '@cspell/dict-svelte': 1.0.7
-      '@cspell/dict-swift': 2.0.6
-      '@cspell/dict-terraform': 1.1.4
-      '@cspell/dict-typescript': 3.2.3
-      '@cspell/dict-vue': 3.0.5
-      '@cspell/dict-zig': 1.0.0
-
   '@cspell/cspell-bundled-dicts@10.3.1':
     dependencies:
       '@cspell/dict-ada': 4.1.1
@@ -6287,9 +6221,9 @@ snapshots:
       emoji-regex: 10.6.0
       gitmojis: 3.15.0
 
-  '@w5s/cspell-config@3.24.0(cspell@10.3.1)':
+  '@w5s/cspell-config@3.26.0(cspell@10.3.1)':
     dependencies:
-      '@cspell/cspell-bundled-dicts': 10.3.0
+      '@cspell/cspell-bundled-dicts': 10.3.1
     optionalDependencies:
       cspell: 10.3.1
 
