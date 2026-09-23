@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.3",
-    "@types/node": "25.9.7",
+    "@types/node": "25.9.8",
     "@w5s/commitlint-config": "3.30.0",
     "@w5s/cspell-config": "3.28.0",
     "@w5s/eslint-config": "3.40.0",
