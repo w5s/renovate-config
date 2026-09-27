@@ -58,7 +58,7 @@
     "markdown-magic-subpackage-list": "2.1.0",
     "renovate": "44.108.2",
     "typescript": "6.0.3",
-    "vitest": "5.0.1"
+    "vitest": "5.0.2"
   },
   "packageManager": "pnpm@12.6.0",
   "engines": {
