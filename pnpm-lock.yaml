@@ -214,8 +214,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0(markdown-magic@4.11.0)
       renovate:
-        specifier: 44.115.9
-        version: 44.115.9(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.115.10
+        version: 44.115.10(supports-color@7.2.0)(typanion@3.14.0)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -3543,6 +3543,10 @@ packages:
     resolution: {integrity: sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g==}
     engines: {node: 20 || >=22}
 
+  lru-cache@11.5.3:
+    resolution: {integrity: sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==}
+    engines: {node: 20 || >=22}
+
   lru-queue@0.1.0:
     resolution: {integrity: sha512-BpdYkt9EvGl8OfWHDQPISVpcl5xZthb+XPsbELj5AQXxIC8IriDZIQYjBJPEm5rS420sjZ0TLEzRcq5KdBhYrQ==}
 
@@ -4216,8 +4220,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.115.9:
-    resolution: {integrity: sha512-33Lall/wu7Dwkcn1/k3yI/ILZ77sjhL1Bx+seCNhPjcvUa9vC6av21oizQy59WYOYGsHWcnswjbjIVe7054ipQ==}
+  renovate@44.115.10:
+    resolution: {integrity: sha512-dLS+K+9//q5OKHIbvucnRhqYtA9Na9JhNfktoNwJf1aJNkdtSy7G2+ZwVQBwpMWjg9wzE5JLdcir3OK+VMMKzA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -8825,6 +8829,8 @@ snapshots:
 
   lru-cache@11.5.2: {}
 
+  lru-cache@11.5.3: {}
+
   lru-queue@0.1.0:
     dependencies:
       es5-ext: 0.10.64
@@ -9738,7 +9744,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.115.9(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.115.10(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1117.0
       '@aws-sdk/client-ec2': 3.1117.0
@@ -9823,7 +9829,7 @@ snapshots:
       jsonata: 2.2.1
       jsonc-weaver: 0.3.1
       klona: 2.0.6
-      lru-cache: 11.5.2
+      lru-cache: 11.5.3
       luxon: 3.7.2
       markdown-it: 15.0.2
       markdown-table: 3.0.4
