@@ -5,9 +5,8 @@ endif
 ## NodeJS cache path (default: .cache/node)
 NODEJS_CACHE_PATH ?= $(PROJECT_CACHE_PATH)/node
 
-.NODEJS_VERSION_MANAGER := $(call resolve-command,asdf nvm nodenv)
 ## NodeJS version manager used to install node (asdf, nvm, ...)
-NODEJS_VERSION_MANAGER ?= $(.NODEJS_VERSION_MANAGER)
+NODEJS_VERSION_MANAGER ?=
 
 ## NodeJS package manager (npm,pnpm,yarn,yarn-berry,bun)
 NODEJS_PACKAGE_MANAGER ?=
@@ -104,7 +103,7 @@ else ifeq ($(NODEJS_PACKAGE_MANAGER),pnpm)
 	ifneq ($(call filter-false,$(NODEJS_FROZEN)),)
 		NODEJS_INSTALL := pnpm install --frozen-lockfile
 	else
-		NODEJS_INSTALL := pnpm install --no-frozen-lockfile
+		NODEJS_INSTALL := pnpm install
 	endif
 export PNPM_CONFIG_CACHE
 else ifeq ($(NODEJS_PACKAGE_MANAGER),bun)
@@ -145,9 +144,8 @@ $(NODEJS_CACHE_PATH)/node-version: $(NODEJS_CACHE_PATH)
 	$(Q)echo $(NODEJS_VERSION) > $@
 
 # A target that will run node install only if lockfile was changed
-NODEJS_PACKAGE_JSON_FILES := $(shell find . -name package.json -not -path './node_modules/*' -not -path './.git/*')
 
-$(NODEJS_STATEFILE): $(wildcard $(NODEJS_LOCKFILE)) $(NODEJS_PACKAGE_JSON_FILES)
+$(NODEJS_STATEFILE): $(wildcard $(NODEJS_LOCKFILE))
 # Try installing package manager
 ifeq ($(filter npm,$(NODEJS_PACKAGE_MANAGER)),)
 # Only for asdf we have to reshim after corepack
@@ -179,13 +177,19 @@ node-setup: $(NODEJS_CACHE_PATH)/node-version
 ifeq ($(NODEJS_VERSION),)
 	@$(call log,warn,"[NodeJS] Cannot install nodejs. Please set NODEJS_VERSION or configure .tools-versions",1)
 else ifneq ($(shell node -v 2>/dev/null),v$(NODEJS_VERSION))
-	@$(call log,info,"[NodeJS] Install NodeJS with $(NODEJS_VERSION_MANAGER)...",1)
+
+ifeq ($(NODEJS_VERSION_MANAGER),)
+		@$(call log,warn,"[NodeJS] NODEJS_VERSION_MANAGER is not set.",1)
+else
+		@$(call log,info,"[NodeJS] Install NodeJS with $(NODEJS_VERSION_MANAGER)...",1)
 
 ifeq ($(NODEJS_VERSION_MANAGER),asdf)
-	$(Q)$(ASDF) plugin add nodejs
-	$(Q)$(ASDF) install nodejs $(NODEJS_VERSION)
+			$(Q)$(ASDF) plugin add nodejs
+			$(Q)$(ASDF) install nodejs $(NODEJS_VERSION)
 else
-	@$(call panic,[NodeJS] Unsupported nodejs version manager $(NODEJS_VERSION_MANAGER))
+			@$(call log,info,"[NodeJS] Install NodeJS with $(NODEJS_VERSION_MANAGER)...",1)
+endif
+
 endif
 
 endif
@@ -201,17 +205,6 @@ endif
 .setup:: node-setup # Add to `make setup`
 
 #
-# Install node dependencies (ex: npm install)
-#
-# This will install dependencies using $(NODEJS_PACKAGE_MANAGER). In CI mode, the lockfile update will be forbidden.
-#
-.PHONY: node-install
-node-install: node-setup
-	$(Q)$(RM) -f $(NODEJS_STATEFILE)
-	$(Q)$(MAKE) node-dependencies
-.install:: node-install	# Add `npm install` to `make install`
-
-#
 # Run npm lint script (ex: npm run lint)
 #
 .PHONY: node-lint
@@ -219,6 +212,15 @@ node-lint: node-dependencies
 	@$(call log,info,"[NodeJS] Lint sources...",1)
 	$(Q)$(NODEJS_RUN) lint
 .lint::	node-lint # Add `npm run lint` to `make lint`
+
+#
+# Run npm typecheck script (ex: npm run typecheck)
+#
+.PHONY: node-typecheck
+node-typecheck: node-dependencies
+	@$(call log,info,"[NodeJS] Typecheck sources...",1)
+	$(Q)$(NODEJS_RUN) typecheck
+.typecheck:: node-typecheck # Add `npm run typecheck` to `make typecheck`
 
 #
 # Run npm format script (ex: npm run format)
