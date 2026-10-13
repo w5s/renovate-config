@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/w5s/renovate-config.git"
+    "url": "git+https://github.com/w5s/renovate-config.git"
   },
   "license": "MIT",
   "author": "Julien Polo <julien.polo@gmail.com>",
@@ -35,7 +35,8 @@
     "spellcheck": "npm dlx cspell --no-progress '**'",
     "test": "pnpm run \"/test:.*/\"",
     "test:unit": "vitest run",
-    "validate": "pnpm run build && pnpm run lint && pnpm run test"
+    "typecheck": "tsc --noEmit",
+    "validate": "pnpm run build && pnpm run typecheck && pnpm run lint && pnpm run test"
   },
   "commitlint": {
     "extends": [
@@ -47,16 +48,16 @@
     "@types/node": "25.9.9",
     "@w5s/commitlint-config": "3.32.0",
     "@w5s/cspell-config": "3.32.0",
-    "@w5s/eslint-config": "5.0.0",
+    "@w5s/eslint-config": "7.0.0",
     "@w5s/lefthook-config": "1.7.0",
     "@w5s/tsconfig": "3.1.44",
     "cspell": "10.3.6",
     "eslint": "10.12.0",
-    "lefthook": "2.1.17",
+    "lefthook": "2.2.1",
     "markdown-magic": "4.11.0",
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "2.1.0",
-    "renovate": "44.142.1",
+    "renovate": "44.149.0",
     "typescript": "6.0.3",
     "vitest": "5.0.3"
   },

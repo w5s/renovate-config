@@ -12,16 +12,20 @@
 # @see src/init.mk
 #⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
-## Optional Makefile versioned that override any value (default "Makefile.config")
-MAKEFILE_CONFIG ?= Makefile.config
-## Optional Makefile unversioned that override any value (default "Makefile.local")
-MAKEFILE_LOCAL ?= Makefile.local
+## Common Makefile extensions resolved for optional overrides (bare name is always tried)
+MAKEFILE_EXTENSIONS ?= .mk .make
 
-# Include Makefile.local if it exists
--include $(MAKEFILE_LOCAL)
+# Candidates for a stem: Makefile.local Makefile.local.mk Makefile.local.make
+makefile-candidates = $(1) $(addprefix $(1),$(MAKEFILE_EXTENSIONS))
 
-# Include Makefile.config if it exists
--include $(MAKEFILE_CONFIG)
+# Optional versioned Makefile(s) that override defaults (override the whole list to bypass extension logic)
+MAKEFILE_CONFIG := $(call makefile-candidates,Makefile.config)
+# Optional unversioned Makefile(s) that override defaults (override the whole list to bypass extension logic)
+MAKEFILE_LOCAL := $(call makefile-candidates,Makefile.local)
+
+# Include config first, then local (local overrides config)
+-include $(wildcard $(MAKEFILE_CONFIG))
+-include $(wildcard $(MAKEFILE_LOCAL))
 
 #⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 # CONSOLE
@@ -31,18 +35,19 @@ MAKEFILE_LOCAL ?= Makefile.local
 # Terminal colors
 
 ifneq ($(TERM),)
-	BOLD         := $(shell tput bold)
-	BLACK        := $(shell tput setaf 0)
-	RED          := $(shell tput setaf 1)
-	GREEN        := $(shell tput setaf 2)
-	YELLOW       := $(shell tput setaf 3)
-	LIGHTPURPLE  := $(shell tput setaf 4)
-	PURPLE       := $(shell tput setaf 5)
-	BLUE         := $(shell tput setaf 6)
-	WHITE        := $(shell tput setaf 7)
-	RESET        := $(shell tput sgr0)
-	SMUL         := $(shell tput smul)
-	RMUL         := $(shell tput rmul)
+	ESC          := $(shell printf '\033')
+	BOLD         := $(ESC)[1m
+	BLACK        := $(ESC)[30m
+	RED          := $(ESC)[31m
+	GREEN        := $(ESC)[32m
+	YELLOW       := $(ESC)[33m
+	LIGHTPURPLE  := $(ESC)[34m
+	PURPLE       := $(ESC)[35m
+	BLUE         := $(ESC)[36m
+	WHITE        := $(ESC)[37m
+	RESET        := $(ESC)[0m
+	SMUL         := $(ESC)[4m
+	RMUL         := $(ESC)[24m
 else
 	BOLD         :=
 	BLACK        :=
@@ -420,9 +425,27 @@ FORCE: ;
 # @see src/updater.mk
 #⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
-MODULES_FILE := module.json
-MODULE_ADD_COMMIT_MESSAGE_PREFIX ?= 🔨 Add
-MODULE_UPDATE_COMMIT_MESSAGE_PREFIX ?= 🔨 Upgrade
+MAKEFILE_CORE_MODULES_FILE := module.json
+
+## Commit format: gitmoji | conventional
+MAKEFILE_CORE_GIT_COMMIT_FORMAT ?= conventional
+
+ifeq ($(MAKEFILE_CORE_GIT_COMMIT_FORMAT),conventional)
+.MAKEFILE_CORE_ADD_COMMIT_MESSAGE_PREFIX_DEFAULT := chore(deps): add
+.MAKEFILE_CORE_UPDATE_COMMIT_MESSAGE_PREFIX_DEFAULT := chore(deps): upgrade
+else
+.MAKEFILE_CORE_ADD_COMMIT_MESSAGE_PREFIX_DEFAULT := 🔨 Add
+.MAKEFILE_CORE_UPDATE_COMMIT_MESSAGE_PREFIX_DEFAULT := 🔨 Upgrade
+endif
+
+# Allow users to override prefixes explicitly.
+ifeq ($(origin MAKEFILE_CORE_ADD_COMMIT_MESSAGE_PREFIX), undefined)
+MAKEFILE_CORE_ADD_COMMIT_MESSAGE_PREFIX := $(.MAKEFILE_CORE_ADD_COMMIT_MESSAGE_PREFIX_DEFAULT)
+endif
+
+ifeq ($(origin MAKEFILE_CORE_UPDATE_COMMIT_MESSAGE_PREFIX), undefined)
+MAKEFILE_CORE_UPDATE_COMMIT_MESSAGE_PREFIX := $(.MAKEFILE_CORE_UPDATE_COMMIT_MESSAGE_PREFIX_DEFAULT)
+endif
 
 .self_add_module=$(or $(name), $(notdir $(url)), '')
 
@@ -433,10 +456,10 @@ MODULE_UPDATE_COMMIT_MESSAGE_PREFIX ?= 🔨 Upgrade
 #
 .PHONY: self-list
 self-list: ## List all installed modules (in module.json)
-	$(Q)if [ ! -f "$(MODULES_FILE)" ]; then \
-		$(call panic,$(MODULES_FILE) does not exist. Try make self-add to add modules.); \
+	$(Q)if [ ! -f "$(MAKEFILE_CORE_MODULES_FILE)" ]; then \
+		$(call panic,$(MAKEFILE_CORE_MODULES_FILE) does not exist. Try make self-add to add modules.); \
 	fi
-	$(Q)$(JQ) -r 'keys[]' $(MODULES_FILE)
+	$(Q)$(JQ) -r 'keys[]' $(MAKEFILE_CORE_MODULES_FILE)
 
 # Returns a list of all module names from the modules.json file.
 #
@@ -454,8 +477,8 @@ self-add: $(MODULES_PATH) ## url=<git-repository> [name=<string>] Install a modu
 # Create folder
 	$(Q)$(MKDIRP) $(MODULES_PATH)
 # Check if module is already present
-	$(Q)if $(JQ) -e '.["$(.self_add_module)"]' $(MODULES_FILE) &>/dev/null; then \
-		$(call panic,$(.self_add_module) already present in $(MODULES_FILE)); \
+	$(Q)if $(JQ) -e '.["$(.self_add_module)"]' $(MAKEFILE_CORE_MODULES_FILE) &>/dev/null; then \
+		$(call panic,$(.self_add_module) already present in $(MAKEFILE_CORE_MODULES_FILE)); \
 	elif [ -d "$(MODULES_PATH)/$(.self_add_module)" ]; then \
 		$(call panic,$(MODULES_PATH)/$(.self_add_module) should be empty); \
 	fi
@@ -464,21 +487,21 @@ self-add: $(MODULES_PATH) ## url=<git-repository> [name=<string>] Install a modu
 	@$(call log,info,[Make] Adding subtree: $(.self_add_module) from $(url),0);
 	$(Q)$(GIT) subtree add --prefix=$(MODULES_PATH)/$(.self_add_module) $(url) main \
 		--squash \
-		--message "$(MODULE_ADD_COMMIT_MESSAGE_PREFIX) $(.self_add_module)";
-# git commit -m "chore(subtree): add $(name) from $(repo)";
+		--message "$(MAKEFILE_CORE_ADD_COMMIT_MESSAGE_PREFIX) $(.self_add_module)";
+# git commit -m "chore(deps): add $(name) from $(repo)";
 
 # Create empty file if it does not exist
-	$(Q)if [ ! -f "$(MODULES_FILE)" ]; then \
-		echo "{}" > $(MODULES_FILE); \
+	$(Q)if [ ! -f "$(MAKEFILE_CORE_MODULES_FILE)" ]; then \
+		echo "{}" > $(MAKEFILE_CORE_MODULES_FILE); \
 	fi
 
 # Edit module.json file
-	$(Q)echo "Adding $(.self_add_module) to $(MODULES_FILE)";
+	$(Q)echo "Adding $(.self_add_module) to $(MAKEFILE_CORE_MODULES_FILE)";
 	$(Q)$(JQ) \
 		'.["$(.self_add_module)"] = "$(url)"' \
-		$(MODULES_FILE) > $(MODULES_FILE).tmp \
-	&& mv $(MODULES_FILE).tmp $(MODULES_FILE) \
-	&& git add $(MODULES_FILE) \
+		$(MAKEFILE_CORE_MODULES_FILE) > $(MAKEFILE_CORE_MODULES_FILE).tmp \
+	&& mv $(MAKEFILE_CORE_MODULES_FILE).tmp $(MAKEFILE_CORE_MODULES_FILE) \
+	&& git add $(MAKEFILE_CORE_MODULES_FILE) \
 	&& git commit --amend --no-edit
 
 
@@ -503,25 +526,53 @@ self-update.core:
 	$(Q)-$(CURL) -sSfL "$(MAKEFILE_CORE_URL)" --output "$(MAKEFILE_CORE)"
 # Update index (if file was not changed, we do not care about file time modification)
 	$(Q)-$(GIT) update-index --refresh $(MAKEFILE_CORE) || true
-# Commit changes if needed
+# Commit changes if needed. The digest is the upstream commit when the URL is a GitHub raw file.
 	$(Q)$(GIT) diff --quiet HEAD -- $(MAKEFILE_CORE) \
-		|| $(GIT) commit -m "$(MODULE_UPDATE_COMMIT_MESSAGE_PREFIX) makefile-core" $(MAKEFILE_CORE)
+		|| { \
+			repo_slug=$$(printf '%s\n' "$(MAKEFILE_CORE_URL)" | $(SED) -nE 's#https://raw.githubusercontent.com/([^/]+/[^/]+)/[^/]+/.*#\1#p'); \
+			rev=$$($(GIT) ls-remote "https://github.com/$$repo_slug" HEAD | awk 'NR==1 { print $$1 }'); \
+			short=$$(printf '%.7s' "$$rev"); \
+			if [ -n "$$short" ]; then \
+				$(GIT) commit \
+					-m "$(MAKEFILE_CORE_UPDATE_COMMIT_MESSAGE_PREFIX) makefile-core to $$short" \
+					-m "Upstream: https://github.com/$$repo_slug@$$rev" \
+					$(MAKEFILE_CORE); \
+			else \
+				$(GIT) commit -m "$(MAKEFILE_CORE_UPDATE_COMMIT_MESSAGE_PREFIX) makefile-core" $(MAKEFILE_CORE); \
+			fi; \
+		}
 
 # Target for makefile modules
 .PHONY: self-update.modules
 self-update.modules:
 	@$(call log,info,[Make] Updating $(MODULES_PATH)/* ...,0)
 
-ifeq ($(wildcard $(MODULES_FILE)),)
+ifeq ($(wildcard $(MAKEFILE_CORE_MODULES_FILE)),)
 # No module.json found
 	@$(call log,warn,[Make] Update skipped (no module.json found),0)
 else
 # module.json found
-	$(Q)$(JQ) -r 'to_entries[] | "\(.key) \(.value)"' $(MODULES_FILE) | while read name repo; do \
+	$(Q)$(JQ) -r 'to_entries[] | "\(.key) \(.value)"' $(MAKEFILE_CORE_MODULES_FILE) | while read name repo; do \
 		$(call log,info,>> $$name,1); \
-		git subtree pull --prefix=$(MODULES_PATH)/$$name $$repo main \
-			--squash \
-			--message "$(MODULE_UPDATE_COMMIT_MESSAGE_PREFIX) $$name"; \
+		tmp=$$(mktemp -d) && \
+		trap '$(RM) -rf "$$tmp"' EXIT && \
+		$(GIT) fetch "$$repo" main && \
+		rev=$$($(GIT) rev-parse FETCH_HEAD) && \
+		$(GIT) archive "$$rev" | tar -x -C "$$tmp" && \
+		$(RM) -rf "$(MODULES_PATH)/$$name" && \
+		$(MKDIRP) "$(MODULES_PATH)/$$name" && \
+		$(CP) -R "$$tmp"/. "$(MODULES_PATH)/$$name"/ && \
+		$(RM) -rf "$$tmp" && \
+		$(GIT) add -A -- "$(MODULES_PATH)/$$name" && \
+		if $(GIT) diff --cached --quiet -- "$(MODULES_PATH)/$$name"; then \
+			$(call log,info,$$name is already up to date,1); \
+		else \
+			short=$$(printf '%.7s' "$$rev"); \
+			$(GIT) commit \
+				-m "$(MAKEFILE_CORE_UPDATE_COMMIT_MESSAGE_PREFIX) $$name to $$short" \
+				-m "Upstream: $$repo@$$rev" \
+				-- "$(MODULES_PATH)/$$name"; \
+		fi; \
 	done
 	@$(call log,info,[Make] Update finished,0)
 endif
@@ -605,12 +656,13 @@ doctor: ## Check your system for potential problems.
 	@$(call log,info,"✓ Checking git submodules",1);
 	$(Q)if [ ! -f .gitmodules ]; then \
 		exit 0; \
-	fi
-	$(Q)MISSING=$$(grep path .gitmodules | sed 's/.*= //' | xargs -n 1 sh -c 'test ! -d "$$0" && echo $$0'); \
-	if [ -n "$$MISSING" ]; then \
-		$(call log,error,Some git submodules are not installed,2); \
-		$(call log,error,Run 'make self-install to fix.',2); \
-		exit 1; \
+	else \
+		MISSING=$$(grep path .gitmodules | sed 's/.*= //' | xargs -n 1 sh -c 'test ! -d "$$0" && echo $$0'); \
+		if [ -n "$$MISSING" ]; then \
+			$(call log,error,Some git submodules are not installed,2); \
+			$(call log,error,Run 'make self-install to fix.',2); \
+			exit 1; \
+		fi; \
 	fi
 
 MAKEFILE_DOCTOR_TARGETS += .doctor.git-submodules

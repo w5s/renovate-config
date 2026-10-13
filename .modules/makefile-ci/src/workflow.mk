@@ -18,7 +18,7 @@ setup: setup.workflow-intro $(call core-hooks,.setup) ## Install global dependen
 # INSTALL
 #-------------
 .PHONY: install $(call core-hooks,.install)
-install: install.workflow-intro $(call core-hooks,.install) ## Install project dependencies (force installation)
+install: install.workflow-intro $(call core-hooks,.install) ## Install built artifacts in the system
 
 .install.before::
 	@:
@@ -77,6 +77,19 @@ lint: dependencies lint.workflow-intro $(call core-hooks,.lint) ## Lint all sour
 .lint::
 	@:
 .lint.after::
+	@:
+
+#-------------
+# TYPECHECK
+#-------------
+.PHONY: typecheck $(call core-hooks,.typecheck)
+typecheck: dependencies typecheck.workflow-intro $(call core-hooks,.typecheck) ## Typecheck all source files
+
+.typecheck.before::
+	@:
+.typecheck::
+	@:
+.typecheck.after::
 	@:
 
 #-------------
@@ -243,7 +256,7 @@ endif
 #
 # MAKEFILE_VALIDATE_TARGETS += my-target-validate
 #
-MAKEFILE_VALIDATE_TARGETS := build lint test
+MAKEFILE_VALIDATE_TARGETS := build lint typecheck test
 
 .PHONY: validate $(call core-hooks,.validate)
 validate: validate.workflow-intro $(call core-hooks,.validate) ## Validate code for potential issues
