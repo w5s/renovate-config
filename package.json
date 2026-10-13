@@ -35,7 +35,8 @@
     "spellcheck": "npm dlx cspell --no-progress '**'",
     "test": "pnpm run \"/test:.*/\"",
     "test:unit": "vitest run",
-    "validate": "pnpm run build && pnpm run lint && pnpm run test"
+    "typecheck": "tsc --noEmit",
+    "validate": "pnpm run build && pnpm run typecheck && pnpm run lint && pnpm run test"
   },
   "commitlint": {
     "extends": [
