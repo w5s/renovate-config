@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "OpenTelemetry group (SDK, exporters and instrumentations are version-coupled, so major and non-major updates must land together)",
+  "packageRules": [
+    {
+      "groupName": "OpenTelemetry packages",
+      "matchPackageNames": ["/^@opentelemetry//"],
+      "separateMajorMinor": false
+    }
+  ]
+}
