@@ -32,6 +32,14 @@
   - React Native & Ionic (no upgrade for native dependencies)
 - 🗓️ Scheduled to run outside working hours (night and weekend)
 
+Lock file maintenance is exempt from Renovate's minimum release age check because
+the package manager regenerates the lockfile without providing Renovate release
+timestamps for each update. Configure a minimum release age in your package
+manager as well if you want to protect lockfile and transitive dependency updates.
+The usual Renovate release age rules still apply to regular dependency updates.
+See [Renovate's minimum release age documentation](https://docs.renovatebot.com/key-concepts/minimum-release-age/)
+for package manager support.
+
 ## Usage
 
 ### 1. Select repository archetype : Application / Library / Legacy ?

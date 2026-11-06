@@ -6,6 +6,9 @@
     "schedule": [],
     "minimumReleaseAge": null
   },
+  "lockFileMaintenance": {
+    "minimumReleaseAge": null
+  },
   "minimumReleaseAge": "2 days",
   "packageRules": [
     {
