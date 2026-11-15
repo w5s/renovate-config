@@ -6,7 +6,9 @@ exports[`Configuration snapshot > _base.json 1`] = `
   "assigneesFromCodeOwners": true,
   "assigneesSampleSize": 1,
   "automerge": false,
-  "dependencyDashboard": true,
+  "dependencyDashboard": {
+    "enabled": true,
+  },
   "description": "Default base configuration for all W5s projects.",
   "extends": [
     ":ignoreModulesAndTests",
