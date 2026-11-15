@@ -4,7 +4,9 @@
   "assigneesFromCodeOwners": true,
   "assigneesSampleSize": 1,
   "automerge": false,
-  "dependencyDashboard": true,
+  "dependencyDashboard": {
+    "enabled": true
+  },
   "extends": [
     ":ignoreModulesAndTests",
     ":semanticPrefixFixDepsChoreOthers",
